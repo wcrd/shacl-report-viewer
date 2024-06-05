@@ -1,2 +1,36 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="container pt-5 mx-auto px-2 h-screen flex flex-col">
+	<div id="headings">
+		<h1 class="text-xl font-semibold">SHACL Result Graph Viewer</h1>
+		<h6 class="text-lg">Interactive result and source graph viewing </h6>
+	</div>
+	<hr class="my-2">
+	<div id="upload-control" class="flex flex-row flex-nowrap w-full border rounded-md border-slate-200 px-1 py-2">
+		<div class="flex flex-row w-1/3 items-center">
+			<div class="flex-initial flex">
+				<label for="shacl-result-upload" class="font-semibold italic w-max pr-2">Upload SHACL results graph: </label>
+			</div>
+			<div class="w-full">
+				<input 
+					type="file"
+					id="ttl-upload"
+					name="ttl-upload"
+					accept=".ttl"
+					class="w-full"
+				/>
+
+			</div>
+		</div>
+		<div class="flex flex-row flex-nowrap w-2/3 justify-end pr-1 items-center">
+			<p class="font-semibold italic pr-2 flex shrink-0">Current Loaded File:</p>
+		</div>
+	</div>
+</div>
+
+<script>
+    import { graph } from '$lib/stores/graph.svelte.js'
+
+    $inspect(graph)
+
+    $effect(()=>{ console.debug(graph) })
+
+</script>
