@@ -16,6 +16,7 @@
 					name="ttl-upload"
 					accept=".ttl"
 					class="w-full"
+					oninput={processInput}
 				/>
 
 			</div>
@@ -24,13 +25,25 @@
 			<p class="font-semibold italic pr-2 flex shrink-0">Current Loaded File:</p>
 		</div>
 	</div>
+	<ReportEditor />
 </div>
 
 <script>
+	import ReportEditor from '$lib/components/reportEditor.svelte';
     import { graph } from '$lib/stores/graph.svelte.js'
+	import { appStore } from '$lib/stores/app.svelte.js'
 
-    $inspect(graph)
+    // $inspect(graph)
 
-    $effect(()=>{ console.debug(graph) })
+    $effect(()=>{ console.debug(graph); console.debug(appStore) })
+
+	async function processInput(event){
+		const file = event.target.files[0] || null
+		if (file) {
+			appStore.processTtlInput(file)
+				.then(console.debug("File processing complete."))
+		}
+		
+	}
 
 </script>

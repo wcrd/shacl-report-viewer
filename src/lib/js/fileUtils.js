@@ -17,3 +17,5 @@ function readFileAsync(file) {
         reader.readAsText(file);
     })
 }
+
+export { fileHandler, readFileAsync }
