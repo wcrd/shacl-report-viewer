@@ -26,6 +26,18 @@ class GraphStore {
             }
         });
     }
+
+    // Helper methods for processing SHACL result graph
+    getResultNodes() {
+        /// Returns all top level validation results
+        /// Nested result detail needs to be expanded for each top level result
+        return this.graph.getObjects(null, namedNode("http://www.w3.org/ns/shacl#result"), null)
+    }
+
+    // Couple of DEBUG helper methods
+    _node(uri) { return namedNode(uri) }
+    get _default() { return defaultGraph() }
+    get _namedGraphs() { return Object.keys(this.graph?._graphs) }
 }
 
 export const graphStore = new GraphStore()

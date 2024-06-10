@@ -5,4 +5,7 @@
 - [x] Add raw result graph viewer (and editor)
 - [ ] Update to monaco or high speed editor with syntax and code lines
 - [ ] Add Tree Data store and methods to process graph to generate table data. Call this on update/upload.
-- [ ] Add ag grid viewer section
+- [x] Add ag grid viewer section
+- [ ] UPDATE
+  - [ ] AgGrid to use Svelte 5 - need to figure out this new events system...
+  - [ ] AgGrid update - I'm using the old version syntax and it looks like some stuff has changed.
