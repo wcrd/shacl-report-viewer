@@ -21,13 +21,11 @@
 
 			</div>
 		</div>
-		<div class="flex flex-row flex-nowrap w-2/3 justify-end pr-1 items-center">
-			<p class="font-semibold italic pr-2 flex shrink-0">Current Loaded File:</p>
-		</div>
 	</div>
 	<hr class="my-2">
-	<div id="page-links" class="flex flex-row w-full">
-		<a href="./texteditor" class="border rounded-md border-teal-800 p-1 bg-indigo-400 text-white italic inline-block">📄 Raw Report</a>
+	<div id="page-links" class="flex flex-row w-full gap-x-1">
+		<a href="./texteditor" class="border rounded-md border-teal-800 p-1 bg-indigo-400 text-white inline-block">💻 Raw Data</a>
+		<a href="./report-grid" class="border rounded-md border-teal-800 p-1 bg-teal-500 text-white inline-block">📄 Report View </a>
 	</div>
 </div>
 
