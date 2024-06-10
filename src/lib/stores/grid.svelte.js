@@ -1,3 +1,7 @@
 class GridStore {
-    // Datastore for grid data and processing SHACL result graphs into suitable formats for display
+    // Datastore for grid data and processing
+    data = $state([])
+
 }
+
+export const gridStore = new GridStore() 

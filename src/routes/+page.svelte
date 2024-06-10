@@ -32,10 +32,11 @@
 <script>
     import { graphStore } from '$lib/stores/graph.svelte.js'
 	import { appStore } from '$lib/stores/app.svelte.js'
+	import { gridStore } from '$lib/stores/grid.svelte.js'
 
     // $inspect(graph)
 
-    $effect(()=>{ console.debug(graphStore); console.debug(appStore) })
+    $effect(()=>{ window._debug = {gs: graphStore, as: appStore, grs: gridStore } })
 
 	async function processInput(event){
 		const file = event.target.files[0] || null
@@ -45,6 +46,11 @@
 			
 			await graphStore.parse(appStore.shaclReportText)
 				.then(console.debug("Graph generation complete."))
+
+			// TEMP: putting this here for testing; remove.
+			// populate grid with some temp data
+			gridStore.data = graphStore.getResultNodes()
+
 		}
 		
 	}
