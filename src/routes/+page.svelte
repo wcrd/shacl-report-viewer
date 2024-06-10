@@ -30,18 +30,21 @@
 
 <script>
 	import ReportEditor from '$lib/components/reportEditor.svelte';
-    import { graph } from '$lib/stores/graph.svelte.js'
+    import { graphStore } from '$lib/stores/graph.svelte.js'
 	import { appStore } from '$lib/stores/app.svelte.js'
 
     // $inspect(graph)
 
-    $effect(()=>{ console.debug(graph); console.debug(appStore) })
+    $effect(()=>{ console.debug(graphStore); console.debug(appStore) })
 
 	async function processInput(event){
 		const file = event.target.files[0] || null
 		if (file) {
-			appStore.processTtlInput(file)
+			await appStore.processTtlInput(file)
 				.then(console.debug("File processing complete."))
+			
+			await graphStore.parse(appStore.shaclReportText)
+				.then(console.debug("Graph generation complete."))
 		}
 		
 	}

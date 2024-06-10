@@ -10,10 +10,15 @@ class GraphStore {
         this.graph = new N3.Store()
     }
 
-    async parse(fileAsString, namedgraph=namedNode("https://graph.com/unnamed#")){
+    // Will make this a $derived action on text change in future, 
+    // but for now (and speed) will just manually trigger on: file upload | UI Button
+    async parse(fileAsString, namedgraph="https://graph.com/unnamed#"){
+        // TODO: namedgraph should be typed / error checked.
+        const namedGraphNode = namedNode(namedgraph)
+
         await this.parser.parse(fileAsString, (error, quad) => {
             if (quad) {
-                this.graph.addQuad(quad.subject, quad.predicate, quad.object, namedgraph)
+                this.graph.addQuad(quad.subject, quad.predicate, quad.object, namedGraphNode)
             } else if (error) {
                 console.log("Error parsing: ", error)
             } else {
@@ -23,4 +28,4 @@ class GraphStore {
     }
 }
 
-export const graph = new GraphStore()
+export const graphStore = new GraphStore()
