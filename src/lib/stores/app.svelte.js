@@ -6,7 +6,8 @@ class AppStore {
 
     async processTtlInput(fileObj){
         this.file = fileObj
-        this.shaclReportText = await fileHandler(this.file) 
+        this.shaclReportText = await fileHandler(this.file)
+         
     }
 
     // NOTE: Unused. Old, to remove
