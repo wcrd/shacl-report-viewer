@@ -24,6 +24,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"ag-grid-community": "^31.3.2",
+		"ag-grid-enterprise": "^31.3.2",
 		"n3": "^1.17.3"
 	}
 }
