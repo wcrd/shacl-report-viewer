@@ -40,6 +40,13 @@
     }
 
     let columnDefs = [
-        { headerName: "Result Node", field: "id", colId: "id", filter: 'agTextColumnFilter'}
+        { headerName: "Result Node", field: "id", colId: "id", filter: 'agTextColumnFilter'},
+        {  field: "type",  filter: 'agTextColumnFilter'},
+        {  field: "focusNode",  filter: 'agTextColumnFilter'},
+        {  field: "detail",  filter: 'agTextColumnFilter'},
+        {  field: "resultMessage",  filter: 'agTextColumnFilter'},
+        {  field: "sourceShape",  filter: 'agTextColumnFilter'},
+        {  field: "value",  filter: 'agTextColumnFilter'},
+
     ]
 </script>

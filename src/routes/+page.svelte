@@ -33,6 +33,7 @@
     import { graphStore } from '$lib/stores/graph.svelte.js'
 	import { appStore } from '$lib/stores/app.svelte.js'
 	import { gridStore } from '$lib/stores/grid.svelte.js'
+	import { getAndEnrichTopLevelResults } from '$lib/js/shaclUtils.js'
 
     // $inspect(graph)
 
@@ -49,7 +50,10 @@
 
 			// TEMP: putting this here for testing; remove.
 			// populate grid with some temp data
-			gridStore.data = graphStore.getResultNodes()
+			// gridStore.data = graphStore.getResultNodes()
+
+			// debug
+			gridStore.data = getAndEnrichTopLevelResults(graphStore.graph)
 
 		}
 		
