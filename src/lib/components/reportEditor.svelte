@@ -1,9 +1,9 @@
-<div class ="h-full w-full">
-    <h1>Report Editor</h1>
-    <!-- <div bind:innerText={appStore.shaclReportText} contenteditable> </div>-->
-        <div class="h-full w-full">
-            <textarea class="w-full h-full" value={appStore.shaclReportText} oninput={handleChange} spellcheck="false"></textarea>
-        </div>
+<div class ="h-full w-full flex flex-col">
+    <h1 class="font-semibold text-lg">Report Editor</h1>
+    <hr />
+    <div class="h-full w-full pt-2">
+        <textarea class="w-full h-full bg-slate-50" value={appStore.shaclReportText} oninput={handleChange} spellcheck="false"></textarea>
+    </div>
 </div>
 
 <script>

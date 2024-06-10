@@ -25,11 +25,13 @@
 			<p class="font-semibold italic pr-2 flex shrink-0">Current Loaded File:</p>
 		</div>
 	</div>
-	<ReportEditor />
+	<hr class="my-2">
+	<div id="page-links" class="flex flex-row w-full">
+		<a href="./texteditor" class="border rounded-md border-teal-800 p-1 bg-indigo-400 text-white italic inline-block">📄 Raw Report</a>
+	</div>
 </div>
 
 <script>
-	import ReportEditor from '$lib/components/reportEditor.svelte';
     import { graphStore } from '$lib/stores/graph.svelte.js'
 	import { appStore } from '$lib/stores/app.svelte.js'
 
