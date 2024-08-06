@@ -3,20 +3,20 @@ import N3 from 'n3'
 const { namedNode } = N3.DataFactory
 
 /// This is a dev function. Will make more abstract in future
-function getAndEnrichTopLevelResults(graphstore){
+function getAndEnrichTopLevelResults(graphstore) {
     const topLevelResults = getResultNodes(graphstore)
 
     const data = []
-    for (let res of topLevelResults){
+    for (let res of topLevelResults) {
         // get all pred-objs
         const quads = graphstore.getQuads(res, null, null, null)
 
-        // console.log(quads)
+        // expand and turn into a wide data row
+        // have to use 2x map b/c reduce was giving me weird errors
         const keys = quads.map(r => r._predicate.id.split("#")[1])
         const values = quads.map(r => r._object.id)
 
-        // console.log({id: res.id, ...createObject(keys, values)})
-        data.push({id: res.id, ...createObject(keys, values)})
+        data.push({ id: res.id, ...createObject(keys, values) })
     }
 
     return data
@@ -33,7 +33,7 @@ function createObject(keys, values) {
     const obj = Object.fromEntries(
         keys.map((key, index) => [key, values[index]]),
     );
- 
+
     return obj;
 }
 
