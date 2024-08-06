@@ -10,3 +10,18 @@
   - [ ] AgGrid to use Svelte 5 - need to figure out this new events system...
   - [ ] AgGrid update - I'm using the old version syntax and it looks like some stuff has changed.
 - [ ] Data is in, now just need to recurse data for detail and swap to a tree view.
+
+
+
+## Design Plan
+
+- Upload SHACL Report
+  - Parse TTL into N3 store
+  - Parse into Text Store
+- Provide Editor Interface
+  - Two way binding to text store
+  - On change, need to reparse N3
+- Provide tree result view
+  - parse graph and generate tree data for ag-grid; keep in store.
+    - Format:
+      - Result -> Detail*
