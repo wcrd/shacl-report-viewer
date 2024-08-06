@@ -25,3 +25,10 @@
   - parse graph and generate tree data for ag-grid; keep in store.
     - Format:
       - Result -> Detail*
+
+
+## Next Time
+Past:
+- Just made some util functions in the _working notebook to process the graph results.
+Next:
+- Write the result to tree recursive function using the utils.
