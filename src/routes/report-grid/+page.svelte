@@ -42,17 +42,17 @@
 			filter: 'agTextColumnFilter',
 			initialHide: true
 		},
-		{ field: 'type', filter: 'agTextColumnFilter' },
-		{ field: 'focusNode', filter: 'agTextColumnFilter' },
-		{ field: 'detail', filter: 'agTextColumnFilter' },
+		{ field: 'type', filter: 'agTextColumnFilter', initialHide: true },
+		{ field: 'focusNode', filter: 'agTextColumnFilter', initialHide: true },
+		{ field: 'detail', filter: 'agTextColumnFilter', initialHide: true },
 		{ field: 'resultMessage', filter: 'agTextColumnFilter' },
-		{ field: 'sourceShape', filter: 'agTextColumnFilter' },
-		{ field: 'value', filter: 'agTextColumnFilter' }
+		{ field: 'sourceShape', filter: 'agTextColumnFilter', initialHide: true },
+		{ field: 'value', filter: 'agTextColumnFilter', headerName: 'valueNode' }
 	];
 
 	// TEST DATA
-	import test_data from '$lib/data/test_data.json';
-	gridStore.data = test_data;
+	// import test_data from '$lib/data/test_data.json';
+	// gridStore.data = test_data;
 </script>
 
 <div class="container pt-5 mx-auto px-2 h-screen flex flex-col">
