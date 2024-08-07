@@ -30,6 +30,7 @@
 
 ## Next Time
 Past:
-- Just made some util functions in the _working notebook to process the graph results.
+- Implemented tree data generation
 Next:
-- Write the result to tree recursive function using the utils.
+- Update functions to enrich using source data graph
+- Update grid to show extra info from enrichment
