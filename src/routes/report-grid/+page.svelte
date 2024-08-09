@@ -36,6 +36,10 @@
 
 	let columnDefs = [
 		{
+			headerName: 'focusNodeLabel',
+			field: 'focusNodeLabel'
+		},
+		{
 			headerName: 'Result Node',
 			field: 'id',
 			colId: 'id',
@@ -47,7 +51,11 @@
 		{ field: 'detail', filter: 'agTextColumnFilter', initialHide: true },
 		{ field: 'resultMessage', filter: 'agTextColumnFilter' },
 		{ field: 'sourceShape', filter: 'agTextColumnFilter', initialHide: true },
-		{ field: 'value', filter: 'agTextColumnFilter', headerName: 'valueNode' }
+		{ field: 'value', filter: 'agTextColumnFilter', headerName: 'valueNode' },
+		{
+			headerName: 'valueNodeLabel',
+			field: 'valueNodeLabel'
+		}
 	];
 
 	// TEST DATA
