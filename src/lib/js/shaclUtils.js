@@ -49,17 +49,31 @@ function enrichNode(store, node) {
 /// Additionally enrich nodes with data for grid columns.
 function generateValidationResultTreeData(store, rootAtFocus = true) {
     let results = []
+    let roots = new Set() // if rootAtFocus, we will fill this up and add the records at the end.
 
     for (let node of getTopLevelResults(store)) {
         let path = []
-        // seed path
-        if (rootAtFocus) { path.push(store.getObjects(node, namedNode("http://www.w3.org/ns/shacl#focusNode"), null)?.[0]?.id) }
+        // seed path - this slightly reorganises the report to group the results by top level focus nodes (i.e. the targets of the top level shapes :))
+        if (rootAtFocus) {
+            let focusNode = store.getObjects(node, namedNode("http://www.w3.org/ns/shacl#focusNode"), null)[0]
+            path.push(focusNode.id)
+            // Add a record object for the root
+            roots.add(focusNode.id)
+        }
+
         path.push(node.id)
 
         results.push({ path, ...enrichNode(store, node) })
 
         // recurse the details
         _recursivelyGetDetail(store, node, path, results)
+    }
+
+    // Add a record for the roots, if applicable
+    if (rootAtFocus) {
+        for (const nodeID of roots) {
+            results.push({ path: [nodeID], focusNode: nodeID }); // setting itself as its focus. This helps the enrichment functions get the labels
+        }
     }
 
     return results
