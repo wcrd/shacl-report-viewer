@@ -1,0 +1,1948 @@
+@prefix pl: <https://www.passivelogic.com/schema/core#> .
+@prefix plV: <https://www.passivelogic.com/schema/EntityValidationShape#> .
+@prefix pl_geo: <https://www.passivelogic.com/schema/geometry#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#E5811E35-BDF3-450A-AFBD-3F213F67FEB1> ;
+            sh:resultMessage "Less than 1 values on ex:E5811E35-BDF3-450A-AFBD-3F213F67FEB1->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#83311A82-73E9-4376-8848-71563AC78033> ;
+                    sh:resultMessage "A connection node must be internal unless it is on an alias component." ;
+                    sh:resultPath pl:external ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb7 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#83311A82-73E9-4376-8848-71563AC78033> ;
+                    sh:resultMessage "A ConnectionNode must be connected to a ConnectionNet" ;
+                    sh:resultPath pl:connectedTo ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb5 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#83311A82-73E9-4376-8848-71563AC78033> ;
+                    sh:resultMessage "A ConnectionNode must have an assosciated behavior" ;
+                    sh:resultPath pl:hasBehaviour ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb6 ] ;
+            sh:focusNode <uri:ex#2535299B-826D-4D57-8E4F-88F67B57BFD5> ;
+            sh:resultMessage "All Connection Nodes must present as valid connections. Must be at least one node." ;
+            sh:resultPath pl:hasPart ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b9 ;
+            sh:value <uri:ex#83311A82-73E9-4376-8848-71563AC78033> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#9B44733E-F9F8-4C93-A9B5-2E6188E021C4> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#F37BCE5F-C583-4F49-82FC-270002529D3A> ] ;
+            sh:focusNode <uri:ex#9B44733E-F9F8-4C93-A9B5-2E6188E021C4> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#9B44733E-F9F8-4C93-A9B5-2E6188E021C4> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#A0C672EB-3968-4E51-A578-D10DAA2EC68D> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#A0C672EB-3968-4E51-A578-D10DAA2EC68D> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#A0C672EB-3968-4E51-A578-D10DAA2EC68D> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#1CCC0643-E5A0-4BAD-9578-492C99E3C7E6> ;
+                    sh:resultMessage "A ConnectionNode must be connected to a ConnectionNet" ;
+                    sh:resultPath pl:connectedTo ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb5 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#1CCC0643-E5A0-4BAD-9578-492C99E3C7E6> ;
+                    sh:resultMessage "A ConnectionNode must have an assosciated behavior" ;
+                    sh:resultPath pl:hasBehaviour ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb6 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#1CCC0643-E5A0-4BAD-9578-492C99E3C7E6> ;
+                    sh:resultMessage "A connection node must be internal unless it is on an alias component." ;
+                    sh:resultPath pl:external ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb7 ] ;
+            sh:focusNode <uri:ex#A07C8132-5763-4300-97DA-E5AD2D8247DF> ;
+            sh:resultMessage "All Connection Nodes must present as valid connections. Must be at least one node." ;
+            sh:resultPath pl:hasPart ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b9 ;
+            sh:value <uri:ex#1CCC0643-E5A0-4BAD-9578-492C99E3C7E6> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#1619D8A6-6F89-4F93-BDAA-19EDB6F29F43> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#1619D8A6-6F89-4F93-BDAA-19EDB6F29F43> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#1619D8A6-6F89-4F93-BDAA-19EDB6F29F43> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#2C9FA81C-4215-468A-BC08-55D1DBE0F960> ;
+            sh:resultMessage "Less than 1 values on ex:2C9FA81C-4215-468A-BC08-55D1DBE0F960->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#F2419A30-3022-409E-AB38-5B75212BBCF2> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#EBC607F8-4834-4FFA-921C-3C5525618292> ] ;
+            sh:focusNode <uri:ex#F2419A30-3022-409E-AB38-5B75212BBCF2> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#F2419A30-3022-409E-AB38-5B75212BBCF2> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#6D486AB3-E8C4-404D-BB91-A8CC01F8EB33> ;
+                    sh:resultMessage "A location must have an elevation (decimal) data property" ;
+                    sh:resultPath pl_geo:elevation ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:DatatypeConstraintComponent ;
+                    sh:sourceShape _:n1126643cd06f48298b4c2f1d88cc6cd0b1 ;
+                    sh:value 4265 ] ;
+            sh:focusNode <uri:ex#6D486AB3-E8C4-404D-BB91-A8CC01F8EB33> ;
+            sh:resultMessage "Value does not conform to Shape plV:Location_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Location_Atomics ;
+            sh:value <uri:ex#6D486AB3-E8C4-404D-BB91-A8CC01F8EB33> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#D8CEC9E2-6DB3-4757-BC75-FD1A74ED39C6> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#69540638-4454-47A7-94EF-EC57C0C895AB> ] ;
+            sh:focusNode <uri:ex#D8CEC9E2-6DB3-4757-BC75-FD1A74ED39C6> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#D8CEC9E2-6DB3-4757-BC75-FD1A74ED39C6> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#78E40774-7100-44ED-80D4-6ED22BB95AFB> ;
+            sh:resultMessage "A connection node must have a preliminary ConnectionDirection" ;
+            sh:resultPath pl:direction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb4 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#CE0B3D61-8FA7-479B-AC02-DF49801F57D6> ;
+                    sh:resultMessage "Zone does not have a volume property" ;
+                    sh:resultPath pl:hasProperty ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n611ee62f1e5643cbb7aa623bc944245ab2 ] ;
+            sh:focusNode <uri:ex#CE0B3D61-8FA7-479B-AC02-DF49801F57D6> ;
+            sh:resultMessage "Value does not conform to Shape plV:Zone_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Zone_Atomics ;
+            sh:value <uri:ex#CE0B3D61-8FA7-479B-AC02-DF49801F57D6> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#2E0CE835-0A8F-4592-9607-CEA9DB61ADC5> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#2E0CE835-0A8F-4592-9607-CEA9DB61ADC5> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#2E0CE835-0A8F-4592-9607-CEA9DB61ADC5> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#2C14BEB0-18F1-4707-8F58-C132FBA46084> ;
+            sh:resultMessage "A connection node must have a Quanta assigned." ;
+            sh:resultPath pl:hasQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#B902DEE1-9B3E-43E9-8962-20DD0DD66DF2> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#6F4A090A-B6AE-489A-A77E-0ED64C68F75D> ] ;
+            sh:focusNode <uri:ex#B902DEE1-9B3E-43E9-8962-20DD0DD66DF2> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#B902DEE1-9B3E-43E9-8962-20DD0DD66DF2> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#669EC39D-865B-4EF0-9640-21E5769DE776> ;
+            sh:resultMessage "The characteristic quanta MUST be from one of the equipment components quanta; i.e. a pointer to a real quanta on the component" ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraint _:n1b22873437e6465aba86860259217a44b4 ;
+            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+            sh:sourceShape plV:EquipmentComponent_Node_Cardinality ;
+            sh:value <uri:ex#669EC39D-865B-4EF0-9640-21E5769DE776> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#6B86F52B-87CD-4FB7-AD46-09648CADAAF6> ;
+            sh:resultMessage "A connection node must have a preliminary ConnectionDirection" ;
+            sh:resultPath pl:direction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb4 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#0A7C18B5-9C3B-4F2B-87E0-DEEA6829709E> ;
+                    sh:resultMessage "A ConnectionNode must be connected to a ConnectionNet" ;
+                    sh:resultPath pl:connectedTo ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb5 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#0A7C18B5-9C3B-4F2B-87E0-DEEA6829709E> ;
+                    sh:resultMessage "A connection node must be internal unless it is on an alias component." ;
+                    sh:resultPath pl:external ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb7 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#0A7C18B5-9C3B-4F2B-87E0-DEEA6829709E> ;
+                    sh:resultMessage "A ConnectionNode must have an assosciated behavior" ;
+                    sh:resultPath pl:hasBehaviour ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb6 ] ;
+            sh:focusNode <uri:ex#A6D87909-E782-4DB9-8F9B-E63B0728EFF0> ;
+            sh:resultMessage "All Connection Nodes must present as valid connections. Must be at least one node." ;
+            sh:resultPath pl:hasPart ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b9 ;
+            sh:value <uri:ex#0A7C18B5-9C3B-4F2B-87E0-DEEA6829709E> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#4F5BDD82-7C18-4EC7-8F57-838CC37F1AF8> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#4F5BDD82-7C18-4EC7-8F57-838CC37F1AF8> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#4F5BDD82-7C18-4EC7-8F57-838CC37F1AF8> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#E29170CA-359C-4F92-A773-3F5A42724312> ;
+                    sh:resultMessage "Zone does not have a volume property" ;
+                    sh:resultPath pl:hasProperty ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n611ee62f1e5643cbb7aa623bc944245ab2 ] ;
+            sh:focusNode <uri:ex#E29170CA-359C-4F92-A773-3F5A42724312> ;
+            sh:resultMessage "Value does not conform to Shape plV:Zone_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Zone_Atomics ;
+            sh:value <uri:ex#E29170CA-359C-4F92-A773-3F5A42724312> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#7D13C665-EC61-44B3-984F-9ABBCD78D2DD> ;
+            sh:resultMessage "The characteristic quanta MUST be from one of the equipment components quanta; i.e. a pointer to a real quanta on the component" ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraint _:n1b22873437e6465aba86860259217a44b4 ;
+            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+            sh:sourceShape plV:EquipmentComponent_Node_Cardinality ;
+            sh:value <uri:ex#7D13C665-EC61-44B3-984F-9ABBCD78D2DD> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#612FCEF9-8868-490B-A750-D04BFA85671D> ;
+            sh:resultMessage "A connection node must have a preliminary ConnectionDirection" ;
+            sh:resultPath pl:direction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb4 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#19E1CB19-4225-4772-91DE-42C993645C10> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#98D465D8-9513-4A30-93C4-B3104FAB6DAC> ] ;
+            sh:focusNode <uri:ex#19E1CB19-4225-4772-91DE-42C993645C10> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#19E1CB19-4225-4772-91DE-42C993645C10> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#58F9C0C9-7ECA-44AE-8A5C-4B06360EFAA4> ;
+                    sh:resultMessage "Pinned Adjacency must have y (decimal) value" ;
+                    sh:resultPath pl_geo:y ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:na762ebfa42024c33ab9941c0ab84e381b12 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#58F9C0C9-7ECA-44AE-8A5C-4B06360EFAA4> ;
+                    sh:resultMessage "Pinned Adjacency must have x (decimal) value" ;
+                    sh:resultPath pl_geo:x ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:na762ebfa42024c33ab9941c0ab84e381b11 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#58F9C0C9-7ECA-44AE-8A5C-4B06360EFAA4> ;
+                    sh:resultMessage "Pinned Adjacency must have offset (decimal) value" ;
+                    sh:resultPath pl_geo:offset ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:na762ebfa42024c33ab9941c0ab84e381b13 ] ;
+            sh:focusNode <uri:ex#58F9C0C9-7ECA-44AE-8A5C-4B06360EFAA4> ;
+            sh:resultMessage "Value does not conform to Shape plV:PinnedAdjacency_Node_Cardinality_Attributes. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:PinnedAdjacency_Node_Cardinality ;
+            sh:value <uri:ex#58F9C0C9-7ECA-44AE-8A5C-4B06360EFAA4> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#83311A82-73E9-4376-8848-71563AC78033> ;
+            sh:resultMessage "A connection node must have a preliminary ConnectionDirection" ;
+            sh:resultPath pl:direction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb4 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#40A4C684-5C15-4871-9F3C-70B3E77B3A97> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#5700FF6B-ECC8-4748-966F-466406CF0674> ] ;
+            sh:focusNode <uri:ex#40A4C684-5C15-4871-9F3C-70B3E77B3A97> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#40A4C684-5C15-4871-9F3C-70B3E77B3A97> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#2C14BEB0-18F1-4707-8F58-C132FBA46084> ;
+                    sh:resultMessage "A connection node must be internal unless it is on an alias component." ;
+                    sh:resultPath pl:external ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb7 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#2C14BEB0-18F1-4707-8F58-C132FBA46084> ;
+                    sh:resultMessage "A ConnectionNode must have an assosciated behavior" ;
+                    sh:resultPath pl:hasBehaviour ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb6 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#2C14BEB0-18F1-4707-8F58-C132FBA46084> ;
+                    sh:resultMessage "A ConnectionNode must be connected to a ConnectionNet" ;
+                    sh:resultPath pl:connectedTo ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb5 ] ;
+            sh:focusNode <uri:ex#2535299B-826D-4D57-8E4F-88F67B57BFD5> ;
+            sh:resultMessage "All Connection Nodes must present as valid connections. Must be at least one node." ;
+            sh:resultPath pl:hasPart ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b9 ;
+            sh:value <uri:ex#2C14BEB0-18F1-4707-8F58-C132FBA46084> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#58F9C0C9-7ECA-44AE-8A5C-4B06360EFAA4> ;
+            sh:resultMessage "Pinned Adjacency must only be used for Fenestrations or Equipment/Assets" ;
+            sh:resultPath pl:hasChildSurface ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:OrConstraintComponent ;
+            sh:sourceShape [ sh:message "Pinned Adjacency must only be used for Fenestrations or Equipment/Assets" ;
+                    sh:or ( [ sh:class pl:Fenestration ] [ sh:class pl:BoundarySurface ] ) ;
+                    sh:path pl:hasChildSurface ] ;
+            sh:value <uri:ex#246C77FB-CD52-4770-8593-EAB6890CFD80> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#C2A47813-616D-4927-B7D9-AA059F24B9FB> ;
+            sh:resultMessage "Less than 1 values on ex:C2A47813-616D-4927-B7D9-AA059F24B9FB->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#D93DC160-192E-4AD7-A094-68B3EA7065B1> ;
+            sh:resultMessage "Less than 1 values on ex:D93DC160-192E-4AD7-A094-68B3EA7065B1->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#1879C7AB-647A-4235-9556-7710B7E63F0F> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#E5811E35-BDF3-450A-AFBD-3F213F67FEB1> ] ;
+            sh:focusNode <uri:ex#1879C7AB-647A-4235-9556-7710B7E63F0F> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#1879C7AB-647A-4235-9556-7710B7E63F0F> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#141186D8-3E98-40B8-993F-0FE48B46686D> ;
+                    sh:resultMessage "Zone does not have a volume property" ;
+                    sh:resultPath pl:hasProperty ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n611ee62f1e5643cbb7aa623bc944245ab2 ] ;
+            sh:focusNode <uri:ex#141186D8-3E98-40B8-993F-0FE48B46686D> ;
+            sh:resultMessage "Value does not conform to Shape plV:Zone_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Zone_Atomics ;
+            sh:value <uri:ex#141186D8-3E98-40B8-993F-0FE48B46686D> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#FDD42C09-F02C-4848-B933-893E9A734A1E> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#D93DC160-192E-4AD7-A094-68B3EA7065B1> ] ;
+            sh:focusNode <uri:ex#FDD42C09-F02C-4848-B933-893E9A734A1E> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#FDD42C09-F02C-4848-B933-893E9A734A1E> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#B8C4C758-2CA0-494C-9F80-7DF6C1C33DEF> ;
+            sh:resultMessage "A connection node must have a preliminary ConnectionDirection" ;
+            sh:resultPath pl:direction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#C8877281-616B-4F84-B274-4C6D8F5233B9> ;
+            sh:resultMessage "Less than 1 values on ex:C8877281-616B-4F84-B274-4C6D8F5233B9->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:detail [ a sh:ValidationResult ;
+                            sh:focusNode <uri:ex#AF4522A3-1CBD-4B8F-A04C-0A1F3E18D84B> ;
+                            sh:resultMessage "A Media must be media of a Quanta OR be part of a MediaComponent" ;
+                            sh:resultSeverity sh:Violation ;
+                            sh:sourceConstraintComponent sh:OrConstraintComponent ;
+                            sh:sourceShape _:n318748bbecb84d1888cac5a32f7b7c60b1 ;
+                            sh:value <uri:ex#AF4522A3-1CBD-4B8F-A04C-0A1F3E18D84B> ] ;
+                    sh:focusNode <uri:ex#AF4522A3-1CBD-4B8F-A04C-0A1F3E18D84B> ;
+                    sh:resultMessage "Value does not conform to Shape [ sh:message Literal(\"A Media must be media of a Quanta OR be part of a MediaComponent\") ; sh:or ( [ sh:class pl:Quanta ; sh:maxCount Literal(\"1\", datatype=xsd:integer) ; sh:message Literal(\"Media must have a Quanta.\") ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path pl:isMediaOf ] [ sh:class pl:MediaComponent ; sh:maxCount Literal(\"1\", datatype=xsd:integer) ; sh:message Literal(\"Media must be part of ONE MediaComponent.\") ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path pl:isPartOf ] ) ]. See details for more information." ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+                    sh:sourceShape plV:Media_Node_Cardinality ;
+                    sh:value <uri:ex#AF4522A3-1CBD-4B8F-A04C-0A1F3E18D84B> ] ;
+            sh:focusNode <uri:ex#AF4522A3-1CBD-4B8F-A04C-0A1F3E18D84B> ;
+            sh:resultMessage "Value does not conform to Shape plV:Media_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Media_Atomics ;
+            sh:value <uri:ex#AF4522A3-1CBD-4B8F-A04C-0A1F3E18D84B> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#2CF3AAD7-C8A9-494A-B866-B526815C0E7B> ;
+                    sh:resultMessage "Pinned Adjacency must have x (decimal) value" ;
+                    sh:resultPath pl_geo:x ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:na762ebfa42024c33ab9941c0ab84e381b11 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#2CF3AAD7-C8A9-494A-B866-B526815C0E7B> ;
+                    sh:resultMessage "Pinned Adjacency must have y (decimal) value" ;
+                    sh:resultPath pl_geo:y ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:na762ebfa42024c33ab9941c0ab84e381b12 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#2CF3AAD7-C8A9-494A-B866-B526815C0E7B> ;
+                    sh:resultMessage "Pinned Adjacency must have offset (decimal) value" ;
+                    sh:resultPath pl_geo:offset ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:na762ebfa42024c33ab9941c0ab84e381b13 ] ;
+            sh:focusNode <uri:ex#2CF3AAD7-C8A9-494A-B866-B526815C0E7B> ;
+            sh:resultMessage "Value does not conform to Shape plV:PinnedAdjacency_Node_Cardinality_Attributes. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:PinnedAdjacency_Node_Cardinality ;
+            sh:value <uri:ex#2CF3AAD7-C8A9-494A-B866-B526815C0E7B> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#69540638-4454-47A7-94EF-EC57C0C895AB> ;
+            sh:resultMessage "Less than 1 values on ex:69540638-4454-47A7-94EF-EC57C0C895AB->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#AF36E71A-6541-4A49-AD8A-8B31BAA3E158> ;
+            sh:resultMessage "Less than 1 values on ex:AF36E71A-6541-4A49-AD8A-8B31BAA3E158->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#EFF65694-CD69-4DDA-9813-0E1598363BAF> ;
+            sh:resultMessage "Less than 1 values on ex:EFF65694-CD69-4DDA-9813-0E1598363BAF->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:detail [ a sh:ValidationResult ;
+                            sh:focusNode <uri:ex#FCBAB17F-9D48-4CAE-A81B-FE0991AF8557> ;
+                            sh:resultMessage "A Media must be media of a Quanta OR be part of a MediaComponent" ;
+                            sh:resultSeverity sh:Violation ;
+                            sh:sourceConstraintComponent sh:OrConstraintComponent ;
+                            sh:sourceShape _:n318748bbecb84d1888cac5a32f7b7c60b1 ;
+                            sh:value <uri:ex#FCBAB17F-9D48-4CAE-A81B-FE0991AF8557> ] ;
+                    sh:focusNode <uri:ex#FCBAB17F-9D48-4CAE-A81B-FE0991AF8557> ;
+                    sh:resultMessage "Value does not conform to Shape [ sh:message Literal(\"A Media must be media of a Quanta OR be part of a MediaComponent\") ; sh:or ( [ sh:class pl:Quanta ; sh:maxCount Literal(\"1\", datatype=xsd:integer) ; sh:message Literal(\"Media must have a Quanta.\") ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path pl:isMediaOf ] [ sh:class pl:MediaComponent ; sh:maxCount Literal(\"1\", datatype=xsd:integer) ; sh:message Literal(\"Media must be part of ONE MediaComponent.\") ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path pl:isPartOf ] ) ]. See details for more information." ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+                    sh:sourceShape plV:Media_Node_Cardinality ;
+                    sh:value <uri:ex#FCBAB17F-9D48-4CAE-A81B-FE0991AF8557> ] ;
+            sh:focusNode <uri:ex#FCBAB17F-9D48-4CAE-A81B-FE0991AF8557> ;
+            sh:resultMessage "Value does not conform to Shape plV:Media_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Media_Atomics ;
+            sh:value <uri:ex#FCBAB17F-9D48-4CAE-A81B-FE0991AF8557> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#329A47AE-F823-41F7-82AC-B9CD561C4B7D> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#329A47AE-F823-41F7-82AC-B9CD561C4B7D> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#329A47AE-F823-41F7-82AC-B9CD561C4B7D> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#963AE654-9F33-4847-87AD-44A180A9D186> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#249376DD-9F8B-449F-AC50-E6411415B7DF> ] ;
+            sh:focusNode <uri:ex#963AE654-9F33-4847-87AD-44A180A9D186> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#963AE654-9F33-4847-87AD-44A180A9D186> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#DA25F2D0-6FA8-46EC-B80F-9FB1B53E077F> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#DA25F2D0-6FA8-46EC-B80F-9FB1B53E077F> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#DA25F2D0-6FA8-46EC-B80F-9FB1B53E077F> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#A6D87909-E782-4DB9-8F9B-E63B0728EFF0> ;
+            sh:resultMessage "An equipment component must have ONE characteristic quanta" ;
+            sh:resultPath pl:hasCharacteristicQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#6F4A090A-B6AE-489A-A77E-0ED64C68F75D> ;
+            sh:resultMessage "Less than 1 values on ex:6F4A090A-B6AE-489A-A77E-0ED64C68F75D->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#7681F49D-71E5-4FB5-90B1-3EE69441F36C> ;
+            sh:resultMessage "An equipment component must have ONE characteristic quanta" ;
+            sh:resultPath pl:hasCharacteristicQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b2 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#4ED91862-62CF-4AC1-AC23-A333F3F73D05> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#4ED91862-62CF-4AC1-AC23-A333F3F73D05> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#4ED91862-62CF-4AC1-AC23-A333F3F73D05> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#249376DD-9F8B-449F-AC50-E6411415B7DF> ;
+            sh:resultMessage "Less than 1 values on ex:249376DD-9F8B-449F-AC50-E6411415B7DF->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#FC3054E0-0D91-41FE-85F2-061BA6682E77> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#3AE1B8CB-659C-4DD9-882B-6F557FDE8CF2> ] ;
+            sh:focusNode <uri:ex#FC3054E0-0D91-41FE-85F2-061BA6682E77> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#FC3054E0-0D91-41FE-85F2-061BA6682E77> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#83C8CF61-E6C8-493A-B460-178E28B64A84> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#83C8CF61-E6C8-493A-B460-178E28B64A84> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#83C8CF61-E6C8-493A-B460-178E28B64A84> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#0EF5BFAF-1376-4CA7-BC72-46DCDB5A314D> ;
+            sh:resultMessage "The characteristic quanta MUST be from one of the equipment components quanta; i.e. a pointer to a real quanta on the component" ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraint _:n1b22873437e6465aba86860259217a44b4 ;
+            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+            sh:sourceShape plV:EquipmentComponent_Node_Cardinality ;
+            sh:value <uri:ex#0EF5BFAF-1376-4CA7-BC72-46DCDB5A314D> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#612FCEF9-8868-490B-A750-D04BFA85671D> ;
+            sh:resultMessage "A connection node must have a Quanta assigned." ;
+            sh:resultPath pl:hasQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#C5C8DEC9-0159-46A7-995F-480EC18A0126> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#91906073-FA68-4A33-8629-A3A1DE80E09D> ] ;
+            sh:focusNode <uri:ex#C5C8DEC9-0159-46A7-995F-480EC18A0126> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#C5C8DEC9-0159-46A7-995F-480EC18A0126> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#4A0797B4-0AEC-405D-BBB7-099331DEA8C4> ;
+            sh:resultMessage "A connection node must have a Quanta assigned." ;
+            sh:resultPath pl:hasQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#89F8F498-933D-442E-8C1C-12A24FFA3298> ;
+                    sh:resultMessage "Zone does not have a volume property" ;
+                    sh:resultPath pl:hasProperty ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n611ee62f1e5643cbb7aa623bc944245ab2 ] ;
+            sh:focusNode <uri:ex#89F8F498-933D-442E-8C1C-12A24FFA3298> ;
+            sh:resultMessage "Value does not conform to Shape plV:Zone_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Zone_Atomics ;
+            sh:value <uri:ex#89F8F498-933D-442E-8C1C-12A24FFA3298> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#7FBF3F41-5CF8-4867-B33A-93324A9A00B8> ;
+                    sh:resultMessage "A ConnectionNode must be connected to a ConnectionNet" ;
+                    sh:resultPath pl:connectedTo ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb5 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#7FBF3F41-5CF8-4867-B33A-93324A9A00B8> ;
+                    sh:resultMessage "A ConnectionNode must have an assosciated behavior" ;
+                    sh:resultPath pl:hasBehaviour ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb6 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#7FBF3F41-5CF8-4867-B33A-93324A9A00B8> ;
+                    sh:resultMessage "A connection node must be internal unless it is on an alias component." ;
+                    sh:resultPath pl:external ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb7 ] ;
+            sh:focusNode <uri:ex#2535299B-826D-4D57-8E4F-88F67B57BFD5> ;
+            sh:resultMessage "All Connection Nodes must present as valid connections. Must be at least one node." ;
+            sh:resultPath pl:hasPart ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b9 ;
+            sh:value <uri:ex#7FBF3F41-5CF8-4867-B33A-93324A9A00B8> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#C629D594-340C-421A-80A8-1744DD98423A> ;
+                    sh:resultMessage "A ConnectionNode must have an assosciated behavior" ;
+                    sh:resultPath pl:hasBehaviour ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb6 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#C629D594-340C-421A-80A8-1744DD98423A> ;
+                    sh:resultMessage "A ConnectionNode must be connected to a ConnectionNet" ;
+                    sh:resultPath pl:connectedTo ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb5 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#C629D594-340C-421A-80A8-1744DD98423A> ;
+                    sh:resultMessage "A connection node must be internal unless it is on an alias component." ;
+                    sh:resultPath pl:external ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb7 ] ;
+            sh:focusNode <uri:ex#669EC39D-865B-4EF0-9640-21E5769DE776> ;
+            sh:resultMessage "All Connection Nodes must present as valid connections. Must be at least one node." ;
+            sh:resultPath pl:hasPart ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b9 ;
+            sh:value <uri:ex#C629D594-340C-421A-80A8-1744DD98423A> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#212BB4AC-F41C-4AD5-B738-BE3C6886F4CD> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#212BB4AC-F41C-4AD5-B738-BE3C6886F4CD> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#212BB4AC-F41C-4AD5-B738-BE3C6886F4CD> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#230805BA-8A10-4F62-96E9-A5D5108401B9> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#8E9E5081-1FAB-4B42-A532-D6D0019722F3> ] ;
+            sh:focusNode <uri:ex#230805BA-8A10-4F62-96E9-A5D5108401B9> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#230805BA-8A10-4F62-96E9-A5D5108401B9> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#049DB2BD-6331-4906-BABF-66E438872474> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#0D958941-1D64-419C-9911-E528D537BE2B> ] ;
+            sh:focusNode <uri:ex#049DB2BD-6331-4906-BABF-66E438872474> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#049DB2BD-6331-4906-BABF-66E438872474> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#2775F09B-8AC3-4DB0-B603-EAB435A90CB8> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#2775F09B-8AC3-4DB0-B603-EAB435A90CB8> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#2775F09B-8AC3-4DB0-B603-EAB435A90CB8> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#4A0797B4-0AEC-405D-BBB7-099331DEA8C4> ;
+                    sh:resultMessage "A ConnectionNode must be connected to a ConnectionNet" ;
+                    sh:resultPath pl:connectedTo ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb5 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#4A0797B4-0AEC-405D-BBB7-099331DEA8C4> ;
+                    sh:resultMessage "A connection node must be internal unless it is on an alias component." ;
+                    sh:resultPath pl:external ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb7 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#4A0797B4-0AEC-405D-BBB7-099331DEA8C4> ;
+                    sh:resultMessage "A ConnectionNode must have an assosciated behavior" ;
+                    sh:resultPath pl:hasBehaviour ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb6 ] ;
+            sh:focusNode <uri:ex#7681F49D-71E5-4FB5-90B1-3EE69441F36C> ;
+            sh:resultMessage "All Connection Nodes must present as valid connections. Must be at least one node." ;
+            sh:resultPath pl:hasPart ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b9 ;
+            sh:value <uri:ex#4A0797B4-0AEC-405D-BBB7-099331DEA8C4> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#4A0797B4-0AEC-405D-BBB7-099331DEA8C4> ;
+            sh:resultMessage "A connection node must have a preliminary ConnectionDirection" ;
+            sh:resultPath pl:direction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb4 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#B8C4C758-2CA0-494C-9F80-7DF6C1C33DEF> ;
+                    sh:resultMessage "A connection node must be internal unless it is on an alias component." ;
+                    sh:resultPath pl:external ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb7 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#B8C4C758-2CA0-494C-9F80-7DF6C1C33DEF> ;
+                    sh:resultMessage "A ConnectionNode must be connected to a ConnectionNet" ;
+                    sh:resultPath pl:connectedTo ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb5 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#B8C4C758-2CA0-494C-9F80-7DF6C1C33DEF> ;
+                    sh:resultMessage "A ConnectionNode must have an assosciated behavior" ;
+                    sh:resultPath pl:hasBehaviour ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb6 ] ;
+            sh:focusNode <uri:ex#0EF5BFAF-1376-4CA7-BC72-46DCDB5A314D> ;
+            sh:resultMessage "All Connection Nodes must present as valid connections. Must be at least one node." ;
+            sh:resultPath pl:hasPart ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b9 ;
+            sh:value <uri:ex#B8C4C758-2CA0-494C-9F80-7DF6C1C33DEF> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174> ;
+                    sh:resultMessage "Zone does not have a volume property" ;
+                    sh:resultPath pl:hasProperty ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n611ee62f1e5643cbb7aa623bc944245ab2 ] ;
+            sh:focusNode <uri:ex#4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174> ;
+            sh:resultMessage "Value does not conform to Shape plV:Zone_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Zone_Atomics ;
+            sh:value <uri:ex#4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#2535299B-826D-4D57-8E4F-88F67B57BFD5> ;
+            sh:resultMessage "An equipment component must have ONE characteristic quanta" ;
+            sh:resultPath pl:hasCharacteristicQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b2 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#95E6D323-FA10-42B2-B4A4-AFD423607E3B> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#EFF65694-CD69-4DDA-9813-0E1598363BAF> ] ;
+            sh:focusNode <uri:ex#95E6D323-FA10-42B2-B4A4-AFD423607E3B> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#95E6D323-FA10-42B2-B4A4-AFD423607E3B> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#5F236212-6A12-4C64-9686-4700605CA09B> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#2C9FA81C-4215-468A-BC08-55D1DBE0F960> ] ;
+            sh:focusNode <uri:ex#5F236212-6A12-4C64-9686-4700605CA09B> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#5F236212-6A12-4C64-9686-4700605CA09B> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#7FBF3F41-5CF8-4867-B33A-93324A9A00B8> ;
+            sh:resultMessage "A connection node must have a Quanta assigned." ;
+            sh:resultPath pl:hasQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#1D8708B5-BF55-43C5-83F5-69BD2FC733B7> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#8C90B732-C5F6-42DC-9ECB-6CEB8D635784> ] ;
+            sh:focusNode <uri:ex#1D8708B5-BF55-43C5-83F5-69BD2FC733B7> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#1D8708B5-BF55-43C5-83F5-69BD2FC733B7> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#EBC607F8-4834-4FFA-921C-3C5525618292> ;
+            sh:resultMessage "Less than 1 values on ex:EBC607F8-4834-4FFA-921C-3C5525618292->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#91906073-FA68-4A33-8629-A3A1DE80E09D> ;
+            sh:resultMessage "Less than 1 values on ex:91906073-FA68-4A33-8629-A3A1DE80E09D->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#8D893A21-DFD0-4469-8498-F38360C44D56> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#8D893A21-DFD0-4469-8498-F38360C44D56> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#8D893A21-DFD0-4469-8498-F38360C44D56> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#8C90B732-C5F6-42DC-9ECB-6CEB8D635784> ;
+            sh:resultMessage "Less than 1 values on ex:8C90B732-C5F6-42DC-9ECB-6CEB8D635784->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#0D958941-1D64-419C-9911-E528D537BE2B> ;
+            sh:resultMessage "Less than 1 values on ex:0D958941-1D64-419C-9911-E528D537BE2B->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#0A7C18B5-9C3B-4F2B-87E0-DEEA6829709E> ;
+            sh:resultMessage "A connection node must have a Quanta assigned." ;
+            sh:resultPath pl:hasQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#7FBF3F41-5CF8-4867-B33A-93324A9A00B8> ;
+            sh:resultMessage "A connection node must have a preliminary ConnectionDirection" ;
+            sh:resultPath pl:direction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#78E40774-7100-44ED-80D4-6ED22BB95AFB> ;
+            sh:resultMessage "A connection node must have a Quanta assigned." ;
+            sh:resultPath pl:hasQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#9B5D50A5-29C3-46D6-AAC8-F24E900B30E0> ;
+            sh:resultMessage "The characteristic quanta MUST be from one of the equipment components quanta; i.e. a pointer to a real quanta on the component" ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraint _:n1b22873437e6465aba86860259217a44b4 ;
+            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+            sh:sourceShape plV:EquipmentComponent_Node_Cardinality ;
+            sh:value <uri:ex#9B5D50A5-29C3-46D6-AAC8-F24E900B30E0> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#7E5BBDE8-BC55-47F8-A956-BF2BC45D2F86> ;
+            sh:resultMessage "A connection node must have a Quanta assigned." ;
+            sh:resultPath pl:hasQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:detail [ a sh:ValidationResult ;
+                            sh:focusNode <uri:ex#257C2C93-5DEB-4F9C-B42B-D419FD16F7A2> ;
+                            sh:resultMessage "A Media must be media of a Quanta OR be part of a MediaComponent" ;
+                            sh:resultSeverity sh:Violation ;
+                            sh:sourceConstraintComponent sh:OrConstraintComponent ;
+                            sh:sourceShape _:n318748bbecb84d1888cac5a32f7b7c60b1 ;
+                            sh:value <uri:ex#257C2C93-5DEB-4F9C-B42B-D419FD16F7A2> ] ;
+                    sh:focusNode <uri:ex#257C2C93-5DEB-4F9C-B42B-D419FD16F7A2> ;
+                    sh:resultMessage "Value does not conform to Shape [ sh:message Literal(\"A Media must be media of a Quanta OR be part of a MediaComponent\") ; sh:or ( [ sh:class pl:Quanta ; sh:maxCount Literal(\"1\", datatype=xsd:integer) ; sh:message Literal(\"Media must have a Quanta.\") ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path pl:isMediaOf ] [ sh:class pl:MediaComponent ; sh:maxCount Literal(\"1\", datatype=xsd:integer) ; sh:message Literal(\"Media must be part of ONE MediaComponent.\") ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path pl:isPartOf ] ) ]. See details for more information." ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+                    sh:sourceShape plV:Media_Node_Cardinality ;
+                    sh:value <uri:ex#257C2C93-5DEB-4F9C-B42B-D419FD16F7A2> ] ;
+            sh:focusNode <uri:ex#257C2C93-5DEB-4F9C-B42B-D419FD16F7A2> ;
+            sh:resultMessage "Value does not conform to Shape plV:Media_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Media_Atomics ;
+            sh:value <uri:ex#257C2C93-5DEB-4F9C-B42B-D419FD16F7A2> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#1CCC0643-E5A0-4BAD-9578-492C99E3C7E6> ;
+            sh:resultMessage "A connection node must have a preliminary ConnectionDirection" ;
+            sh:resultPath pl:direction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#83311A82-73E9-4376-8848-71563AC78033> ;
+            sh:resultMessage "A connection node must have a Quanta assigned." ;
+            sh:resultPath pl:hasQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#EDE510CE-4223-4199-8371-931A9F12AF22> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#AF36E71A-6541-4A49-AD8A-8B31BAA3E158> ] ;
+            sh:focusNode <uri:ex#EDE510CE-4223-4199-8371-931A9F12AF22> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#EDE510CE-4223-4199-8371-931A9F12AF22> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#F37BCE5F-C583-4F49-82FC-270002529D3A> ;
+            sh:resultMessage "Less than 1 values on ex:F37BCE5F-C583-4F49-82FC-270002529D3A->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#612FCEF9-8868-490B-A750-D04BFA85671D> ;
+                    sh:resultMessage "A ConnectionNode must have an assosciated behavior" ;
+                    sh:resultPath pl:hasBehaviour ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb6 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#612FCEF9-8868-490B-A750-D04BFA85671D> ;
+                    sh:resultMessage "A ConnectionNode must be connected to a ConnectionNet" ;
+                    sh:resultPath pl:connectedTo ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb5 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#612FCEF9-8868-490B-A750-D04BFA85671D> ;
+                    sh:resultMessage "A connection node must be internal unless it is on an alias component." ;
+                    sh:resultPath pl:external ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb7 ] ;
+            sh:focusNode <uri:ex#9B5D50A5-29C3-46D6-AAC8-F24E900B30E0> ;
+            sh:resultMessage "All Connection Nodes must present as valid connections. Must be at least one node." ;
+            sh:resultPath pl:hasPart ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b9 ;
+            sh:value <uri:ex#612FCEF9-8868-490B-A750-D04BFA85671D> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#78E40774-7100-44ED-80D4-6ED22BB95AFB> ;
+                    sh:resultMessage "A connection node must be internal unless it is on an alias component." ;
+                    sh:resultPath pl:external ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb7 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#78E40774-7100-44ED-80D4-6ED22BB95AFB> ;
+                    sh:resultMessage "A ConnectionNode must be connected to a ConnectionNet" ;
+                    sh:resultPath pl:connectedTo ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb5 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#78E40774-7100-44ED-80D4-6ED22BB95AFB> ;
+                    sh:resultMessage "A ConnectionNode must have an assosciated behavior" ;
+                    sh:resultPath pl:hasBehaviour ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb6 ] ;
+            sh:focusNode <uri:ex#7D13C665-EC61-44B3-984F-9ABBCD78D2DD> ;
+            sh:resultMessage "All Connection Nodes must present as valid connections. Must be at least one node." ;
+            sh:resultPath pl:hasPart ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b9 ;
+            sh:value <uri:ex#78E40774-7100-44ED-80D4-6ED22BB95AFB> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#A6D87909-E782-4DB9-8F9B-E63B0728EFF0> ;
+            sh:resultMessage "The characteristic quanta MUST be from one of the equipment components quanta; i.e. a pointer to a real quanta on the component" ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraint _:n1b22873437e6465aba86860259217a44b4 ;
+            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+            sh:sourceShape plV:EquipmentComponent_Node_Cardinality ;
+            sh:value <uri:ex#A6D87909-E782-4DB9-8F9B-E63B0728EFF0> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#0EF5BFAF-1376-4CA7-BC72-46DCDB5A314D> ;
+            sh:resultMessage "An equipment component must have ONE characteristic quanta" ;
+            sh:resultPath pl:hasCharacteristicQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#2C14BEB0-18F1-4707-8F58-C132FBA46084> ;
+            sh:resultMessage "A connection node must have a preliminary ConnectionDirection" ;
+            sh:resultPath pl:direction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#7E5BBDE8-BC55-47F8-A956-BF2BC45D2F86> ;
+            sh:resultMessage "A connection node must have a preliminary ConnectionDirection" ;
+            sh:resultPath pl:direction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb4 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#898AF0F6-295B-42EE-B0D0-2844333B0498> ;
+                    sh:resultMessage "A location must have an elevation (decimal) data property" ;
+                    sh:resultPath pl_geo:elevation ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:DatatypeConstraintComponent ;
+                    sh:sourceShape _:n1126643cd06f48298b4c2f1d88cc6cd0b1 ;
+                    sh:value 4265 ] ;
+            sh:focusNode <uri:ex#898AF0F6-295B-42EE-B0D0-2844333B0498> ;
+            sh:resultMessage "Value does not conform to Shape plV:Location_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Location_Atomics ;
+            sh:value <uri:ex#898AF0F6-295B-42EE-B0D0-2844333B0498> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#DEF27301-FACC-4312-8775-224838850148> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#DEF27301-FACC-4312-8775-224838850148> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#DEF27301-FACC-4312-8775-224838850148> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#A32EDFE2-F7D7-4EFB-AB9C-FF14079D128D> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#A32EDFE2-F7D7-4EFB-AB9C-FF14079D128D> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#A32EDFE2-F7D7-4EFB-AB9C-FF14079D128D> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#3AE1B8CB-659C-4DD9-882B-6F557FDE8CF2> ;
+            sh:resultMessage "Less than 1 values on ex:3AE1B8CB-659C-4DD9-882B-6F557FDE8CF2->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#7331F64C-D87F-406C-940E-08B6523819F9> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#7331F64C-D87F-406C-940E-08B6523819F9> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#7331F64C-D87F-406C-940E-08B6523819F9> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#B112656B-AEF9-4726-AF89-1E74C417C883> ;
+                    sh:resultMessage "A location must have an elevation (decimal) data property" ;
+                    sh:resultPath pl_geo:elevation ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:DatatypeConstraintComponent ;
+                    sh:sourceShape _:n1126643cd06f48298b4c2f1d88cc6cd0b1 ;
+                    sh:value 4265 ] ;
+            sh:focusNode <uri:ex#B112656B-AEF9-4726-AF89-1E74C417C883> ;
+            sh:resultMessage "Value does not conform to Shape plV:Location_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Location_Atomics ;
+            sh:value <uri:ex#B112656B-AEF9-4726-AF89-1E74C417C883> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#7681F49D-71E5-4FB5-90B1-3EE69441F36C> ;
+            sh:resultMessage "The characteristic quanta MUST be from one of the equipment components quanta; i.e. a pointer to a real quanta on the component" ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraint _:n1b22873437e6465aba86860259217a44b4 ;
+            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+            sh:sourceShape plV:EquipmentComponent_Node_Cardinality ;
+            sh:value <uri:ex#7681F49D-71E5-4FB5-90B1-3EE69441F36C> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#E271D6BF-1225-49C4-B19C-4DCC77E25CB5> ;
+                    sh:resultMessage "A ConnectionNode must have an assosciated behavior" ;
+                    sh:resultPath pl:hasBehaviour ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb6 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#E271D6BF-1225-49C4-B19C-4DCC77E25CB5> ;
+                    sh:resultMessage "A connection node must be internal unless it is on an alias component." ;
+                    sh:resultPath pl:external ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb7 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#E271D6BF-1225-49C4-B19C-4DCC77E25CB5> ;
+                    sh:resultMessage "A ConnectionNode must be connected to a ConnectionNet" ;
+                    sh:resultPath pl:connectedTo ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb5 ] ;
+            sh:focusNode <uri:ex#7D13C665-EC61-44B3-984F-9ABBCD78D2DD> ;
+            sh:resultMessage "All Connection Nodes must present as valid connections. Must be at least one node." ;
+            sh:resultPath pl:hasPart ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b9 ;
+            sh:value <uri:ex#E271D6BF-1225-49C4-B19C-4DCC77E25CB5> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#C7F08475-6CAA-4652-9201-C0B7402EDB56> ;
+            sh:resultMessage "Less than 1 values on ex:C7F08475-6CAA-4652-9201-C0B7402EDB56->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#A07C8132-5763-4300-97DA-E5AD2D8247DF> ;
+            sh:resultMessage "The characteristic quanta MUST be from one of the equipment components quanta; i.e. a pointer to a real quanta on the component" ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraint _:n1b22873437e6465aba86860259217a44b4 ;
+            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+            sh:sourceShape plV:EquipmentComponent_Node_Cardinality ;
+            sh:value <uri:ex#A07C8132-5763-4300-97DA-E5AD2D8247DF> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#C6DA0323-CD7B-4913-942F-15131B2012F1> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#C8877281-616B-4F84-B274-4C6D8F5233B9> ] ;
+            sh:focusNode <uri:ex#C6DA0323-CD7B-4913-942F-15131B2012F1> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#C6DA0323-CD7B-4913-942F-15131B2012F1> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#669EC39D-865B-4EF0-9640-21E5769DE776> ;
+            sh:resultMessage "An equipment component must have ONE characteristic quanta" ;
+            sh:resultPath pl:hasCharacteristicQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b2 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#182E9610-75BE-494B-A264-DB8B67D06DFA> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#C7F08475-6CAA-4652-9201-C0B7402EDB56> ] ;
+            sh:focusNode <uri:ex#182E9610-75BE-494B-A264-DB8B67D06DFA> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#182E9610-75BE-494B-A264-DB8B67D06DFA> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#5700FF6B-ECC8-4748-966F-466406CF0674> ;
+            sh:resultMessage "Less than 1 values on ex:5700FF6B-ECC8-4748-966F-466406CF0674->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#B8C4C758-2CA0-494C-9F80-7DF6C1C33DEF> ;
+            sh:resultMessage "A connection node must have a Quanta assigned." ;
+            sh:resultPath pl:hasQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#0A7C18B5-9C3B-4F2B-87E0-DEEA6829709E> ;
+            sh:resultMessage "A connection node must have a preliminary ConnectionDirection" ;
+            sh:resultPath pl:direction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#B9F846F3-31B7-4A7D-8B9E-D1DABBBC2692> ;
+            sh:resultMessage "Less than 1 values on ex:B9F846F3-31B7-4A7D-8B9E-D1DABBBC2692->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#7E5BBDE8-BC55-47F8-A956-BF2BC45D2F86> ;
+                    sh:resultMessage "A ConnectionNode must have an assosciated behavior" ;
+                    sh:resultPath pl:hasBehaviour ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb6 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#7E5BBDE8-BC55-47F8-A956-BF2BC45D2F86> ;
+                    sh:resultMessage "A ConnectionNode must be connected to a ConnectionNet" ;
+                    sh:resultPath pl:connectedTo ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb5 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#7E5BBDE8-BC55-47F8-A956-BF2BC45D2F86> ;
+                    sh:resultMessage "A connection node must be internal unless it is on an alias component." ;
+                    sh:resultPath pl:external ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb7 ] ;
+            sh:focusNode <uri:ex#7681F49D-71E5-4FB5-90B1-3EE69441F36C> ;
+            sh:resultMessage "All Connection Nodes must present as valid connections. Must be at least one node." ;
+            sh:resultPath pl:hasPart ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b9 ;
+            sh:value <uri:ex#7E5BBDE8-BC55-47F8-A956-BF2BC45D2F86> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#E271D6BF-1225-49C4-B19C-4DCC77E25CB5> ;
+            sh:resultMessage "A connection node must have a Quanta assigned." ;
+            sh:resultPath pl:hasQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#C629D594-340C-421A-80A8-1744DD98423A> ;
+            sh:resultMessage "A connection node must have a preliminary ConnectionDirection" ;
+            sh:resultPath pl:direction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb4 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#E640A31A-4A9D-4F05-B58A-9A240B1A0CB3> ;
+                    sh:resultMessage "A ConnectionNode must be connected to a ConnectionNet" ;
+                    sh:resultPath pl:connectedTo ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb5 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#E640A31A-4A9D-4F05-B58A-9A240B1A0CB3> ;
+                    sh:resultMessage "A connection node must be internal unless it is on an alias component." ;
+                    sh:resultPath pl:external ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb7 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#E640A31A-4A9D-4F05-B58A-9A240B1A0CB3> ;
+                    sh:resultMessage "A ConnectionNode must have an assosciated behavior" ;
+                    sh:resultPath pl:hasBehaviour ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb6 ] ;
+            sh:focusNode <uri:ex#A6D87909-E782-4DB9-8F9B-E63B0728EFF0> ;
+            sh:resultMessage "All Connection Nodes must present as valid connections. Must be at least one node." ;
+            sh:resultPath pl:hasPart ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b9 ;
+            sh:value <uri:ex#E640A31A-4A9D-4F05-B58A-9A240B1A0CB3> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#D1528B10-26A2-470A-80D0-E697ADA5677B> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#D1528B10-26A2-470A-80D0-E697ADA5677B> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#D1528B10-26A2-470A-80D0-E697ADA5677B> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#D7C0F57A-E02D-4FBC-BC55-0CADC0DA69D5> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#D7C0F57A-E02D-4FBC-BC55-0CADC0DA69D5> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#D7C0F57A-E02D-4FBC-BC55-0CADC0DA69D5> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#9DA1CB25-912A-4BE7-BE0A-19B60695248A> ;
+            sh:resultMessage "Less than 1 values on ex:9DA1CB25-912A-4BE7-BE0A-19B60695248A->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#C629D594-340C-421A-80A8-1744DD98423A> ;
+            sh:resultMessage "A connection node must have a Quanta assigned." ;
+            sh:resultPath pl:hasQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#E640A31A-4A9D-4F05-B58A-9A240B1A0CB3> ;
+            sh:resultMessage "A connection node must have a preliminary ConnectionDirection" ;
+            sh:resultPath pl:direction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#8E9E5081-1FAB-4B42-A532-D6D0019722F3> ;
+            sh:resultMessage "Less than 1 values on ex:8E9E5081-1FAB-4B42-A532-D6D0019722F3->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#7D13C665-EC61-44B3-984F-9ABBCD78D2DD> ;
+            sh:resultMessage "An equipment component must have ONE characteristic quanta" ;
+            sh:resultPath pl:hasCharacteristicQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#E640A31A-4A9D-4F05-B58A-9A240B1A0CB3> ;
+            sh:resultMessage "A connection node must have a Quanta assigned." ;
+            sh:resultPath pl:hasQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#6351291B-D137-4C79-82E0-EA614D362039> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#6351291B-D137-4C79-82E0-EA614D362039> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#6351291B-D137-4C79-82E0-EA614D362039> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#56E038AC-ACDE-4D0A-802F-6535103E00B7> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#53AD4181-BA71-4246-BB40-46AA28CAE807> ] ;
+            sh:focusNode <uri:ex#56E038AC-ACDE-4D0A-802F-6535103E00B7> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#56E038AC-ACDE-4D0A-802F-6535103E00B7> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#9B5D50A5-29C3-46D6-AAC8-F24E900B30E0> ;
+            sh:resultMessage "An equipment component must have ONE characteristic quanta" ;
+            sh:resultPath pl:hasCharacteristicQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#E271D6BF-1225-49C4-B19C-4DCC77E25CB5> ;
+            sh:resultMessage "A connection node must have a preliminary ConnectionDirection" ;
+            sh:resultPath pl:direction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#1CCC0643-E5A0-4BAD-9578-492C99E3C7E6> ;
+            sh:resultMessage "A connection node must have a Quanta assigned." ;
+            sh:resultPath pl:hasQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#A07C8132-5763-4300-97DA-E5AD2D8247DF> ;
+            sh:resultMessage "An equipment component must have ONE characteristic quanta" ;
+            sh:resultPath pl:hasCharacteristicQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b2 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#C7611EB7-AAAE-4E0E-8F64-09310DFA9056> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#C7611EB7-AAAE-4E0E-8F64-09310DFA9056> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#C7611EB7-AAAE-4E0E-8F64-09310DFA9056> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#6B86F52B-87CD-4FB7-AD46-09648CADAAF6> ;
+            sh:resultMessage "A connection node must have a Quanta assigned." ;
+            sh:resultPath pl:hasQuanta ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#442CF638-CD7B-4F08-8BA0-F71967C09581> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#B9F846F3-31B7-4A7D-8B9E-D1DABBBC2692> ] ;
+            sh:focusNode <uri:ex#442CF638-CD7B-4F08-8BA0-F71967C09581> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#442CF638-CD7B-4F08-8BA0-F71967C09581> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#53AD4181-BA71-4246-BB40-46AA28CAE807> ;
+            sh:resultMessage "Less than 1 values on ex:53AD4181-BA71-4246-BB40-46AA28CAE807->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#88D01B49-B730-450B-8F78-D2EB5E40FB11> ;
+            sh:resultMessage "Less than 1 values on ex:88D01B49-B730-450B-8F78-D2EB5E40FB11->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#DB3A04F0-5109-4514-9192-434AA2D34ADE> ;
+                    sh:resultMessage "Zone does not have a volume property" ;
+                    sh:resultPath pl:hasProperty ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n611ee62f1e5643cbb7aa623bc944245ab2 ] ;
+            sh:focusNode <uri:ex#DB3A04F0-5109-4514-9192-434AA2D34ADE> ;
+            sh:resultMessage "Value does not conform to Shape plV:Zone_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Zone_Atomics ;
+            sh:value <uri:ex#DB3A04F0-5109-4514-9192-434AA2D34ADE> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#54834A9C-40A1-4A03-9B00-D53F1C19A61D> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#54834A9C-40A1-4A03-9B00-D53F1C19A61D> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#54834A9C-40A1-4A03-9B00-D53F1C19A61D> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#6B86F52B-87CD-4FB7-AD46-09648CADAAF6> ;
+                    sh:resultMessage "A ConnectionNode must have an assosciated behavior" ;
+                    sh:resultPath pl:hasBehaviour ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb6 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#6B86F52B-87CD-4FB7-AD46-09648CADAAF6> ;
+                    sh:resultMessage "A ConnectionNode must be connected to a ConnectionNet" ;
+                    sh:resultPath pl:connectedTo ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb5 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#6B86F52B-87CD-4FB7-AD46-09648CADAAF6> ;
+                    sh:resultMessage "A connection node must be internal unless it is on an alias component." ;
+                    sh:resultPath pl:external ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+                    sh:sourceShape _:n49156ba8805e474288cef85a57b25d3fb7 ] ;
+            sh:focusNode <uri:ex#7D13C665-EC61-44B3-984F-9ABBCD78D2DD> ;
+            sh:resultMessage "All Connection Nodes must present as valid connections. Must be at least one node." ;
+            sh:resultPath pl:hasPart ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:n1b22873437e6465aba86860259217a44b9 ;
+            sh:value <uri:ex#6B86F52B-87CD-4FB7-AD46-09648CADAAF6> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#E223B924-E91C-4E3A-8525-DC98A9D12139> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#9DA1CB25-912A-4BE7-BE0A-19B60695248A> ] ;
+            sh:focusNode <uri:ex#E223B924-E91C-4E3A-8525-DC98A9D12139> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#E223B924-E91C-4E3A-8525-DC98A9D12139> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#98D465D8-9513-4A30-93C4-B3104FAB6DAC> ;
+            sh:resultMessage "Less than 1 values on ex:98D465D8-9513-4A30-93C4-B3104FAB6DAC->pl:hasShape" ;
+            sh:resultPath pl:hasShape ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n3526510770b24d188989be468057a120b3 ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#777858D8-24EB-4595-B6BD-E9E64558F9F6> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#C2A47813-616D-4927-B7D9-AA059F24B9FB> ] ;
+            sh:focusNode <uri:ex#777858D8-24EB-4595-B6BD-E9E64558F9F6> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#777858D8-24EB-4595-B6BD-E9E64558F9F6> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#EE927495-69A5-4A56-BA5A-1AACF13251FB> ;
+                    sh:resultMessage "Floor needs at least ONE Zone" ;
+                    sh:resultPath pl:hasPart ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+                    sh:sourceShape _:n1953dbc5100646058c3181aa51a6f5cfb3 ] ;
+            sh:focusNode <uri:ex#EE927495-69A5-4A56-BA5A-1AACF13251FB> ;
+            sh:resultMessage "Value does not conform to Shape plV:Floor_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Floor_Atomics ;
+            sh:value <uri:ex#EE927495-69A5-4A56-BA5A-1AACF13251FB> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#C85B17C5-8605-48FC-AFAB-8567FA73BC25> ;
+                    sh:resultMessage "Pinned Adjacency must have offset (decimal) value" ;
+                    sh:resultPath pl_geo:offset ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:na762ebfa42024c33ab9941c0ab84e381b13 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#C85B17C5-8605-48FC-AFAB-8567FA73BC25> ;
+                    sh:resultMessage "Pinned Adjacency must have x (decimal) value" ;
+                    sh:resultPath pl_geo:x ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:na762ebfa42024c33ab9941c0ab84e381b11 ],
+                [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#C85B17C5-8605-48FC-AFAB-8567FA73BC25> ;
+                    sh:resultMessage "Pinned Adjacency must have y (decimal) value" ;
+                    sh:resultPath pl_geo:y ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+                    sh:sourceShape _:na762ebfa42024c33ab9941c0ab84e381b12 ] ;
+            sh:focusNode <uri:ex#C85B17C5-8605-48FC-AFAB-8567FA73BC25> ;
+            sh:resultMessage "Value does not conform to Shape plV:PinnedAdjacency_Node_Cardinality_Attributes. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:PinnedAdjacency_Node_Cardinality ;
+            sh:value <uri:ex#C85B17C5-8605-48FC-AFAB-8567FA73BC25> ],
+        [ a sh:ValidationResult ;
+            sh:detail [ a sh:ValidationResult ;
+                    sh:focusNode <uri:ex#C6A20E34-5B8B-4BAC-9F28-71B38EAEB885> ;
+                    sh:resultMessage "Vertex must be part of a Shape" ;
+                    sh:resultPath pl:isVertexOf ;
+                    sh:resultSeverity sh:Violation ;
+                    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+                    sh:sourceShape _:n1694335540b94cf585303f0d8d6ae997b1 ;
+                    sh:value <uri:ex#88D01B49-B730-450B-8F78-D2EB5E40FB11> ] ;
+            sh:focusNode <uri:ex#C6A20E34-5B8B-4BAC-9F28-71B38EAEB885> ;
+            sh:resultMessage "Value does not conform to Shape plV:Vertex_Node_Cardinality. See details for more information." ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape plV:Vertex_Atomics ;
+            sh:value <uri:ex#C6A20E34-5B8B-4BAC-9F28-71B38EAEB885> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <uri:ex#2535299B-826D-4D57-8E4F-88F67B57BFD5> ;
+            sh:resultMessage "The characteristic quanta MUST be from one of the equipment components quanta; i.e. a pointer to a real quanta on the component" ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraint _:n1b22873437e6465aba86860259217a44b4 ;
+            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+            sh:sourceShape plV:EquipmentComponent_Node_Cardinality ;
+            sh:value <uri:ex#2535299B-826D-4D57-8E4F-88F67B57BFD5> ] .
+
+_:N137cd0a5ec574491938217ef4f2af5ae sh:hasValue "volume" ;
+    sh:path rdfs:label .
+
+_:N31e451ffad9a4a5186c412da4c164bcd sh:class pl:MediaComponent ;
+    sh:maxCount 1 ;
+    sh:message "Media must be part of ONE MediaComponent." ;
+    sh:minCount 1 ;
+    sh:path pl:isPartOf .
+
+_:N7514e79bd80f4664a973dd8f3e804fcc sh:hasValue pl:Zone ;
+    sh:path rdf:type .
+
+_:N77bc32ac9284403387dca5306f1e947c rdf:first [ sh:class pl:Quanta ;
+            sh:maxCount 1 ;
+            sh:message "Media must have a Quanta." ;
+            sh:minCount 1 ;
+            sh:path pl:isMediaOf ] ;
+    rdf:rest ( _:N31e451ffad9a4a5186c412da4c164bcd ) .
+
+_:n1126643cd06f48298b4c2f1d88cc6cd0b1 sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:message "A location must have an elevation (decimal) data property" ;
+    sh:minCount 1 ;
+    sh:path pl_geo:elevation .
+
+_:n318748bbecb84d1888cac5a32f7b7c60b1 sh:message "A Media must be media of a Quanta OR be part of a MediaComponent" ;
+    sh:or _:N77bc32ac9284403387dca5306f1e947c .
+
+_:na762ebfa42024c33ab9941c0ab84e381b11 sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:message "Pinned Adjacency must have x (decimal) value" ;
+    sh:minCount 1 ;
+    sh:path pl_geo:x .
+
+_:na762ebfa42024c33ab9941c0ab84e381b12 sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:message "Pinned Adjacency must have y (decimal) value" ;
+    sh:minCount 1 ;
+    sh:path pl_geo:y .
+
+_:na762ebfa42024c33ab9941c0ab84e381b13 sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:message "Pinned Adjacency must have offset (decimal) value" ;
+    sh:minCount 1 ;
+    sh:path pl_geo:offset .
+
+_:n611ee62f1e5643cbb7aa623bc944245ab2 sh:message "Zone does not have a volume property" ;
+    sh:path pl:hasProperty ;
+    sh:qualifiedMaxCount 1 ;
+    sh:qualifiedMinCount 1 ;
+    sh:qualifiedValueShape _:N137cd0a5ec574491938217ef4f2af5ae .
+
+_:n1b22873437e6465aba86860259217a44b2 sh:class pl:Quanta ;
+    sh:maxCount 1 ;
+    sh:message "An equipment component must have ONE characteristic quanta" ;
+    sh:minCount 1 ;
+    sh:path pl:hasCharacteristicQuanta .
+
+_:n1b22873437e6465aba86860259217a44b4 a sh:SPARQLConstraint ;
+    sh:message "The characteristic quanta MUST be from one of the equipment components quanta; i.e. a pointer to a real quanta on the component" ;
+    sh:select """
+            SELECT $this
+            WHERE {
+                BIND( exists {
+                    $this <https://www.passivelogic.com/schema/core#hasAlias> ?ec_alias .
+                    ?ec_alias <https://www.passivelogic.com/schema/core#hasCharacteristicQuanta> ?q_alias .
+                    $this <https://www.passivelogic.com/schema/core#hasPart>* ?component .
+                    ?component <https://www.passivelogic.com/schema/core#hasQuanta> ?q_alias .
+                } as ?matching_quanta )
+                FILTER ( ?matching_quanta != True )
+            }
+        """ .
+
+_:n1b22873437e6465aba86860259217a44b9 sh:class pl:ConnectionNode ;
+    sh:message "All Connection Nodes must present as valid connections. Must be at least one node." ;
+    sh:minCount 1 ;
+    sh:node plV:NT_ConnectionNode_Node_Cardinality_NonAlias ;
+    sh:path pl:hasPart .
+
+_:n49156ba8805e474288cef85a57b25d3fb3 sh:class pl:Quanta ;
+    sh:maxCount 1 ;
+    sh:message "A connection node must have a Quanta assigned." ;
+    sh:minCount 1 ;
+    sh:path pl:hasQuanta .
+
+_:n49156ba8805e474288cef85a57b25d3fb4 sh:class pl:ConnectionDirection ;
+    sh:maxCount 1 ;
+    sh:message "A connection node must have a preliminary ConnectionDirection" ;
+    sh:minCount 1 ;
+    sh:path pl:direction .
+
+_:n49156ba8805e474288cef85a57b25d3fb5 sh:class pl:ConnectionNet ;
+    sh:maxCount 1 ;
+    sh:message "A ConnectionNode must be connected to a ConnectionNet" ;
+    sh:minCount 1 ;
+    sh:path pl:connectedTo .
+
+_:n49156ba8805e474288cef85a57b25d3fb6 sh:class pl:Behaviour ;
+    sh:maxCount 1 ;
+    sh:message "A ConnectionNode must have an assosciated behavior" ;
+    sh:minCount 1 ;
+    sh:path pl:hasBehaviour .
+
+_:n49156ba8805e474288cef85a57b25d3fb7 sh:hasValue false ;
+    sh:message "A connection node must be internal unless it is on an alias component." ;
+    sh:path pl:external .
+
+_:n1953dbc5100646058c3181aa51a6f5cfb3 sh:message "Floor needs at least ONE Zone" ;
+    sh:path pl:hasPart ;
+    sh:qualifiedMinCount 1 ;
+    sh:qualifiedValueShape _:N7514e79bd80f4664a973dd8f3e804fcc .
+
+_:n1694335540b94cf585303f0d8d6ae997b1 sh:class pl:Shape ;
+    sh:message "Vertex must be part of a Shape" ;
+    sh:path pl:isVertexOf .
+
+_:n3526510770b24d188989be468057a120b3 sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:node plV:Shape_Applications_Practical ;
+    sh:path pl:hasShape .
+

@@ -1,0 +1,4212 @@
+@prefix ex: <uri:ex#> .
+@prefix pl: <https://www.passivelogic.com/schema/core#> .
+@prefix pl_geo: <https://www.passivelogic.com/schema/geometry#> .
+@prefix pl_props: <https://www.passivelogic.com/schema/properties#> .
+@prefix pl_types: <https://www.passivelogic.com/schema/types#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:069E0D46-A3BA-4184-A6D9-BF80695BBCB6 a pl:Property ;
+    rdfs:label "pi" ;
+    pl:hasAuthGroup ex:7B1A4A83-DE48-4214-99E7-FA9814D5B80D ;
+    pl:hasType pl_props:pi ;
+    pl:symbol "π" ;
+    pl:value 3.14159265358979 .
+
+ex:13D887B4-6E11-42D1-83CA-2B3B1654FE64 a pl:Property ;
+    rdfs:label "sigma" ;
+    pl:hasAuthGroup ex:7B1A4A83-DE48-4214-99E7-FA9814D5B80D ;
+    pl:hasType pl_props:sigma ;
+    pl:symbol "σ" ;
+    pl:value 0.00000005670374419 .
+
+ex:30C60077-7974-40E3-8883-0FDDF5AF49BB a pl:Property ;
+    rdfs:label "N_A" ;
+    pl:hasAuthGroup ex:7B1A4A83-DE48-4214-99E7-FA9814D5B80D ;
+    pl:hasType pl_props:N_A ;
+    pl:symbol "N_A" ;
+    pl:value 602214076000000000000000.0 .
+
+ex:3B7D7FDA-1223-46E9-B97B-B7C72E0E7EAA a pl:Property ;
+    rdfs:label "e" ;
+    pl:hasAuthGroup ex:7B1A4A83-DE48-4214-99E7-FA9814D5B80D ;
+    pl:hasType pl_props:e ;
+    pl:symbol "e" ;
+    pl:value 2.71828182845905 .
+
+ex:62A31306-F584-489E-9799-64FAA87BE08D a pl:Property ;
+    rdfs:label "c" ;
+    pl:hasAuthGroup ex:7B1A4A83-DE48-4214-99E7-FA9814D5B80D ;
+    pl:hasType pl_props:c ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#MetersPerSecond> ;
+    pl:symbol "c" ;
+    pl:value 299792458 .
+
+ex:6D6BFFAE-4337-4E29-A31F-DDDED11E1251 a pl:Property ;
+    rdfs:label "Thickness" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:Thickness ;
+    pl:value 0.01271 .
+
+ex:8B39D941-7556-4BD2-9EDD-009EB3DC0BAE a pl:Property ;
+    rdfs:label "R" ;
+    pl:hasAuthGroup ex:7B1A4A83-DE48-4214-99E7-FA9814D5B80D ;
+    pl:hasType pl_props:R ;
+    pl:symbol "R" ;
+    pl:value 8.314462618 .
+
+ex:8E7B7CEA-9C55-4EE8-BBAC-52B6793FBB95 a pl:Property ;
+    rdfs:label "h" ;
+    pl:hasAuthGroup ex:7B1A4A83-DE48-4214-99E7-FA9814D5B80D ;
+    pl:hasType pl_props:h ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#JouleSecond> ;
+    pl:symbol "h" ;
+    pl:value 0.000000000000000000000000000000000662607015 .
+
+ex:9C69C333-1E36-4E83-AF88-BDC0BE838F08 a pl:Property ;
+    rdfs:label "q" ;
+    pl:hasAuthGroup ex:7B1A4A83-DE48-4214-99E7-FA9814D5B80D ;
+    pl:hasType pl_props:q ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Coulomb> ;
+    pl:symbol "q" ;
+    pl:value 0.0000000000000000001602176634 .
+
+ex:A381CDA2-D8D3-4EAB-851C-9A1E57C34BE6 a pl:Property ;
+    rdfs:label "F" ;
+    pl:hasAuthGroup ex:7B1A4A83-DE48-4214-99E7-FA9814D5B80D ;
+    pl:hasType pl_props:F ;
+    pl:symbol "F" ;
+    pl:value 96485.33212331 .
+
+ex:ACA56BC5-3C5C-403F-B526-5A7F1C91729E a pl:Property ;
+    rdfs:label "k" ;
+    pl:hasAuthGroup ex:7B1A4A83-DE48-4214-99E7-FA9814D5B80D ;
+    pl:hasType pl_props:k ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#JoulesPerKilogram> ;
+    pl:symbol "k" ;
+    pl:value 0.00000000000000000000001380649 .
+
+ex:AF125EB7-2D4F-48F8-9197-666C21C8201A a pl:Property ;
+    rdfs:label "Thickness" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:Thickness ;
+    pl:value 0.2033 .
+
+ex:D0BBDE68-5A03-4DFC-AA1F-342C15F194E7 a pl:User ;
+    pl:email "will@passivelogic.com" ;
+    pl:firstname "Will" ;
+    pl:lastname "Davidson" ;
+    pl:passwordHash "$2b$12$Iy8vSNAIQe0lEMT5uaGj4OVt0Wfe9xndSb6MMQ/TjZsOhWd.iWtv6" ;
+    pl:passwordSalt 400395280 ;
+    pl:status "Active" ;
+    pl:username "E0F3A06B-340B-4605-9B94-4461AE012EB7" .
+
+ex:D38ED3C4-61CC-4B32-B6D8-342532C1B374 a pl:Property ;
+    rdfs:label "Thickness" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:Thickness ;
+    pl:value 0.0253 .
+
+ex:E0048C68-2D91-4F20-9150-6FFF55BCF16D a pl:Property ;
+    rdfs:label "g" ;
+    pl:hasAuthGroup ex:7B1A4A83-DE48-4214-99E7-FA9814D5B80D ;
+    pl:hasType pl_props:g ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#MetersPerSecondSquared> ;
+    pl:symbol "g" ;
+    pl:value 9.80665 .
+
+ex:0019EAE5-EADF-40A2-A4BC-333D758A3EFA a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:329A47AE-F823-41F7-82AC-B9CD561C4B7D ;
+    pl:value 0 .
+
+ex:00D81316-7BB8-4E4E-BB2A-3EC19B106CB1 a pl:Property ;
+    rdfs:label "frameOffset" ;
+    rdfs:comment "Frame Depth Offset" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:frameOffset ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:246C77FB-CD52-4770-8593-EAB6890CFD80 ;
+    pl:symbol "FixedWindow.frameParams.frameOffset" ;
+    pl:value 0 .
+
+ex:00DDAB16-F4C8-457A-943D-66099AD568E2 a pl:Property ;
+    rdfs:label "groundsmashRotation" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:groundsmashRotation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:CBFBC5FE-8F9A-4FDA-8788-61E81F9F2BAA ;
+    pl:value 0 .
+
+ex:02102516-1101-4C9A-93A9-74AEC7EB7482 a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:EE927495-69A5-4A56-BA5A-1AACF13251FB ;
+    pl:value 0 .
+
+ex:03C474DD-D9E3-466B-8617-C8BD8B874C20 a pl:Property ;
+    rdfs:label "groundsmashMaxY" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:groundsmashMaxY ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:7E419C18-55E3-452C-BA15-B959C499F561 ;
+    pl:value 20000 .
+
+ex:05C61EE3-B8F3-4297-B088-9EAAF93ED0DA a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:4B51FB56-7ED9-4550-8A6A-6B3831DEB158 ;
+    pl_geo:index 0 ;
+    pl_geo:x -2.035 ;
+    pl_geo:y -1.935 ;
+    pl_geo:z 0.0 .
+
+ex:075B210B-201C-4753-92BB-ED29B37EB88B a pl:Property ;
+    rdfs:label "geometryUnits" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:geometryUnits ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:7E419C18-55E3-452C-BA15-B959C499F561 .
+
+ex:078A7117-DD6A-4963-A2B9-61B02C0E72D9 a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:DA25F2D0-6FA8-46EC-B80F-9FB1B53E077F .
+
+ex:087EAFCC-BF3E-4248-8B34-276E71BF8BD3 a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:04CA30CC-CB67-4474-96FE-F504228065ED ;
+    pl_geo:index 0 ;
+    pl_geo:x 0.5 ;
+    pl_geo:y 2.0 ;
+    pl_geo:z 1.5 .
+
+ex:09830D02-6CC8-46DA-88BB-F2BB0CD53156 a pl:Property ;
+    rdfs:label "sectionHeight" ;
+    rdfs:comment "Plan Section Height" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:sectionHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:2775F09B-8AC3-4DB0-B603-EAB435A90CB8 ;
+    pl:symbol "Roof.levelParams.sectionHeight" ;
+    pl:value 1.375 .
+
+ex:0989F218-6912-4A00-9990-789314D9A3B8 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:4F5BDD82-7C18-4EC7-8F57-838CC37F1AF8 ;
+    pl:value 0.2 .
+
+ex:0A7C18B5-9C3B-4F2B-87E0-DEEA6829709E a pl:ConnectionNode ;
+    rdfs:label "New Inout Connection Node" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isPartOf ex:A6D87909-E782-4DB9-8F9B-E63B0728EFF0 ;
+    pl:type pl_types:Inout .
+
+ex:0AD188F0-6BC3-42D5-A44A-802C7CBBAB14 a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:212BB4AC-F41C-4AD5-B738-BE3C6886F4CD ;
+    pl:value 0 .
+
+ex:0CF6BBD5-C0C8-4A50-97F2-F2E2968B9D63 a pl:Property ;
+    rdfs:label "groundsmashAdjusted" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:groundsmashAdjusted ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:7E419C18-55E3-452C-BA15-B959C499F561 ;
+    pl:value 0 .
+
+ex:0D45C5F3-6668-4123-8C1C-60B2DDACD6D0 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:DA25F2D0-6FA8-46EC-B80F-9FB1B53E077F .
+
+ex:0E5227C9-5A40-4135-A0A6-3EA314F104F0 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:329A47AE-F823-41F7-82AC-B9CD561C4B7D ;
+    pl:value 0.2 .
+
+ex:0EB847B0-CFA8-4C21-8EBD-B58FB17BA67C a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:02548A41-7737-4CDE-B850-514FA2D7B0E5 ;
+    pl_geo:index 1 ;
+    pl_geo:x 4.285 ;
+    pl_geo:y 4.385 ;
+    pl_geo:z 2.75 .
+
+ex:11082569-AD68-4374-AFC7-F4710D95FBDF a pl:Property ;
+    rdfs:label "segmentIndex" ;
+    rdfs:comment "Reference Segment Index" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:segmentIndex ;
+    pl:isPropertyOf ex:4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174 ;
+    pl:symbol "Zone 2.spaceCeilingProps.segmentIndex" ;
+    pl:value 0 .
+
+ex:129B7D6A-D3FC-49A4-8547-3EE6CD1AEFC0 a pl:ConceptualZone ;
+    rdfs:label "Mechanical Room 1" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isPartOf ex:7331F64C-D87F-406C-940E-08B6523819F9 .
+
+ex:129F6C58-1B51-4BB5-9A2F-263F2C6542A2 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:EEA2B25E-9279-45F3-A991-CCBBAB15073D ;
+    pl_geo:index 1 ;
+    pl_geo:x 4.285 ;
+    pl_geo:y 7.4350000000000005 ;
+    pl_geo:z 2.75 .
+
+ex:1321316A-3C14-44C9-946A-1F0ADCAAB059 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:02548A41-7737-4CDE-B850-514FA2D7B0E5 ;
+    pl_geo:index 0 ;
+    pl_geo:x -5.485 ;
+    pl_geo:y 4.385 ;
+    pl_geo:z 2.75 .
+
+ex:139CD5DA-B9D4-4C2E-969C-A4A28FFB6285 a pl:ConceptualZone ;
+    rdfs:label "Mechanical Room 1" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:isPartOf ex:83C8CF61-E6C8-493A-B460-178E28B64A84 .
+
+ex:143C2CA7-DC23-431F-9D21-3757CAE6DD07 a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:4ED91862-62CF-4AC1-AC23-A333F3F73D05 ;
+    pl:value 0 .
+
+ex:148CCBE4-B092-4810-89A2-6572F2646CE4 a pl:ConceptualZone ;
+    rdfs:label "Mechanical Room 1" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isPartOf ex:54834A9C-40A1-4A03-9B00-D53F1C19A61D .
+
+ex:15462E7A-6D71-4749-8CC5-B448ADA747A1 a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:4F5BDD82-7C18-4EC7-8F57-838CC37F1AF8 .
+
+ex:15A32A45-4F34-4927-AD01-5B314DEB0D01 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:DA25F2D0-6FA8-46EC-B80F-9FB1B53E077F ;
+    pl:value 0.2 .
+
+ex:15D844DA-97B2-4AA1-84C7-887CE2CF693B a pl:Property ;
+    rdfs:label "ceilingHeight" ;
+    rdfs:comment "Internal Ceiling Height" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:ceilingHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:CE0B3D61-8FA7-479B-AC02-DF49801F57D6 ;
+    pl:symbol "Zone 1.spaceProps.ceilingHeight" ;
+    pl:value 2.75 .
+
+ex:17BFB223-5684-4BE0-BF04-DCCCA27589AE pl:of ex:884832C1-D422-417B-BF3D-1143E2265110 .
+
+ex:17F06BC0-083A-4C5D-8E7F-504D641E8415 a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:4F5BDD82-7C18-4EC7-8F57-838CC37F1AF8 .
+
+ex:1A463AB0-4D4C-4D4F-A927-4B581D522691 a pl:Property ;
+    rdfs:label "height" ;
+    rdfs:comment "Space Height" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174 ;
+    pl:symbol "Zone 2.spaceProps.height" ;
+    pl:value 2.95 .
+
+ex:1AC4911E-590C-46DD-9C13-A3D90164FDA8 a pl:System ;
+    rdfs:label "User System" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isPartOf ex:AE9B5890-5A55-488F-86C5-299AA93F8C74 .
+
+ex:1CB32003-9334-4625-9ED7-AF88E2EBE44A a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:337CA3E0-E9C8-4355-91B3-64F222E0C8F8 ;
+    pl_geo:index 2 ;
+    pl_geo:x 0.10869000000000001 ;
+    pl_geo:y 4.208689990000001 ;
+    pl_geo:z 0.0 .
+
+ex:1CCC0643-E5A0-4BAD-9578-492C99E3C7E6 a pl:ConnectionNode ;
+    rdfs:label "New Output Connection Node" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isPartOf ex:A07C8132-5763-4300-97DA-E5AD2D8247DF ;
+    pl:type pl_types:Output .
+
+ex:1D1DA389-8C96-4B65-BA12-F982AB052426 a pl:System ;
+    rdfs:label "System" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isPartOf ex:77A5CEDA-AE18-4E90-8132-C5E3C135A0D2 .
+
+ex:1D46F858-0FAA-49B4-9EFF-C8115A733448 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:DEF27301-FACC-4312-8775-224838850148 .
+
+ex:1DA9C34B-86D4-4141-B93F-6CB7E80BA43B a pl:Property ;
+    rdfs:label "groundsmashMaxX" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:groundsmashMaxX ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:CBFBC5FE-8F9A-4FDA-8788-61E81F9F2BAA ;
+    pl:value 0 .
+
+ex:1FB25C3A-07E6-4D44-9A55-C0685592F8DF a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:C7611EB7-AAAE-4E0E-8F64-09310DFA9056 ;
+    pl:value 2.95 .
+
+ex:1FBD8E2B-A769-4068-9494-0AE0089C7B55 a pl:Property ;
+    rdfs:label "segmentIndex" ;
+    rdfs:comment "Reference Segment Index" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:segmentIndex ;
+    pl:isPropertyOf ex:DB3A04F0-5109-4514-9192-434AA2D34ADE ;
+    pl:symbol "Zone 2.spaceCeilingProps.segmentIndex" ;
+    pl:value 0 .
+
+ex:1FDB93A8-AFFA-4C6B-A012-E8F11744CF59 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:9A61B08A-8509-4E9B-B839-0F2766E1E6E0 ;
+    pl_geo:index 2 ;
+    pl_geo:x 12.035 ;
+    pl_geo:y 4.035 ;
+    pl_geo:z 0.0 .
+
+ex:20F2B17C-E38A-437C-A724-F789D0CF00A3 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:28EEC147-2AC3-4AD5-A3E7-5BA9CB2A52E1 ;
+    pl_geo:index 1 ;
+    pl_geo:x 12.285 ;
+    pl_geo:y -3.684999630252737 ;
+    pl_geo:z 0.0 .
+
+ex:2193E886-361D-46FB-8785-6DA621D9C514 a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:54834A9C-40A1-4A03-9B00-D53F1C19A61D .
+
+ex:21F3595F-F5C0-4B2E-9A82-4719F7F2E2FC a pl:Property ;
+    rdfs:label "groundsmashRotation" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:groundsmashRotation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:08819C19-825B-4661-B0D1-9E56B5BBB87F ;
+    pl:value 0 .
+
+ex:223499D9-AD9F-4DF4-B95D-54E51435112B a pl:System ;
+    rdfs:label "System" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:isPartOf ex:9183BFB1-9327-463E-9A03-9208BBAB93B2 .
+
+ex:22E816CE-4AEC-43ED-B970-7A5198262CA6 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:212BB4AC-F41C-4AD5-B738-BE3C6886F4CD .
+
+ex:2334E6C0-824E-46B1-A1C4-467CE51A06D0 pl:of ex:A2720511-9592-40EF-987A-8D61B6A3FF6A .
+
+ex:244AEB4A-6FAA-4487-A058-719B2BF574D6 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:EEA2B25E-9279-45F3-A991-CCBBAB15073D ;
+    pl_geo:index 3 ;
+    pl_geo:x 0.41500000000000004 ;
+    pl_geo:y 4.515 ;
+    pl_geo:z 2.75 .
+
+ex:24DE6A09-1B01-441D-8E1C-139FFD0B7BB4 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:DEF27301-FACC-4312-8775-224838850148 ;
+    pl:value 0.2 .
+
+ex:261FD96F-44B5-4350-ACBF-56145431E834 a pl:Property ;
+    rdfs:label "zoneID" ;
+    rdfs:comment "89F8F498-933D-442E-8C1C-12A24FFA3298" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:zoneID ;
+    pl:isPropertyOf ex:0229828D-F15E-4BC7-BA7C-AA69AA9DCFBB ;
+    pl:value 1 .
+
+ex:2675C886-2DEE-47AB-813F-1AE3006030C6 a pl:Property ;
+    rdfs:label "groundsmashAdjusted" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:groundsmashAdjusted ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:08819C19-825B-4661-B0D1-9E56B5BBB87F ;
+    pl:value 0 .
+
+ex:28A4D4B3-C9F5-4682-809D-80770273FD27 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:B1CA8B12-30C4-4386-9245-61F08A4B8E47 ;
+    pl_geo:index 1 ;
+    pl_geo:x 4.285 ;
+    pl_geo:y 4.515 ;
+    pl_geo:z 0.0 .
+
+ex:28A63E5E-9FED-4A92-AAC5-08EAC21E8E47 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:FF5E7731-7FAB-43A9-B70C-139B96E203B1 ;
+    pl_geo:index 1 ;
+    pl_geo:x 12.035 ;
+    pl_geo:y 4.035 ;
+    pl_geo:z 2.75 .
+
+ex:294FC543-515A-432C-9361-28C4DDCF83AF a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:6351291B-D137-4C79-82E0-EA614D362039 .
+
+ex:2997783B-B26B-439C-BBCE-C5265BA1A261 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    rdfs:comment "Floor Slab Depth" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:2E0CE835-0A8F-4592-9607-CEA9DB61ADC5 ;
+    pl:symbol "Roof.levelParams.floorSlabDepth" ;
+    pl:value 0.2 .
+
+ex:29CB5820-C64C-401C-90EC-D1416D8AD984 a pl:Property ;
+    rdfs:label "geometryUnits" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:geometryUnits ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:08819C19-825B-4661-B0D1-9E56B5BBB87F .
+
+ex:2AA24D6B-FDD9-403C-80C2-57E82295D2E8 a pl:Property ;
+    rdfs:label "height" ;
+    rdfs:comment "ElectricHeater Height" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:8EEFF048-7582-4CDE-BBA5-FE9228DB395E ;
+    pl:symbol "ElectricHeater (0033).applianceTypeParams.height" ;
+    pl:value 0.75 .
+
+ex:2AC0421B-1AA9-41AB-89CD-F5E981FF1A2E a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:21F74B66-D325-4805-A27D-EE7028D0CECF ;
+    pl_geo:index 2 ;
+    pl_geo:x 4.285 ;
+    pl_geo:y 4.385 ;
+    pl_geo:z 0.0 .
+
+ex:2C14BEB0-18F1-4707-8F58-C132FBA46084 a pl:ConnectionNode ;
+    rdfs:label "New Inout Connection Node" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isPartOf ex:2535299B-826D-4D57-8E4F-88F67B57BFD5 ;
+    pl:type pl_types:Inout .
+
+ex:2C187884-C45B-4503-9E7F-2730611698CF a pl:Property ;
+    rdfs:label "conductivity" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:conductivity ;
+    pl:isPropertyOf ex:AF4522A3-1CBD-4B8F-A04C-0A1F3E18D84B ;
+    pl:value 0.16 .
+
+ex:2C8A1EC1-62CF-48F3-9B32-594ACDC1CF06 a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:D7C0F57A-E02D-4FBC-BC55-0CADC0DA69D5 .
+
+ex:2C9A49EA-6E4D-47F2-887A-E7E5D7E8DC58 a pl:Property ;
+    rdfs:label "paneMaxHeight" ;
+    rdfs:comment "Maximum Pane Height" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:paneMaxHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:246C77FB-CD52-4770-8593-EAB6890CFD80 ;
+    pl:symbol "FixedWindow.paneParams.paneMaxHeight" ;
+    pl:value 2.4 .
+
+ex:2F030828-8A88-46E1-B4E7-16761CD43F27 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:3EF2DD97-4598-46C6-B307-40238DCC4609 ;
+    pl_geo:index 1 ;
+    pl_geo:x -5.79131 ;
+    pl_geo:y 4.6913100000000005 ;
+    pl_geo:z 0.0 .
+
+ex:2F118C1B-CA20-4F24-A2EE-CB615BE70D99 a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:212BB4AC-F41C-4AD5-B738-BE3C6886F4CD .
+
+ex:2F22DCE7-05E2-41CE-AC36-A89BAAD72564 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:02548A41-7737-4CDE-B850-514FA2D7B0E5 ;
+    pl_geo:index 3 ;
+    pl_geo:x -5.485 ;
+    pl_geo:y -3.685 ;
+    pl_geo:z 2.75 .
+
+ex:3007CBB3-0944-49DE-A956-5EDAADA81E55 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:4753468E-AE37-428D-B250-04983329D069 ;
+    pl_geo:index 0 ;
+    pl_geo:x 12.341310000000002 ;
+    pl_geo:y 4.341310000000001 ;
+    pl_geo:z -0.0000000000000004547473508864641 .
+
+ex:32189719-3AD1-4750-9D71-40C9177D8C9D a pl:Property ;
+    rdfs:label "height" ;
+    rdfs:comment "Level Height" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:D7C0F57A-E02D-4FBC-BC55-0CADC0DA69D5 ;
+    pl:symbol "Roof.levelParams.height" .
+
+ex:33D67D8F-2C97-4E8C-B12C-A8592E278DA2 a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:54834A9C-40A1-4A03-9B00-D53F1C19A61D ;
+    pl:value 0 .
+
+ex:34017114-8D71-4DC5-A21F-24C79FCA1E91 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:C7611EB7-AAAE-4E0E-8F64-09310DFA9056 ;
+    pl:value 0.2 .
+
+ex:36021EF0-CA1D-4879-9EDD-E167DB69D300 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:21F74B66-D325-4805-A27D-EE7028D0CECF ;
+    pl_geo:index 1 ;
+    pl_geo:x 4.285 ;
+    pl_geo:y -3.685 ;
+    pl_geo:z 0.0 .
+
+ex:36EB8E46-BC25-41FA-B1CD-00469FBD90E5 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    rdfs:comment "Floor Slab Depth" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:A32EDFE2-F7D7-4EFB-AB9C-FF14079D128D ;
+    pl:symbol "Floor 0.levelParams.floorSlabDepth" ;
+    pl:value 0.2 .
+
+ex:3B5AAECC-16C8-4D90-A5A6-A7AEC320B7E5 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:1619D8A6-6F89-4F93-BDAA-19EDB6F29F43 .
+
+ex:3D425970-6E19-4D1D-B0C2-D6CD6B803B13 a pl:Property ;
+    rdfs:label "geometryUnits" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:geometryUnits ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:CBFBC5FE-8F9A-4FDA-8788-61E81F9F2BAA .
+
+ex:3DC9E631-B2B4-4C21-8DA0-0192B6751C94 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:EE927495-69A5-4A56-BA5A-1AACF13251FB ;
+    pl:value 0.2 .
+
+ex:3E385CC9-141D-42C4-8AD3-DDCF67E9200A a pl:Property ;
+    rdfs:label "baseHeight" ;
+    rdfs:comment "Base Height" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:baseHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:8EEFF048-7582-4CDE-BBA5-FE9228DB395E ;
+    pl:symbol "ElectricHeater (0033).baseParams.baseHeight" ;
+    pl:value 0.1 .
+
+ex:423A2E6F-AA5C-40BD-A18F-F4387E6A2BB6 a pl:Property ;
+    rdfs:label "height" ;
+    rdfs:comment "Level Height" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:2E0CE835-0A8F-4592-9607-CEA9DB61ADC5 ;
+    pl:symbol "Roof.levelParams.height" .
+
+ex:443512B2-3C78-4F50-8D06-9F7F6D267DE8 a pl:Property ;
+    rdfs:label "segmentIndex" ;
+    rdfs:comment "Reference Segment Index" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:segmentIndex ;
+    pl:isPropertyOf ex:141186D8-3E98-40B8-993F-0FE48B46686D ;
+    pl:symbol "Zone 1.spaceCeilingProps.segmentIndex" ;
+    pl:value 0 .
+
+ex:448344E8-86A3-48B8-A831-174D092ABABD a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:6351291B-D137-4C79-82E0-EA614D362039 ;
+    pl:value 0 .
+
+ex:453BF69F-5B02-45DA-ADDC-1AA26DAE8A17 a pl:Property ;
+    rdfs:label "sectionHeight" ;
+    rdfs:comment "Plan Section Height" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:sectionHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:2E0CE835-0A8F-4592-9607-CEA9DB61ADC5 ;
+    pl:symbol "Roof.levelParams.sectionHeight" ;
+    pl:value 1.375 .
+
+ex:46DEB8B5-F696-4AD8-BF02-068369AF74F7 a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:4B51FB56-7ED9-4550-8A6A-6B3831DEB158 ;
+    pl_geo:index 3 ;
+    pl_geo:x -2.035 ;
+    pl_geo:y 1.935 ;
+    pl_geo:z 0.0 .
+
+ex:495CE0EC-8C03-497B-A18B-8EF281435573 a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:1619D8A6-6F89-4F93-BDAA-19EDB6F29F43 ;
+    pl:value 0 .
+
+ex:4A0797B4-0AEC-405D-BBB7-099331DEA8C4 a pl:ConnectionNode ;
+    rdfs:label "New Inout Connection Node" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isPartOf ex:7681F49D-71E5-4FB5-90B1-3EE69441F36C ;
+    pl:type pl_types:Inout .
+
+ex:4A53BC42-9815-4028-ADE5-511C6ABF4C92 a pl:Property ;
+    rdfs:label "height" ;
+    rdfs:comment "Level Height" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:A32EDFE2-F7D7-4EFB-AB9C-FF14079D128D ;
+    pl:symbol "Floor 0.levelParams.height" ;
+    pl:value 2.95 .
+
+ex:4BCF4412-C0F0-4A6B-8752-D28AECFF7766 a pl:Property ;
+    rdfs:label "groundsmashMaxX" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:groundsmashMaxX ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:08819C19-825B-4661-B0D1-9E56B5BBB87F ;
+    pl:value 0 .
+
+ex:4C4BEF7B-2057-43DD-889C-703398CDB980 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:96C690FE-114D-458F-814E-73BC5E13F840 ;
+    pl_geo:index 3 ;
+    pl_geo:x 12.591310000000002 ;
+    pl_geo:y -3.9913096500000003 ;
+    pl_geo:z 0.0 .
+
+ex:4CCE9861-3113-4C59-8790-CA6DE58736D5 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:D7C0F57A-E02D-4FBC-BC55-0CADC0DA69D5 ;
+    pl:value 3.3500000000000005 .
+
+ex:4CE1BD77-AF27-40C1-9A15-F323972D1D87 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:A0C672EB-3968-4E51-A578-D10DAA2EC68D .
+
+ex:50F51E7F-0A92-4F09-B00C-E52731DA05CC a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:392B00CD-9D9C-4557-9392-637C4270F046 ;
+    pl_geo:index 1 ;
+    pl_geo:x -2.3413100100000004 ;
+    pl_geo:y 2.2413100000000004 ;
+    pl_geo:z -0.0000000000000004547473508864641 .
+
+ex:517007CD-DE6C-4A01-AE36-14AB94689510 a pl:Property ;
+    rdfs:label "groundsmashElevation" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:groundsmashElevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:08819C19-825B-4661-B0D1-9E56B5BBB87F ;
+    pl:value 0 .
+
+ex:537CAAA0-5598-4500-BED8-F70742D5130D a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:7331F64C-D87F-406C-940E-08B6523819F9 .
+
+ex:53F28E54-4744-4155-B96F-39B0D95304D3 a pl:Property ;
+    rdfs:label "frameDepth" ;
+    rdfs:comment "Frame Depth" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:frameDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:246C77FB-CD52-4770-8593-EAB6890CFD80 ;
+    pl:symbol "FixedWindow.frameParams.frameDepth" ;
+    pl:value 0.075 .
+
+ex:541D75A5-E8DC-4C99-977C-D40FDE6CE60A a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:DA25F2D0-6FA8-46EC-B80F-9FB1B53E077F .
+
+ex:56B42C96-5BCE-4619-B38F-5372353215ED a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:E3F27A81-2507-437F-BEC5-7DF0D46E25CA ;
+    pl_geo:index 2 ;
+    pl_geo:x -7.24131 ;
+    pl_geo:y -6.49131 ;
+    pl_geo:z -0.0000000000000004547473508864641 .
+
+ex:5711032E-0AC2-4CBD-83F2-65AA42E55621 a pl:Property ;
+    rdfs:label "zoneID" ;
+    rdfs:comment "DB3A04F0-5109-4514-9192-434AA2D34ADE" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:zoneID ;
+    pl:isPropertyOf ex:4647596D-1A73-4C59-B69A-7623EFD3BEA2 ;
+    pl:value 1 .
+
+ex:575E28AA-AF3D-4B15-8879-7132421E8005 a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:8D893A21-DFD0-4469-8498-F38360C44D56 ;
+    pl:value 0 .
+
+ex:59CE5D6B-2E43-420F-B619-B048592BAC63 a pl:Property ;
+    rdfs:label "groundsmashMinY" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:groundsmashMinY ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:7E419C18-55E3-452C-BA15-B959C499F561 ;
+    pl:value -20000 .
+
+ex:5A981C09-6EDF-4E08-A097-588BE5D86903 a pl:Property ;
+    rdfs:label "height" ;
+    rdfs:comment "Level Height" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:2775F09B-8AC3-4DB0-B603-EAB435A90CB8 ;
+    pl:symbol "Roof.levelParams.height" .
+
+ex:5B0691CE-526F-414F-AD4F-834DC1FE4054 a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:DEF27301-FACC-4312-8775-224838850148 .
+
+ex:5C680F18-BEF1-4EA8-B8D1-279C6548052D a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:337CA3E0-E9C8-4355-91B3-64F222E0C8F8 ;
+    pl_geo:index 1 ;
+    pl_geo:x 0.10869000000000001 ;
+    pl_geo:y 7.74131 ;
+    pl_geo:z 0.0 .
+
+ex:5C6F48D1-CF60-42B2-BC09-625035D74753 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:E3F27A81-2507-437F-BEC5-7DF0D46E25CA ;
+    pl_geo:index 0 ;
+    pl_geo:x 6.641310000000001 ;
+    pl_geo:y 5.591310000000001 ;
+    pl_geo:z -0.0000000000000004547473508864641 .
+
+ex:5D1487D3-C75D-41E0-8DCB-9DB1CA1789CD a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:337CA3E0-E9C8-4355-91B3-64F222E0C8F8 ;
+    pl_geo:index 0 ;
+    pl_geo:x 4.591310000000001 ;
+    pl_geo:y 7.74131 ;
+    pl_geo:z 0.0 .
+
+ex:5EE8D8CB-0D5D-476B-832B-77E47236F623 a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:6351291B-D137-4C79-82E0-EA614D362039 .
+
+ex:5F1F0A03-05D8-4F66-9E64-6A2479BE6D2B a pl:Property ;
+    rdfs:label "floorLevel" ;
+    rdfs:comment "Floor Level" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:floorLevel ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:D7C0F57A-E02D-4FBC-BC55-0CADC0DA69D5 ;
+    pl:symbol "Roof.levelParams.floorLevel" ;
+    pl:value 3.3500000000000005 .
+
+ex:5F1F441B-04D7-4143-AB00-EF2D1996182C a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:C7611EB7-AAAE-4E0E-8F64-09310DFA9056 ;
+    pl:value 0 .
+
+ex:60C58BB3-7CAC-4E92-A0F7-569F0B52FE0E pl:of ex:AFE88AC6-9C59-4F89-879A-CA4D488D5FBA .
+
+ex:612FCEF9-8868-490B-A750-D04BFA85671D a pl:ConnectionNode ;
+    rdfs:label "New Output Connection Node" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isPartOf ex:9B5D50A5-29C3-46D6-AAC8-F24E900B30E0 ;
+    pl:type pl_types:Output .
+
+ex:6237A407-D93D-49B5-A86A-5323E053ADBE a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:A32EDFE2-F7D7-4EFB-AB9C-FF14079D128D ;
+    pl:value 0 .
+
+ex:6715BE53-C10D-416E-8154-D3C21D5C5661 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:7331F64C-D87F-406C-940E-08B6523819F9 .
+
+ex:68D20B00-130B-4226-BE61-92357EE9AECF pl:of ex:F4D0D7CB-745E-4052-8845-01AE5C119B12 .
+
+ex:68E5EF2B-4853-45B3-B7D7-862D25246AC7 a pl:Property ;
+    rdfs:label "ceilingHeight" ;
+    rdfs:comment "Internal Ceiling Height" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:ceilingHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:89F8F498-933D-442E-8C1C-12A24FFA3298 ;
+    pl:symbol "Zone 3.spaceProps.ceilingHeight" ;
+    pl:value 2.75 .
+
+ex:69585E78-2FBE-403F-BDE8-E71996103B32 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:E50BB468-D542-46F6-840D-8E6F7D48ECC3 ;
+    pl_geo:index 1 ;
+    pl_geo:x 6.335 ;
+    pl_geo:y 5.285 ;
+    pl_geo:z 2.75 .
+
+ex:6A64249B-0851-4667-948D-2E394C949D95 a pl:Property ;
+    rdfs:label "baseInset" ;
+    rdfs:comment "Base Inset" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:baseInset ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:8EEFF048-7582-4CDE-BBA5-FE9228DB395E ;
+    pl:symbol "ElectricHeater (0033).baseParams.baseInset" ;
+    pl:value 0.04 .
+
+ex:6A7B4584-5BB4-4582-A901-6F7467009B99 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:EEA2B25E-9279-45F3-A991-CCBBAB15073D ;
+    pl_geo:index 0 ;
+    pl_geo:x 0.41500000000000004 ;
+    pl_geo:y 7.4350000000000005 ;
+    pl_geo:z 2.75 .
+
+ex:6AC9443D-778E-44AF-9983-D2DC683A3612 a pl:Property ;
+    rdfs:label "height" ;
+    rdfs:comment "Space Height" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:141186D8-3E98-40B8-993F-0FE48B46686D ;
+    pl:symbol "Zone 1.spaceProps.height" ;
+    pl:value 2.95 .
+
+ex:6ADBB1B5-D45C-4FFF-AB33-5822FF49F2E5 a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:4ED91862-62CF-4AC1-AC23-A333F3F73D05 .
+
+ex:6B7BC1BC-BC27-4E02-A8E2-73DDFE41720E a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:7331F64C-D87F-406C-940E-08B6523819F9 ;
+    pl:value 0.2 .
+
+ex:6B86F52B-87CD-4FB7-AD46-09648CADAAF6 a pl:ConnectionNode ;
+    rdfs:label "New Inout Connection Node" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isPartOf ex:7D13C665-EC61-44B3-984F-9ABBCD78D2DD ;
+    pl:type pl_types:Inout .
+
+ex:6B9539DA-580F-46E1-A9C8-269F0F0A1A0D a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:2E0CE835-0A8F-4592-9607-CEA9DB61ADC5 .
+
+ex:6BA121FD-0C2A-4854-B2DC-CEE7189A6742 a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:11CCABE5-E1DB-473A-B1F0-37A6166F7819 ;
+    pl_geo:index 1 ;
+    pl_geo:x 1.835 ;
+    pl_geo:y 1.935 ;
+    pl_geo:z 2.75 .
+
+ex:6C8698B5-80CA-4791-B5E4-304D6EF4E820 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:C7611EB7-AAAE-4E0E-8F64-09310DFA9056 .
+
+ex:6D486AB3-E8C4-404D-BB91-A8CC01F8EB33 a pl:Location ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isLocationOf ex:AE9B5890-5A55-488F-86C5-299AA93F8C74 ;
+    pl_geo:elevation 4265 ;
+    pl_geo:latitude 40.76 ;
+    pl_geo:longtitude -111.89 .
+
+ex:6DD2F160-6379-4C39-8273-C271A0493C69 a pl:Property ;
+    rdfs:label "ceilingAngle" ;
+    rdfs:comment "Ceiling Pitch Angle" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:ceilingAngle ;
+    pl:isPropertyOf ex:4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174 ;
+    pl:symbol "Zone 2.spaceCeilingProps.ceilingAngle" ;
+    pl:value 0 .
+
+ex:6E151811-EC84-4F6C-8FAC-35C91648E666 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:6F1E4F01-4671-4C17-BAA0-43A47CC497F7 ;
+    pl_geo:index 1 ;
+    pl_geo:x 6.335 ;
+    pl_geo:y -6.1850000000000005 ;
+    pl_geo:z 0.0 .
+
+ex:6E30D98B-22ED-4327-B7E6-052605497562 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:28EEC147-2AC3-4AD5-A3E7-5BA9CB2A52E1 ;
+    pl_geo:index 2 ;
+    pl_geo:x 12.285 ;
+    pl_geo:y 3.335 ;
+    pl_geo:z 0.0 .
+
+ex:6E77608E-BF24-4807-B51E-5B088D7DE7B8 a pl:Property ;
+    rdfs:label "conductivity" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:conductivity ;
+    pl:isPropertyOf ex:FCBAB17F-9D48-4CAE-A81B-FE0991AF8557 ;
+    pl:value 1.7296 .
+
+ex:6E7AC686-6DD3-40C6-8C85-BCA568B4451D a pl:Property ;
+    rdfs:label "sectionHeight" ;
+    rdfs:comment "Plan Section Height" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:sectionHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:EE927495-69A5-4A56-BA5A-1AACF13251FB ;
+    pl:symbol "Floor 0.levelParams.sectionHeight" ;
+    pl:value 1.375 .
+
+ex:6ED46D37-CA79-4A01-96AD-79780432EA6A a pl:Property ;
+    rdfs:label "zoneID" ;
+    rdfs:comment "141186D8-3E98-40B8-993F-0FE48B46686D" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:zoneID ;
+    pl:isPropertyOf ex:88FB0782-7E8B-43BE-B213-7E2742793018 ;
+    pl:value 1 .
+
+ex:6FE11329-AA79-493E-AC8B-F6D559EB4781 a pl:Property ;
+    rdfs:label "zoneID" ;
+    rdfs:comment "CE0B3D61-8FA7-479B-AC02-DF49801F57D6" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:zoneID ;
+    pl:isPropertyOf ex:70F98978-D188-4B80-A158-4B2F2498B91D ;
+    pl:value 1 .
+
+ex:722BBE79-E287-4080-9EB2-C78F4C457E42 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:4753468E-AE37-428D-B250-04983329D069 ;
+    pl_geo:index 1 ;
+    pl_geo:x 6.158689600000001 ;
+    pl_geo:y 4.341310000000001 ;
+    pl_geo:z -0.0000000000000004547473508864641 .
+
+ex:726177F4-88C4-4456-8F11-29E7CD577A71 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:662B943B-8437-4CF1-AD88-43D707483366 ;
+    pl_geo:index 0 ;
+    pl_geo:x -4.6000000000000005 ;
+    pl_geo:y 3.65 ;
+    pl_geo:z 0.0 .
+
+ex:72D8F72A-751F-458A-89FF-171E8B6524E1 a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:6351291B-D137-4C79-82E0-EA614D362039 .
+
+ex:752519FD-C32C-4279-8C59-3329B3ECC31F a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:54834A9C-40A1-4A03-9B00-D53F1C19A61D .
+
+ex:75659BEC-D672-4887-BACB-D5E3CE069C74 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:E50BB468-D542-46F6-840D-8E6F7D48ECC3 ;
+    pl_geo:index 2 ;
+    pl_geo:x 6.335 ;
+    pl_geo:y -6.1850000000000005 ;
+    pl_geo:z 2.75 .
+
+ex:76343667-744F-431F-98D5-3A9FE9E5ABCA a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:2775F09B-8AC3-4DB0-B603-EAB435A90CB8 ;
+    pl:value 0 .
+
+ex:78C072A0-EBAE-4E22-8155-0A59CB41B8AE a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:4F5BDD82-7C18-4EC7-8F57-838CC37F1AF8 .
+
+ex:78C9316D-7B66-44F5-A766-0728DF8129F9 a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:2E0CE835-0A8F-4592-9607-CEA9DB61ADC5 ;
+    pl:value 0 .
+
+ex:78E40774-7100-44ED-80D4-6ED22BB95AFB a pl:ConnectionNode ;
+    rdfs:label "New Inout Connection Node" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isPartOf ex:7D13C665-EC61-44B3-984F-9ABBCD78D2DD ;
+    pl:type pl_types:Inout .
+
+ex:790C380C-8840-4B92-8FD6-7BC65AD97D7B a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:EE927495-69A5-4A56-BA5A-1AACF13251FB ;
+    pl:value 0 .
+
+ex:799E74BA-BD8F-4260-8D67-14E2292E5911 a pl:Property ;
+    rdfs:label "width" ;
+    rdfs:comment "ElectricHeater Width" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:width ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:8EEFF048-7582-4CDE-BBA5-FE9228DB395E ;
+    pl:symbol "ElectricHeater (0033).applianceTypeParams.width" ;
+    pl:value 0.6 .
+
+ex:7B8F37EB-8D38-41A7-951D-76F52388092F a pl:Property ;
+    rdfs:label "thickness" ;
+    rdfs:comment "Wall Thickness" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:thickness ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:E5811E35-BDF3-450A-AFBD-3F213F67FEB1 ;
+    pl:symbol "DefaultWall - Copy(203).constructionParams.thickness" ;
+    pl:value 0.24131 .
+
+ex:7C287F01-BA62-4FFF-A994-173F71EBE504 a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:392B00CD-9D9C-4557-9392-637C4270F046 ;
+    pl_geo:index 0 ;
+    pl_geo:x 2.1413100000000003 ;
+    pl_geo:y 2.2413100000000004 ;
+    pl_geo:z -0.0000000000000004547473508864641 .
+
+ex:7C49759C-19DD-44DC-95D6-C459D3053144 a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:329A47AE-F823-41F7-82AC-B9CD561C4B7D .
+
+ex:7C9CD293-DEFD-4F7A-A2C6-B387F782916B a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:11CCABE5-E1DB-473A-B1F0-37A6166F7819 ;
+    pl_geo:index 3 ;
+    pl_geo:x -2.035 ;
+    pl_geo:y -1.935 ;
+    pl_geo:z 2.75 .
+
+ex:7E5BBDE8-BC55-47F8-A956-BF2BC45D2F86 a pl:ConnectionNode ;
+    rdfs:label "New Inout Connection Node" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isPartOf ex:7681F49D-71E5-4FB5-90B1-3EE69441F36C ;
+    pl:type pl_types:Inout .
+
+ex:7FBF3F41-5CF8-4867-B33A-93324A9A00B8 a pl:ConnectionNode ;
+    rdfs:label "New Inout Connection Node" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isPartOf ex:2535299B-826D-4D57-8E4F-88F67B57BFD5 ;
+    pl:type pl_types:Inout .
+
+ex:7FCD693F-CF1B-4431-AF48-46CE2A309BD9 a pl:Property ;
+    rdfs:label "groundsmashRotation" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:groundsmashRotation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:7E419C18-55E3-452C-BA15-B959C499F561 ;
+    pl:value 0 .
+
+ex:80AAE4F1-6B9D-4636-BC17-893BD79A5A56 a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:8D893A21-DFD0-4469-8498-F38360C44D56 .
+
+ex:83311A82-73E9-4376-8848-71563AC78033 a pl:ConnectionNode ;
+    rdfs:label "New Inout Connection Node" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isPartOf ex:2535299B-826D-4D57-8E4F-88F67B57BFD5 ;
+    pl:type pl_types:Inout .
+
+ex:8416B367-DEC5-456A-851E-DD973238FEEF a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:DEF27301-FACC-4312-8775-224838850148 .
+
+ex:84EE840A-9142-42AF-8216-2A7696653DCF a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:9A61B08A-8509-4E9B-B839-0F2766E1E6E0 ;
+    pl_geo:index 0 ;
+    pl_geo:x 6.464999604368359 ;
+    pl_geo:y -4.235 ;
+    pl_geo:z 0.0 .
+
+ex:86A8160C-9C1F-42D4-AE73-009393B8F217 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:21F74B66-D325-4805-A27D-EE7028D0CECF ;
+    pl_geo:index 0 ;
+    pl_geo:x -5.485 ;
+    pl_geo:y -3.685 ;
+    pl_geo:z 0.0 .
+
+ex:8835FB8D-ADB9-4D74-B5F2-3FB8771322A9 pl:of ex:A2B07AEC-67C9-4148-BFD7-FCD8B7FC0298 .
+
+ex:884832C1-D422-417B-BF3D-1143E2265110 a pl:AuthGroup ;
+    pl:has ex:17BFB223-5684-4BE0-BF04-DCCCA27589AE ;
+    pl:isDeployed false .
+
+ex:88E340DF-888F-4FF5-B0EE-45D8F5222DD7 a pl:System ;
+    rdfs:label "System" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isPartOf ex:AE9B5890-5A55-488F-86C5-299AA93F8C74 .
+
+ex:898AF0F6-295B-42EE-B0D0-2844333B0498 a pl:Location ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isLocationOf ex:77A5CEDA-AE18-4E90-8132-C5E3C135A0D2 ;
+    pl_geo:elevation 4265 ;
+    pl_geo:latitude 40.76 ;
+    pl_geo:longtitude -111.89 .
+
+ex:89A6785F-EA66-4BBF-9252-55DF364237F6 a pl:Property ;
+    rdfs:label "ceilingHeight" ;
+    rdfs:comment "Default Ceiling Height" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:ceilingHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:D7C0F57A-E02D-4FBC-BC55-0CADC0DA69D5 ;
+    pl:symbol "Roof.levelParams.ceilingHeight" ;
+    pl:value 2.75 .
+
+ex:89E738B5-E6E1-49F9-B2C6-C222937C3BC7 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:02548A41-7737-4CDE-B850-514FA2D7B0E5 ;
+    pl_geo:index 2 ;
+    pl_geo:x 4.285 ;
+    pl_geo:y -3.685 ;
+    pl_geo:z 2.75 .
+
+ex:8AC44827-881D-450D-99D7-8182DBECFFFD a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:6F1E4F01-4671-4C17-BAA0-43A47CC497F7 ;
+    pl_geo:index 3 ;
+    pl_geo:x -6.9350000000000005 ;
+    pl_geo:y 5.285 ;
+    pl_geo:z 0.0 .
+
+ex:8AD7F2A6-9FD2-45D4-8523-87F03A2F751A a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    rdfs:comment "Floor Slab Depth" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:EE927495-69A5-4A56-BA5A-1AACF13251FB ;
+    pl:symbol "Floor 0.levelParams.floorSlabDepth" ;
+    pl:value 0.2 .
+
+ex:8B5B1573-4DAF-460B-BD32-65FDAEBB82C1 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:3EF2DD97-4598-46C6-B307-40238DCC4609 ;
+    pl_geo:index 3 ;
+    pl_geo:x 4.591310000000001 ;
+    pl_geo:y -3.9913100100000003 ;
+    pl_geo:z 0.0 .
+
+ex:8B6AAE30-EA5E-40B7-9073-42383AFCE45F a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:C7611EB7-AAAE-4E0E-8F64-09310DFA9056 ;
+    pl:value 0 .
+
+ex:8BFC188A-BB9C-4E67-B9C1-60DF20570335 a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:1619D8A6-6F89-4F93-BDAA-19EDB6F29F43 ;
+    pl:value 0 .
+
+ex:8CD9F236-7800-4763-BA0D-0B1047A9756C a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:4B51FB56-7ED9-4550-8A6A-6B3831DEB158 ;
+    pl_geo:index 2 ;
+    pl_geo:x 1.835 ;
+    pl_geo:y 1.935 ;
+    pl_geo:z 0.0 .
+
+ex:8CDC8B91-1EE3-4D22-877D-12AAB941CEE7 a pl:Property ;
+    rdfs:label "ceilingHeight" ;
+    rdfs:comment "Internal Ceiling Height" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:ceilingHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:141186D8-3E98-40B8-993F-0FE48B46686D ;
+    pl:symbol "Zone 1.spaceProps.ceilingHeight" ;
+    pl:value 2.75 .
+
+ex:8D2C70E1-B106-4C3C-8149-B9B07D97FF92 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:28EEC147-2AC3-4AD5-A3E7-5BA9CB2A52E1 ;
+    pl_geo:index 0 ;
+    pl_geo:x 4.415000042825881 ;
+    pl_geo:y -3.684999630252737 ;
+    pl_geo:z 0.0 .
+
+ex:8DACC576-6B07-43AB-843C-819BE12D1385 a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:A0C672EB-3968-4E51-A578-D10DAA2EC68D .
+
+ex:8E9692A5-27C8-4074-B59A-F38BBA79E01D pl:of ex:7B1A4A83-DE48-4214-99E7-FA9814D5B80D .
+
+ex:8FBED276-06AB-4CE2-B67F-BFA57A93601B a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:11CCABE5-E1DB-473A-B1F0-37A6166F7819 ;
+    pl_geo:index 0 ;
+    pl_geo:x -2.035 ;
+    pl_geo:y 1.935 ;
+    pl_geo:z 2.75 .
+
+ex:908AB3C0-46DB-4C14-B821-61E5CEE15105 a pl:ConceptualZone ;
+    rdfs:label "Environmental Zone" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:isPartOf ex:DEF27301-FACC-4312-8775-224838850148 .
+
+ex:929A9C40-1713-4747-A562-E4217FBC5A95 a pl:Property ;
+    rdfs:label "ceilingAngle" ;
+    rdfs:comment "Ceiling Pitch Angle" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:ceilingAngle ;
+    pl:isPropertyOf ex:141186D8-3E98-40B8-993F-0FE48B46686D ;
+    pl:symbol "Zone 1.spaceCeilingProps.ceilingAngle" ;
+    pl:value 0 .
+
+ex:93CFF8AC-339F-4CB9-9D40-3D66292F84F6 a pl:Property ;
+    rdfs:label "zoneID" ;
+    rdfs:comment "4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:zoneID ;
+    pl:isPropertyOf ex:5C851677-54AC-4349-B1A2-A7CC3F37FA99 ;
+    pl:value 1 .
+
+ex:9501421D-C437-414E-A4CF-A83A3CA120BB a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:D1528B10-26A2-470A-80D0-E697ADA5677B ;
+    pl:value 0 .
+
+ex:953678E6-5A6D-4A47-934D-DF65D19C5733 a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:246C77FB-CD52-4770-8593-EAB6890CFD80 ;
+    pl:value 1.2 .
+
+ex:95BE2DE5-BCB4-451D-9ADB-9DEA9238D49F a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:D1528B10-26A2-470A-80D0-E697ADA5677B ;
+    pl:value 0.2 .
+
+ex:97B543CD-7A9C-41E2-83B7-F308AD67730B a pl:ConceptualZone ;
+    rdfs:label "Environmental Zone" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isPartOf ex:329A47AE-F823-41F7-82AC-B9CD561C4B7D .
+
+ex:9844DBE1-B1F2-4FC6-88A8-91B5116880C2 a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:7331F64C-D87F-406C-940E-08B6523819F9 .
+
+ex:9A2EDBA9-855A-46B8-BB41-8E30A20E378A a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:6F1E4F01-4671-4C17-BAA0-43A47CC497F7 ;
+    pl_geo:index 2 ;
+    pl_geo:x 6.335 ;
+    pl_geo:y 5.285 ;
+    pl_geo:z 0.0 .
+
+ex:9AADCB91-2799-4985-AF52-7BE5A224DE8F a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:4B51FB56-7ED9-4550-8A6A-6B3831DEB158 ;
+    pl_geo:index 1 ;
+    pl_geo:x 1.835 ;
+    pl_geo:y -1.935 ;
+    pl_geo:z 0.0 .
+
+ex:9AB30D40-F29E-45E4-9F7B-06B790B53228 a pl:Property ;
+    rdfs:label "subType" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:subType ;
+    pl:isPropertyOf ex:246C77FB-CD52-4770-8593-EAB6890CFD80 ;
+    pl:value 1 .
+
+ex:9ADF4443-2E79-4324-B56B-8F71DE41FB03 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:337CA3E0-E9C8-4355-91B3-64F222E0C8F8 ;
+    pl_geo:index 3 ;
+    pl_geo:x 4.591310000000001 ;
+    pl_geo:y 4.208689990000001 ;
+    pl_geo:z 0.0 .
+
+ex:9B3C491E-0471-49C5-97DD-9070BEC05FAE a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:4F5BDD82-7C18-4EC7-8F57-838CC37F1AF8 ;
+    pl:value 0 .
+
+ex:9BD4A2B3-5457-4C48-B3EE-E8EA880C647C a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:4ED91862-62CF-4AC1-AC23-A333F3F73D05 .
+
+ex:9E9BBBAB-5E02-4579-B27B-2095010A1B3D a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:392B00CD-9D9C-4557-9392-637C4270F046 ;
+    pl_geo:index 3 ;
+    pl_geo:x 2.1413100000000003 ;
+    pl_geo:y -2.2413100100000003 ;
+    pl_geo:z -0.0000000000000004547473508864641 .
+
+ex:9EA86506-6894-4965-81C1-02AD2E664D48 a pl:Property ;
+    rdfs:label "ceilingAngle" ;
+    rdfs:comment "Ceiling Pitch Angle" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:ceilingAngle ;
+    pl:isPropertyOf ex:DB3A04F0-5109-4514-9192-434AA2D34ADE ;
+    pl:symbol "Zone 2.spaceCeilingProps.ceilingAngle" ;
+    pl:value 0 .
+
+ex:9F9F4C91-CB90-4639-8373-D8E3AA72E3BA a pl:Property ;
+    rdfs:label "rValue" ;
+    rdfs:comment "R-value" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:rValue ;
+    pl:isPropertyOf ex:E5811E35-BDF3-450A-AFBD-3F213F67FEB1 ;
+    pl:symbol "DefaultWall - Copy(203).constructionParams.rValue" ;
+    pl:value 1.3262392531322955 .
+
+ex:A039055B-EEBE-454F-9202-DCDEF2E9F811 a pl:Property ;
+    rdfs:label "height" ;
+    rdfs:comment "Level Height" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:EE927495-69A5-4A56-BA5A-1AACF13251FB ;
+    pl:symbol "Floor 0.levelParams.height" ;
+    pl:value 2.95 .
+
+ex:A10856E5-CE37-4817-B5BB-B49F2609259D a pl:Property ;
+    rdfs:label "floorLevel" ;
+    rdfs:comment "Floor Level" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:floorLevel ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:D1528B10-26A2-470A-80D0-E697ADA5677B ;
+    pl:symbol "Floor 0.levelParams.floorLevel" ;
+    pl:value 0.2 .
+
+ex:A182A5E6-E550-4492-A090-C69047F6032C a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:9A61B08A-8509-4E9B-B839-0F2766E1E6E0 ;
+    pl_geo:index 1 ;
+    pl_geo:x 12.035 ;
+    pl_geo:y -4.235 ;
+    pl_geo:z 0.0 .
+
+ex:A2720511-9592-40EF-987A-8D61B6A3FF6A a pl:AuthGroup ;
+    pl:has ex:2334E6C0-824E-46B1-A1C4-467CE51A06D0 ;
+    pl:isDeployed false .
+
+ex:A2B07AEC-67C9-4148-BFD7-FCD8B7FC0298 a pl:AuthGroup ;
+    pl:has ex:8835FB8D-ADB9-4D74-B5F2-3FB8771322A9 ;
+    pl:isDeployed false .
+
+ex:A349A72F-99AC-4250-BBD1-418F7A5FD8B5 a pl:Property ;
+    rdfs:label "floorLevel" ;
+    rdfs:comment "Floor Level" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:floorLevel ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:2775F09B-8AC3-4DB0-B603-EAB435A90CB8 ;
+    pl:symbol "Roof.levelParams.floorLevel" ;
+    pl:value 3.3500000000000005 .
+
+ex:A3F49A1E-263B-4642-9BCA-58B0C160D105 a pl:Property ;
+    rdfs:label "ceilingHeight" ;
+    rdfs:comment "Default Ceiling Height" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:ceilingHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:2E0CE835-0A8F-4592-9607-CEA9DB61ADC5 ;
+    pl:symbol "Roof.levelParams.ceilingHeight" ;
+    pl:value 2.75 .
+
+ex:A3FF8CDA-5E61-4DE6-BFEA-5929D53A9DAE a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:3EF2DD97-4598-46C6-B307-40238DCC4609 ;
+    pl_geo:index 2 ;
+    pl_geo:x -5.79131 ;
+    pl_geo:y -3.9913100100000003 ;
+    pl_geo:z 0.0 .
+
+ex:A4F1DA07-5C63-4B46-AF5B-7634C8F27EA5 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:4753468E-AE37-428D-B250-04983329D069 ;
+    pl_geo:index 3 ;
+    pl_geo:x 12.341310000000002 ;
+    pl_geo:y -4.54131001 ;
+    pl_geo:z -0.0000000000000004547473508864641 .
+
+ex:A5B78CDD-032E-40F8-A606-7505DBC5FC01 a pl:ConceptualZone ;
+    rdfs:label "Mechanical Room 1" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isPartOf ex:DA25F2D0-6FA8-46EC-B80F-9FB1B53E077F .
+
+ex:A6407A0A-D197-4B97-8690-EC64F0863313 a pl:Property ;
+    rdfs:label "segmentOffset" ;
+    rdfs:comment "Segment Offset" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:segmentOffset ;
+    pl:isPropertyOf ex:8EEFF048-7582-4CDE-BBA5-FE9228DB395E ;
+    pl:symbol "ElectricHeater (0033).applianceTypeParams.segmentOffset" ;
+    pl:value 0 .
+
+ex:A6792880-6F42-4616-A0E1-CD7EB5C7B0B9 a pl:Property ;
+    rdfs:label "height" ;
+    rdfs:comment "Space Height" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:DB3A04F0-5109-4514-9192-434AA2D34ADE ;
+    pl:symbol "Zone 2.spaceProps.height" ;
+    pl:value 2.9500000000000006 .
+
+ex:A82F7188-E0E5-4FB8-92C9-F55722E6D5FA a pl:Property ;
+    rdfs:label "sectionHeight" ;
+    rdfs:comment "Plan Section Height" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:sectionHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:D1528B10-26A2-470A-80D0-E697ADA5677B ;
+    pl:symbol "Floor 0.levelParams.sectionHeight" ;
+    pl:value 1.375 .
+
+ex:ABF27CE1-0647-45E5-AF58-A6AC3818E82F a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:54834A9C-40A1-4A03-9B00-D53F1C19A61D .
+
+ex:AD0C052A-06AC-4F40-A308-DACB22293A13 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:FF5E7731-7FAB-43A9-B70C-139B96E203B1 ;
+    pl_geo:index 0 ;
+    pl_geo:x 6.464999604368359 ;
+    pl_geo:y 4.035 ;
+    pl_geo:z 2.75 .
+
+ex:ADA3C4A2-7985-4111-A348-9E2F5CE08474 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:8D893A21-DFD0-4469-8498-F38360C44D56 ;
+    pl:value 0.2 .
+
+ex:AEE0FD44-455A-4389-B546-985ABAAC461D a pl:Property ;
+    rdfs:label "ceilingHeight" ;
+    rdfs:comment "Default Ceiling Height" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:ceilingHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:2775F09B-8AC3-4DB0-B603-EAB435A90CB8 ;
+    pl:symbol "Roof.levelParams.ceilingHeight" ;
+    pl:value 2.75 .
+
+ex:AEF27E4A-531C-4D01-8A79-C4FA6E45F22E a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:6351291B-D137-4C79-82E0-EA614D362039 ;
+    pl:value 0.2 .
+
+ex:AF539EA0-0F15-467C-8740-721EA771FA98 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:4ED91862-62CF-4AC1-AC23-A333F3F73D05 .
+
+ex:AF591D85-FEDA-4FAD-9486-1ACEF8D9A951 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:2775F09B-8AC3-4DB0-B603-EAB435A90CB8 ;
+    pl:value 3.3500000000000005 .
+
+ex:AFE2B2F0-E24B-4D36-8806-93BBFE1ACCDB a pl:Property ;
+    rdfs:label "groundsmashMaxX" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:groundsmashMaxX ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:7E419C18-55E3-452C-BA15-B959C499F561 ;
+    pl:value 20000 .
+
+ex:AFE88AC6-9C59-4F89-879A-CA4D488D5FBA a pl:AuthGroup ;
+    pl:has ex:60C58BB3-7CAC-4E92-A0F7-569F0B52FE0E ;
+    pl:isDeployed false .
+
+ex:AFFADB70-2946-4E4E-9C9C-E8E6297E7844 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:EEA2B25E-9279-45F3-A991-CCBBAB15073D ;
+    pl_geo:index 2 ;
+    pl_geo:x 4.285 ;
+    pl_geo:y 4.515 ;
+    pl_geo:z 2.75 .
+
+ex:B034DF6C-0C66-4718-84DB-701DD0489E3E a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:83C8CF61-E6C8-493A-B460-178E28B64A84 .
+
+ex:B05096B9-D8EC-45DF-A128-41FB897C7874 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:3EF2DD97-4598-46C6-B307-40238DCC4609 ;
+    pl_geo:index 0 ;
+    pl_geo:x 4.591310000000001 ;
+    pl_geo:y 4.6913100000000005 ;
+    pl_geo:z 0.0 .
+
+ex:B112656B-AEF9-4726-AF89-1E74C417C883 a pl:Location ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isLocationOf ex:99C89735-150C-4F58-8E86-CED26DD09A43 ;
+    pl_geo:elevation 4265 ;
+    pl_geo:latitude 40.76 ;
+    pl_geo:longtitude -111.89 .
+
+ex:B1E8273F-43B5-4CE9-A22F-A55634949AF1 a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:212BB4AC-F41C-4AD5-B738-BE3C6886F4CD .
+
+ex:B1EAD277-324C-478B-A8EE-DEC3231784D1 a pl:Property ;
+    rdfs:label "groundsmashMaxY" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:groundsmashMaxY ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:CBFBC5FE-8F9A-4FDA-8788-61E81F9F2BAA ;
+    pl:value 0 .
+
+ex:B333C488-5451-4B4F-961D-4B6D3AF78642 a pl:Property ;
+    rdfs:label "ceilingHeight" ;
+    rdfs:comment "Default Ceiling Height" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:ceilingHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:EE927495-69A5-4A56-BA5A-1AACF13251FB ;
+    pl:symbol "Floor 0.levelParams.ceilingHeight" ;
+    pl:value 2.75 .
+
+ex:B34C085D-0D99-4122-8B7D-26F2907E9204 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:1812D2DD-AAF6-49F8-8EA0-4099E649F32A ;
+    pl_geo:index 0 ;
+    pl_geo:x 4.415000042825881 ;
+    pl_geo:y 3.335 ;
+    pl_geo:z 2.75 .
+
+ex:B4153A50-CF49-4F1A-912C-DF89BE2BFC5E a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:11CCABE5-E1DB-473A-B1F0-37A6166F7819 ;
+    pl_geo:index 2 ;
+    pl_geo:x 1.835 ;
+    pl_geo:y -1.935 ;
+    pl_geo:z 2.75 .
+
+ex:B47878F1-A30A-4DD0-B8C7-F35EFC12F22C a pl:System ;
+    rdfs:label "System" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isPartOf ex:99C89735-150C-4F58-8E86-CED26DD09A43 .
+
+ex:B4850AE8-3F82-4BFE-8A5C-162AEF7D9FC5 a pl:Property ;
+    rdfs:label "floorLevel" ;
+    rdfs:comment "Floor Level" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:floorLevel ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:2E0CE835-0A8F-4592-9607-CEA9DB61ADC5 ;
+    pl:symbol "Roof.levelParams.floorLevel" ;
+    pl:value 3.3500000000000005 .
+
+ex:B527CC8D-B4FF-429A-B4B4-C41A3A7CE0E4 a pl:Property ;
+    rdfs:label "ceilingHeight" ;
+    rdfs:comment "Internal Ceiling Height" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:ceilingHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174 ;
+    pl:symbol "Zone 2.spaceProps.ceilingHeight" ;
+    pl:value 2.75 .
+
+ex:B700AFE0-22D3-4AAC-BFB7-9C8308918E45 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:1812D2DD-AAF6-49F8-8EA0-4099E649F32A ;
+    pl_geo:index 3 ;
+    pl_geo:x 4.415000042825881 ;
+    pl_geo:y -3.684999630252737 ;
+    pl_geo:z 2.75 .
+
+ex:B8600AB8-D41C-4D5D-85BB-7E97EE7E6D6D a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:B1CA8B12-30C4-4386-9245-61F08A4B8E47 ;
+    pl_geo:index 2 ;
+    pl_geo:x 4.285 ;
+    pl_geo:y 7.4350000000000005 ;
+    pl_geo:z 0.0 .
+
+ex:B89C4D88-DE68-45BF-BAAF-35CF1AD2B353 a pl:Property ;
+    rdfs:label "height" ;
+    rdfs:comment "Space Height" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:CE0B3D61-8FA7-479B-AC02-DF49801F57D6 ;
+    pl:symbol "Zone 1.spaceProps.height" ;
+    pl:value 2.95 .
+
+ex:B8C4C758-2CA0-494C-9F80-7DF6C1C33DEF a pl:ConnectionNode ;
+    rdfs:label "New Inout Connection Node" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isPartOf ex:0EF5BFAF-1376-4CA7-BC72-46DCDB5A314D ;
+    pl:type pl_types:Inout .
+
+ex:B9E96615-8C9E-4421-A539-13EBA8D3FB9C a pl:Property ;
+    rdfs:label "groundsmashElevation" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:groundsmashElevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:CBFBC5FE-8F9A-4FDA-8788-61E81F9F2BAA ;
+    pl:value 0 .
+
+ex:BB86EF23-CDC0-4E2C-BE4F-8A78705FC17A a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:329A47AE-F823-41F7-82AC-B9CD561C4B7D .
+
+ex:BCA0464A-401C-4DF3-9304-C690FAAF5B28 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:A32EDFE2-F7D7-4EFB-AB9C-FF14079D128D ;
+    pl:value 0.2 .
+
+ex:BCC797F1-896A-4250-9250-9EBC60DC7204 a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:DEF27301-FACC-4312-8775-224838850148 ;
+    pl:value 0 .
+
+ex:BD149220-5855-47EC-B89D-A3603B6607BC a pl:Property ;
+    rdfs:label "align" ;
+    rdfs:comment "Path Alignment" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:align ;
+    pl:isPropertyOf ex:8EEFF048-7582-4CDE-BBA5-FE9228DB395E ;
+    pl:symbol "ElectricHeater (0033).applianceParams.align" ;
+    pl:value 17 .
+
+ex:BD26110B-58D6-4478-9730-E0F32A0F4BDD a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:4ED91862-62CF-4AC1-AC23-A333F3F73D05 ;
+    pl:value 0.2 .
+
+ex:BD8525B0-8E3F-4EC9-9311-9BF47412E29E a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    rdfs:comment "Floor Slab Depth" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:2775F09B-8AC3-4DB0-B603-EAB435A90CB8 ;
+    pl:symbol "Roof.levelParams.floorSlabDepth" ;
+    pl:value 0.2 .
+
+ex:C066070F-72CF-40B5-82D3-827B4A9C4E44 a pl:Property ;
+    rdfs:label "frameWidth" ;
+    rdfs:comment "Frame Width" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:frameWidth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:246C77FB-CD52-4770-8593-EAB6890CFD80 ;
+    pl:symbol "FixedWindow.frameParams.frameWidth" ;
+    pl:value 0.05 .
+
+ex:C0BE65CE-3747-46D7-9D1A-5E447C9B3D29 a pl:Property ;
+    rdfs:label "sectionHeight" ;
+    rdfs:comment "Plan Section Height" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:sectionHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:D7C0F57A-E02D-4FBC-BC55-0CADC0DA69D5 ;
+    pl:symbol "Roof.levelParams.sectionHeight" ;
+    pl:value 1.375 .
+
+ex:C1196280-E716-4D2D-B15B-D787E8658069 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:83C8CF61-E6C8-493A-B460-178E28B64A84 ;
+    pl:value 0.2 .
+
+ex:C1E2A284-01E4-49D6-BCFE-E4B4FC770F6B a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:D7C0F57A-E02D-4FBC-BC55-0CADC0DA69D5 ;
+    pl:value 0 .
+
+ex:C2587D76-923C-4F96-B37C-6458735E2C3C a pl:Property ;
+    rdfs:label "paneMaxWidth" ;
+    rdfs:comment "Maximum Pane Width" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:paneMaxWidth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:246C77FB-CD52-4770-8593-EAB6890CFD80 ;
+    pl:symbol "FixedWindow.paneParams.paneMaxWidth" ;
+    pl:value 1.2 .
+
+ex:C27C68EE-A6F6-436D-B54C-C6328FC6CC0E a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:E50BB468-D542-46F6-840D-8E6F7D48ECC3 ;
+    pl_geo:index 3 ;
+    pl_geo:x -6.9350000000000005 ;
+    pl_geo:y -6.1850000000000005 ;
+    pl_geo:z 2.75 .
+
+ex:C2D33F87-44B9-43D5-BFFA-125C9002C24C a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:B1CA8B12-30C4-4386-9245-61F08A4B8E47 ;
+    pl_geo:index 3 ;
+    pl_geo:x 0.41500000000000004 ;
+    pl_geo:y 7.4350000000000005 ;
+    pl_geo:z 0.0 .
+
+ex:C2FD644F-A25F-4C24-8CC3-F19C341236D4 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:6F1E4F01-4671-4C17-BAA0-43A47CC497F7 ;
+    pl_geo:index 0 ;
+    pl_geo:x -6.9350000000000005 ;
+    pl_geo:y -6.1850000000000005 ;
+    pl_geo:z 0.0 .
+
+ex:C466DEC4-3DF6-49DA-8BA7-2EA0F1F69266 a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:A32EDFE2-F7D7-4EFB-AB9C-FF14079D128D ;
+    pl:value 0 .
+
+ex:C488285A-930D-4E66-8BB6-D6F56E947D43 a pl:Property ;
+    rdfs:label "floorLevel" ;
+    rdfs:comment "Floor Level" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:floorLevel ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:A32EDFE2-F7D7-4EFB-AB9C-FF14079D128D ;
+    pl:symbol "Floor 0.levelParams.floorLevel" ;
+    pl:value 0.2 .
+
+ex:C516178F-A4C4-45DB-889D-407476D5FFF2 a pl:Property ;
+    rdfs:label "segmentIndex" ;
+    rdfs:comment "Reference Segment Index" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:segmentIndex ;
+    pl:isPropertyOf ex:89F8F498-933D-442E-8C1C-12A24FFA3298 ;
+    pl:symbol "Zone 3.spaceCeilingProps.segmentIndex" ;
+    pl:value 0 .
+
+ex:C584ACBF-FBD5-49BF-BEF2-178DACF77911 a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:2775F09B-8AC3-4DB0-B603-EAB435A90CB8 .
+
+ex:C629D594-340C-421A-80A8-1744DD98423A a pl:ConnectionNode ;
+    rdfs:label "New Inout Connection Node" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isPartOf ex:669EC39D-865B-4EF0-9640-21E5769DE776 ;
+    pl:type pl_types:Inout .
+
+ex:C88D2AA0-AB9F-4BAC-B61D-B43B9D952D59 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:E50BB468-D542-46F6-840D-8E6F7D48ECC3 ;
+    pl_geo:index 0 ;
+    pl_geo:x -6.9350000000000005 ;
+    pl_geo:y 5.285 ;
+    pl_geo:z 2.75 .
+
+ex:C9A7BCFC-109D-4319-892A-A7008189CE43 a pl:System ;
+    rdfs:label "User System" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:isPartOf ex:9183BFB1-9327-463E-9A03-9208BBAB93B2 .
+
+ex:CA56194A-3567-4B42-8B2E-48A138B22CB4 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:9A61B08A-8509-4E9B-B839-0F2766E1E6E0 ;
+    pl_geo:index 3 ;
+    pl_geo:x 6.464999604368359 ;
+    pl_geo:y 4.035 ;
+    pl_geo:z 0.0 .
+
+ex:CB10425F-681F-42E5-881F-214602ACE2E7 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:FF5E7731-7FAB-43A9-B70C-139B96E203B1 ;
+    pl_geo:index 2 ;
+    pl_geo:x 12.035 ;
+    pl_geo:y -4.235 ;
+    pl_geo:z 2.75 .
+
+ex:CB55457B-D405-4195-B00F-64C8457E6024 a pl:Property ;
+    rdfs:label "ceilingHeight" ;
+    rdfs:comment "Internal Ceiling Height" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:ceilingHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:E29170CA-359C-4F92-A773-3F5A42724312 ;
+    pl:symbol "Zone 1.spaceProps.ceilingHeight" ;
+    pl:value 2.75 .
+
+ex:CD5CADC6-D1D1-4B45-A20E-4D1D861C201D a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:E3F27A81-2507-437F-BEC5-7DF0D46E25CA ;
+    pl_geo:index 3 ;
+    pl_geo:x 6.641310000000001 ;
+    pl_geo:y -6.49131 ;
+    pl_geo:z -0.0000000000000004547473508864641 .
+
+ex:CE76F21C-A985-418B-AB0C-341B54A49AFD a pl:Property ;
+    rdfs:label "sectionHeight" ;
+    rdfs:comment "Plan Section Height" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:sectionHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:A32EDFE2-F7D7-4EFB-AB9C-FF14079D128D ;
+    pl:symbol "Floor 0.levelParams.sectionHeight" ;
+    pl:value 1.375 .
+
+ex:CEBDDDB3-ABAB-4613-8B81-B2EDC45B6E09 a pl:Property ;
+    rdfs:label "groundsmashAdjusted" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:groundsmashAdjusted ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:CBFBC5FE-8F9A-4FDA-8788-61E81F9F2BAA ;
+    pl:value 0 .
+
+ex:CFFC3C53-2E39-4C78-BFE6-8DBE0B61805B a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:96C690FE-114D-458F-814E-73BC5E13F840 ;
+    pl_geo:index 2 ;
+    pl_geo:x 4.108690040000001 ;
+    pl_geo:y -3.9913096500000003 ;
+    pl_geo:z 0.0 .
+
+ex:D014826A-14C1-4C8B-9421-C5EC0CD44966 a pl:System ;
+    rdfs:label "System" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:isPartOf ex:0A48A354-3D7D-4A96-8BB1-2A45DFDE12D0 .
+
+ex:D08AC74F-E9F8-4B2A-9A1E-9585CD374612 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:1812D2DD-AAF6-49F8-8EA0-4099E649F32A ;
+    pl_geo:index 1 ;
+    pl_geo:x 12.285 ;
+    pl_geo:y 3.335 ;
+    pl_geo:z 2.75 .
+
+ex:D2E06E54-91E8-4EC1-B5B2-783B9FA97408 a pl:Property ;
+    rdfs:label "ceilingHeight" ;
+    rdfs:comment "Default Ceiling Height" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:ceilingHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:D1528B10-26A2-470A-80D0-E697ADA5677B ;
+    pl:symbol "Floor 0.levelParams.ceilingHeight" ;
+    pl:value 2.75 .
+
+ex:D4782F5C-D605-4AAD-983F-FF0925B70CD2 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    rdfs:comment "Floor Slab Depth" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:D1528B10-26A2-470A-80D0-E697ADA5677B ;
+    pl:symbol "Floor 0.levelParams.floorSlabDepth" ;
+    pl:value 0.2 .
+
+ex:D4D8329C-B2DE-4140-A959-5D2665C65201 a pl:Property ;
+    rdfs:label "segmentIndex" ;
+    rdfs:comment "Reference Segment Index" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:segmentIndex ;
+    pl:isPropertyOf ex:CE0B3D61-8FA7-479B-AC02-DF49801F57D6 ;
+    pl:symbol "Zone 1.spaceCeilingProps.segmentIndex" ;
+    pl:value 0 .
+
+ex:D4F24C50-6515-477E-B7A6-5249F9F24155 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:329A47AE-F823-41F7-82AC-B9CD561C4B7D .
+
+ex:D59F25CB-66C1-460E-B349-A5BBB8BF93E9 a pl:Property ;
+    rdfs:label "groundsmashMinY" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:groundsmashMinY ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:CBFBC5FE-8F9A-4FDA-8788-61E81F9F2BAA ;
+    pl:value 0 .
+
+ex:D6AD14C7-943D-4EAB-8137-66E9BB2EB52A a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:E3F27A81-2507-437F-BEC5-7DF0D46E25CA ;
+    pl_geo:index 1 ;
+    pl_geo:x -7.24131 ;
+    pl_geo:y 5.591310000000001 ;
+    pl_geo:z -0.0000000000000004547473508864641 .
+
+ex:D776C5B7-6973-4E54-A193-5761E00C65D6 a pl:System ;
+    rdfs:label "User System" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:isPartOf ex:0A48A354-3D7D-4A96-8BB1-2A45DFDE12D0 .
+
+ex:D7CBCD33-8BC9-40F6-931B-7B6946222447 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:A0C672EB-3968-4E51-A578-D10DAA2EC68D ;
+    pl:value 0.2 .
+
+ex:D85C5B5C-4112-4B27-87EF-72D15F2544DA a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:1619D8A6-6F89-4F93-BDAA-19EDB6F29F43 ;
+    pl:value 2.95 .
+
+ex:D94299AA-167A-45CD-88ED-192415EFB6E0 a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:A0C672EB-3968-4E51-A578-D10DAA2EC68D ;
+    pl:value 0 .
+
+ex:DA053612-0F38-478F-8315-9F9AEB449093 a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:DA25F2D0-6FA8-46EC-B80F-9FB1B53E077F ;
+    pl:value 0 .
+
+ex:DA432793-2706-443A-8BFC-36E6F42909CE a pl:Property ;
+    rdfs:label "height" ;
+    rdfs:comment "Space Height" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:E29170CA-359C-4F92-A773-3F5A42724312 ;
+    pl:symbol "Zone 1.spaceProps.height" ;
+    pl:value 2.9500000000000006 .
+
+ex:DB08B40D-C6DA-480B-91AA-97F209511F59 a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:7331F64C-D87F-406C-940E-08B6523819F9 ;
+    pl:value 0 .
+
+ex:DB3F5324-F8B5-462C-959D-9105AA56D36F a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:83C8CF61-E6C8-493A-B460-178E28B64A84 ;
+    pl:value 0 .
+
+ex:DB679A86-7324-4F14-AF04-F85C66BF60B9 a pl:ConceptualZone ;
+    rdfs:label "Environmental Zone" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:isPartOf ex:4F5BDD82-7C18-4EC7-8F57-838CC37F1AF8 .
+
+ex:DBC15E30-BAD3-4DDA-9BA3-5DA32B318736 a pl:Property ;
+    rdfs:label "geometryUnits" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:geometryUnits ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:EE665015-4297-445E-A781-EB2F571547CF .
+
+ex:DBCC559C-F049-46E8-A261-4F9864CC9BEF a pl:Property ;
+    rdfs:label "segmentIndex" ;
+    rdfs:comment "Reference Segment Index" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:segmentIndex ;
+    pl:isPropertyOf ex:E29170CA-359C-4F92-A773-3F5A42724312 ;
+    pl:symbol "Zone 1.spaceCeilingProps.segmentIndex" ;
+    pl:value 0 .
+
+ex:DCDD906D-4B85-4FD5-BD67-980AE962BC97 a pl:Property ;
+    rdfs:label "zoneID" ;
+    rdfs:comment "E29170CA-359C-4F92-A773-3F5A42724312" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:zoneID ;
+    pl:isPropertyOf ex:ACFCBCC6-21E3-4FD5-AA29-D36AAB0D2A89 ;
+    pl:value 1 .
+
+ex:DD403D05-649C-4FB4-9979-B913E5522488 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:4753468E-AE37-428D-B250-04983329D069 ;
+    pl_geo:index 2 ;
+    pl_geo:x 6.158689600000001 ;
+    pl_geo:y -4.54131001 ;
+    pl_geo:z -0.0000000000000004547473508864641 .
+
+ex:DDABD33A-A80C-4021-B85A-8877775ADBE8 a pl:ConceptualZone ;
+    rdfs:label "Environmental Zone" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isPartOf ex:6351291B-D137-4C79-82E0-EA614D362039 .
+
+ex:DE731273-D69D-4520-8F16-A5F1C827626B a pl:ConceptualZone ;
+    rdfs:label "Environmental Zone" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isPartOf ex:A0C672EB-3968-4E51-A578-D10DAA2EC68D .
+
+ex:DE78CDC6-CEBC-40C3-8D60-2EE44C397F56 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:54834A9C-40A1-4A03-9B00-D53F1C19A61D ;
+    pl:value 0.2 .
+
+ex:DF09B389-72B7-4362-94F1-884D8AAF1DA1 a pl:Property ;
+    rdfs:label "ceilingAngle" ;
+    rdfs:comment "Ceiling Pitch Angle" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:ceilingAngle ;
+    pl:isPropertyOf ex:CE0B3D61-8FA7-479B-AC02-DF49801F57D6 ;
+    pl:symbol "Zone 1.spaceCeilingProps.ceilingAngle" ;
+    pl:value 0 .
+
+ex:DFB63638-C0DC-4110-9044-E1AA530AF0E1 a pl:Property ;
+    rdfs:label "geometryUnits" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:geometryUnits ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:9EE2B76C-7E12-42E7-840D-EAC08A4E62B3 .
+
+ex:DFB8F86F-08E5-4C72-9F48-E3C33CF9C2D4 a pl:Property ;
+    rdfs:label "groundsmashElevation" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:groundsmashElevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:7E419C18-55E3-452C-BA15-B959C499F561 ;
+    pl:value 0 .
+
+ex:E1235170-4FEE-4D8D-99EB-04CFB4687EFB a pl:Property ;
+    rdfs:label "area" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:area ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#SquareMeter> ;
+    pl:isPropertyOf ex:D1528B10-26A2-470A-80D0-E697ADA5677B ;
+    pl:value 0 .
+
+ex:E1D5393D-97D0-4BA7-A1A2-AE157F43D10C a pl:Property ;
+    rdfs:label "ceilingAngle" ;
+    rdfs:comment "Ceiling Pitch Angle" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:ceilingAngle ;
+    pl:isPropertyOf ex:E29170CA-359C-4F92-A773-3F5A42724312 ;
+    pl:symbol "Zone 1.spaceCeilingProps.ceilingAngle" ;
+    pl:value 0 .
+
+ex:E271D6BF-1225-49C4-B19C-4DCC77E25CB5 a pl:ConnectionNode ;
+    rdfs:label "New Inout Connection Node" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isPartOf ex:7D13C665-EC61-44B3-984F-9ABBCD78D2DD ;
+    pl:type pl_types:Inout .
+
+ex:E4488E50-8113-466C-B2C4-73B3C7379ED6 a pl:Property ;
+    rdfs:label "conductivity" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:conductivity ;
+    pl:isPropertyOf ex:257C2C93-5DEB-4F9C-B42B-D419FD16F7A2 ;
+    pl:value 0.6918 .
+
+ex:E4BF4E86-B80E-4914-8403-C1306D1C02D2 a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:8D893A21-DFD0-4469-8498-F38360C44D56 .
+
+ex:E640A31A-4A9D-4F05-B58A-9A240B1A0CB3 a pl:ConnectionNode ;
+    rdfs:label "New Inout Connection Node" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isPartOf ex:A6D87909-E782-4DB9-8F9B-E63B0728EFF0 ;
+    pl:type pl_types:Inout .
+
+ex:E648BD70-4BC9-4F0F-ABF9-7DCA1CC24E99 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:212BB4AC-F41C-4AD5-B738-BE3C6886F4CD ;
+    pl:value 0.2 .
+
+ex:E82E8408-AA0A-4022-9154-F66CB3534B2D a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:1812D2DD-AAF6-49F8-8EA0-4099E649F32A ;
+    pl_geo:index 2 ;
+    pl_geo:x 12.285 ;
+    pl_geo:y -3.684999630252737 ;
+    pl_geo:z 2.75 .
+
+ex:E9D99204-E44F-41F0-85C6-92BE67E74568 a pl:Property ;
+    rdfs:label "width" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:width ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:246C77FB-CD52-4770-8593-EAB6890CFD80 ;
+    pl:value 0.9 .
+
+ex:EA3B0F23-B81D-4541-9EA1-EB1A2141B8CB a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:83C8CF61-E6C8-493A-B460-178E28B64A84 .
+
+ex:EAFFD7DC-9103-44DE-8319-D4BE5C038D19 a pl:Property ;
+    rdfs:label "height" ;
+    rdfs:comment "Level Height" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:D1528B10-26A2-470A-80D0-E697ADA5677B ;
+    pl:symbol "Floor 0.levelParams.height" ;
+    pl:value 2.95 .
+
+ex:EB7D9BC0-4A40-43CB-A903-F03D7158C361 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:96C690FE-114D-458F-814E-73BC5E13F840 ;
+    pl_geo:index 0 ;
+    pl_geo:x 12.591310000000002 ;
+    pl_geo:y 3.6413100000000003 ;
+    pl_geo:z 0.0 .
+
+ex:EBAED3D4-AC26-4FAA-BCCB-509B6BDC6AAE a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:FF5E7731-7FAB-43A9-B70C-139B96E203B1 ;
+    pl_geo:index 3 ;
+    pl_geo:x 6.464999604368359 ;
+    pl_geo:y -4.235 ;
+    pl_geo:z 2.75 .
+
+ex:EC100A96-84D9-472C-877D-42DB85306BC8 a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:392B00CD-9D9C-4557-9392-637C4270F046 ;
+    pl_geo:index 2 ;
+    pl_geo:x -2.3413100100000004 ;
+    pl_geo:y -2.2413100100000003 ;
+    pl_geo:z -0.0000000000000004547473508864641 .
+
+ex:EF5E8366-C086-4A97-99FC-28133A6467F5 a pl:ConceptualZone ;
+    rdfs:label "Mechanical Room 1" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:isPartOf ex:4ED91862-62CF-4AC1-AC23-A333F3F73D05 .
+
+ex:EFD8A33D-2BFF-45F8-AC35-C22F0CFDF419 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:28EEC147-2AC3-4AD5-A3E7-5BA9CB2A52E1 ;
+    pl_geo:index 3 ;
+    pl_geo:x 4.415000042825881 ;
+    pl_geo:y 3.335 ;
+    pl_geo:z 0.0 .
+
+ex:EFE50560-1A6E-449E-8D39-BCAD7EEAEB47 a pl:Property ;
+    rdfs:label "ceilingAngle" ;
+    rdfs:comment "Ceiling Pitch Angle" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:ceilingAngle ;
+    pl:isPropertyOf ex:89F8F498-933D-442E-8C1C-12A24FFA3298 ;
+    pl:symbol "Zone 3.spaceCeilingProps.ceilingAngle" ;
+    pl:value 0 .
+
+ex:EFECD4D5-BEA1-4F5A-898D-E2B40227776C a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:96C690FE-114D-458F-814E-73BC5E13F840 ;
+    pl_geo:index 1 ;
+    pl_geo:x 4.108690040000001 ;
+    pl_geo:y 3.6413100000000003 ;
+    pl_geo:z 0.0 .
+
+ex:F115E023-0CAA-44F2-8C27-B28C409BC770 a pl:Property ;
+    rdfs:label "height" ;
+    rdfs:comment "Space Height" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:89F8F498-933D-442E-8C1C-12A24FFA3298 ;
+    pl:symbol "Zone 3.spaceProps.height" ;
+    pl:value 2.9500000000000006 .
+
+ex:F1C45A2C-B905-408E-B968-89134C310188 a pl:Property ;
+    rdfs:label "groundsmashMaxY" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:groundsmashMaxY ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:08819C19-825B-4661-B0D1-9E56B5BBB87F ;
+    pl:value 0 .
+
+ex:F23F2B2E-492C-40E3-B62C-019C72FE96C5 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:67497026-843A-4139-BA0E-C4057EE5370F ;
+    pl_geo:index 0 ;
+    pl_geo:x 2.15 ;
+    pl_geo:y 5.3500000000000005 ;
+    pl_geo:z 1.5 .
+
+ex:F30504B8-808E-4964-8D6D-AFFB6C32FCF9 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:1619D8A6-6F89-4F93-BDAA-19EDB6F29F43 ;
+    pl:value 0.2 .
+
+ex:F4C01A8D-3BA7-429C-847A-F2AF3BB13B8F a pl:Property ;
+    rdfs:label "level" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:level ;
+    pl:isPropertyOf ex:A0C672EB-3968-4E51-A578-D10DAA2EC68D .
+
+ex:F4D0D7CB-745E-4052-8845-01AE5C119B12 a pl:AuthGroup ;
+    pl:has ex:68D20B00-130B-4226-BE61-92357EE9AECF ;
+    pl:isDeployed false .
+
+ex:F545A8BB-3345-4032-89B8-B98D5439C1B7 a pl:Property ;
+    rdfs:label "floorLevel" ;
+    rdfs:comment "Floor Level" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:floorLevel ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:EE927495-69A5-4A56-BA5A-1AACF13251FB ;
+    pl:symbol "Floor 0.levelParams.floorLevel" ;
+    pl:value 0.2 .
+
+ex:F5F32BD4-E3D3-40EF-861F-2517610CE88A a pl:Property ;
+    rdfs:label "groundsmashMinX" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:groundsmashMinX ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:CBFBC5FE-8F9A-4FDA-8788-61E81F9F2BAA ;
+    pl:value 0 .
+
+ex:F6B59C73-ECF4-4E23-A32D-88C1A61AC550 a pl:Property ;
+    rdfs:label "groundsmashMinX" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:groundsmashMinX ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:08819C19-825B-4661-B0D1-9E56B5BBB87F ;
+    pl:value 0 .
+
+ex:F768C41B-4BAB-43B6-9D6D-BEEC67A402B2 a pl:Property ;
+    rdfs:label "depth" ;
+    rdfs:comment "ElectricHeater Depth" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:depth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:8EEFF048-7582-4CDE-BBA5-FE9228DB395E ;
+    pl:symbol "ElectricHeater (0033).applianceTypeParams.depth" ;
+    pl:value 0.15 .
+
+ex:F87ED7B6-9912-4AF1-A482-D905168876A5 a pl:Property ;
+    rdfs:label "floorSlabDepth" ;
+    rdfs:comment "Floor Slab Depth" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:floorSlabDepth ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:D7C0F57A-E02D-4FBC-BC55-0CADC0DA69D5 ;
+    pl:symbol "Roof.levelParams.floorSlabDepth" ;
+    pl:value 0.2 .
+
+ex:FABF979E-1412-41F4-94EC-D782BF2B015F a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:21F74B66-D325-4805-A27D-EE7028D0CECF ;
+    pl_geo:index 3 ;
+    pl_geo:x -5.485 ;
+    pl_geo:y 4.385 ;
+    pl_geo:z 0.0 .
+
+ex:FAF3C614-F351-4A20-90C9-BE412ED8E6D8 a pl:Property ;
+    rdfs:label "height" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:height ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:83C8CF61-E6C8-493A-B460-178E28B64A84 .
+
+ex:FB382202-1DB6-495C-AD4B-285411E43BD3 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:2E0CE835-0A8F-4592-9607-CEA9DB61ADC5 ;
+    pl:value 3.3500000000000005 .
+
+ex:FB5B764E-CD4C-40B4-BD22-D72A9BD7E402 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:B1CA8B12-30C4-4386-9245-61F08A4B8E47 ;
+    pl_geo:index 0 ;
+    pl_geo:x 0.41500000000000004 ;
+    pl_geo:y 4.515 ;
+    pl_geo:z 0.0 .
+
+ex:FBC7F049-122E-41EC-848B-48758E988836 a pl:Property ;
+    rdfs:label "groundsmashMinY" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:groundsmashMinY ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:08819C19-825B-4661-B0D1-9E56B5BBB87F ;
+    pl:value 0 .
+
+ex:FC5BA1C1-E33C-49F1-AED9-2A106052FF61 a pl:Property ;
+    rdfs:label "elevation" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasType pl_props:elevation ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:8D893A21-DFD0-4469-8498-F38360C44D56 .
+
+ex:FE00E1D7-1498-4B02-9411-960FE901BB63 a pl:Property ;
+    rdfs:label "ceilingHeight" ;
+    rdfs:comment "Internal Ceiling Height" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:ceilingHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:DB3A04F0-5109-4514-9192-434AA2D34ADE ;
+    pl:symbol "Zone 2.spaceProps.ceilingHeight" ;
+    pl:value 2.75 .
+
+ex:FF066A95-387D-4F24-A9D5-CB78D07A49C9 a pl:Property ;
+    rdfs:label "groundsmashMinX" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasType pl_props:groundsmashMinX ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Millimeter> ;
+    pl:isPropertyOf ex:7E419C18-55E3-452C-BA15-B959C499F561 ;
+    pl:value -20000 .
+
+ex:FF36F268-718D-481B-9B91-7562DB77435F a pl:Property ;
+    rdfs:label "ceilingHeight" ;
+    rdfs:comment "Default Ceiling Height" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:ceilingHeight ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:A32EDFE2-F7D7-4EFB-AB9C-FF14079D128D ;
+    pl:symbol "Floor 0.levelParams.ceilingHeight" ;
+    pl:value 2.75 .
+
+ex:FF7EE338-5C9F-411F-B96C-838578D733F7 a pl:Property ;
+    rdfs:label "offset" ;
+    rdfs:comment "Offset From Path" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:offset ;
+    pl:hasUnit <https://www.passivelogic.com/schema/units#Meter> ;
+    pl:isPropertyOf ex:8EEFF048-7582-4CDE-BBA5-FE9228DB395E ;
+    pl:symbol "ElectricHeater (0033).applianceTypeParams.offset" ;
+    pl:value 0 .
+
+ex:0229828D-F15E-4BC7-BA7C-AA69AA9DCFBB a pl:Surface ;
+    rdfs:label "roof" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasProperty ex:261FD96F-44B5-4350-ACBF-56145431E834 ;
+    pl:hasShape ex:337CA3E0-E9C8-4355-91B3-64F222E0C8F8 .
+
+ex:029359B3-5F56-4802-B747-A2CB5ACDD121 a pl:Manufacturer ;
+    rdfs:label "Generic" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isManufacturerOf ex:5B79285C-1256-4C32-BD28-F73C334EB121,
+        ex:A6D87909-E782-4DB9-8F9B-E63B0728EFF0 .
+
+ex:049DB2BD-6331-4906-BABF-66E438872474 a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:0D958941-1D64-419C-9911-E528D537BE2B,
+        ex:596885E5-CB24-4783-8450-EE5ECB58C1ED ;
+    pl_geo:index 1 ;
+    pl_geo:x 1.9000000000000001 ;
+    pl_geo:y -2.0 ;
+    pl_geo:z 0.0 .
+
+ex:04CA30CC-CB67-4474-96FE-F504228065ED a pl:Shape ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasVertex ex:087EAFCC-BF3E-4248-8B34-276E71BF8BD3 ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:94703403-E4C2-4B70-B866-1EC01534BC30 .
+
+ex:0D958941-1D64-419C-9911-E528D537BE2B a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasVertex ex:049DB2BD-6331-4906-BABF-66E438872474 ;
+    pl:isPartOf ex:141186D8-3E98-40B8-993F-0FE48B46686D .
+
+ex:182E9610-75BE-494B-A264-DB8B67D06DFA a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:7511D1F1-291E-402F-97E3-A621A201FD89,
+        ex:C7F08475-6CAA-4652-9201-C0B7402EDB56 ;
+    pl_geo:index 1 ;
+    pl_geo:x 12.1 ;
+    pl_geo:y -4.3 ;
+    pl_geo:z 0.0 .
+
+ex:1879C7AB-647A-4235-9556-7710B7E63F0F a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:596885E5-CB24-4783-8450-EE5ECB58C1ED,
+        ex:E5811E35-BDF3-450A-AFBD-3F213F67FEB1 ;
+    pl_geo:index 3 ;
+    pl_geo:x -2.1 ;
+    pl_geo:y 2.0 ;
+    pl_geo:z 0.0 .
+
+ex:18C46276-F6E4-419E-B9C8-2BA7EE39AD1C a pl:Ceiling ;
+    rdfs:label "ceiling" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasShape ex:E50BB468-D542-46F6-840D-8E6F7D48ECC3 ;
+    pl:isPartOf ex:CE0B3D61-8FA7-479B-AC02-DF49801F57D6 .
+
+ex:19E1CB19-4225-4772-91DE-42C993645C10 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:7511D1F1-291E-402F-97E3-A621A201FD89,
+        ex:98D465D8-9513-4A30-93C4-B3104FAB6DAC ;
+    pl_geo:index 2 ;
+    pl_geo:x 12.1 ;
+    pl_geo:y 4.1 ;
+    pl_geo:z 0.0 .
+
+ex:1B923565-4160-4277-99D5-88B52C8BD242 a pl:Property ;
+    rdfs:label "δ" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:δ ;
+    pl:isPropertyOf ex:42E7A8A6-4746-4EAF-BAF2-7D20D1FFBFCD,
+        ex:A07C8132-5763-4300-97DA-E5AD2D8247DF .
+
+ex:1B946FE5-5804-4D96-A052-466ACDB7E0F5 a pl:FloorSurface ;
+    rdfs:label "floor" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasShape ex:9A61B08A-8509-4E9B-B839-0F2766E1E6E0 ;
+    pl:isPartOf ex:4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174 .
+
+ex:1D8708B5-BF55-43C5-83F5-69BD2FC733B7 a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:596885E5-CB24-4783-8450-EE5ECB58C1ED,
+        ex:8C90B732-C5F6-42DC-9ECB-6CEB8D635784 ;
+    pl_geo:index 2 ;
+    pl_geo:x 1.9000000000000001 ;
+    pl_geo:y 2.0 ;
+    pl_geo:z 0.0 .
+
+ex:230805BA-8A10-4F62-96E9-A5D5108401B9 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:6E268AD8-7564-44A4-A327-04B1726EF857,
+        ex:8E9E5081-1FAB-4B42-A532-D6D0019722F3 ;
+    pl_geo:index 1 ;
+    pl_geo:x 4.3500000000000005 ;
+    pl_geo:y 4.45 ;
+    pl_geo:z 0.0 .
+
+ex:23C107D2-5A62-46BD-AEF9-2F88B20C8FC2 a pl:FloorSurface ;
+    rdfs:label "floor" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasShape ex:4B51FB56-7ED9-4550-8A6A-6B3831DEB158 ;
+    pl:isPartOf ex:141186D8-3E98-40B8-993F-0FE48B46686D .
+
+ex:249376DD-9F8B-449F-AC50-E6411415B7DF a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:963AE654-9F33-4847-87AD-44A180A9D186 ;
+    pl:isPartOf ex:CE0B3D61-8FA7-479B-AC02-DF49801F57D6 .
+
+ex:257C2C93-5DEB-4F9C-B42B-D419FD16F7A2 a pl:Media ;
+    rdfs:label "stucco" ;
+    pl:classAsProp "stucco" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasProperty ex:E4488E50-8113-466C-B2C4-73B3C7379ED6 ;
+    pl:isMediaOf ex:D4294208-DFD6-41D5-970E-DDC258DD7EF9 .
+
+ex:2C9FA81C-4215-468A-BC08-55D1DBE0F960 a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:5F236212-6A12-4C64-9686-4700605CA09B ;
+    pl:isPartOf ex:E29170CA-359C-4F92-A773-3F5A42724312 .
+
+ex:319D3EBD-DA17-4D62-B05E-1689A9F4BFBF a pl:Property ;
+    rdfs:label "resistance" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:resistance ;
+    pl:isPropertyOf ex:42E7A8A6-4746-4EAF-BAF2-7D20D1FFBFCD,
+        ex:A07C8132-5763-4300-97DA-E5AD2D8247DF .
+
+ex:35CDD699-F103-4B61-B3A6-55FD8D387D1E a pl:Ceiling ;
+    rdfs:label "ceiling" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasShape ex:1812D2DD-AAF6-49F8-8EA0-4099E649F32A ;
+    pl:isPartOf ex:DB3A04F0-5109-4514-9192-434AA2D34ADE .
+
+ex:3AE1B8CB-659C-4DD9-882B-6F557FDE8CF2 a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:FC3054E0-0D91-41FE-85F2-061BA6682E77 ;
+    pl:isPartOf ex:89F8F498-933D-442E-8C1C-12A24FFA3298 .
+
+ex:40A4C684-5C15-4871-9F3C-70B3E77B3A97 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:5700FF6B-ECC8-4748-966F-466406CF0674,
+        ex:6952928B-433B-4476-90B1-CB0D537D6617 ;
+    pl_geo:index 3 ;
+    pl_geo:x -7.0 ;
+    pl_geo:y 5.3500000000000005 ;
+    pl_geo:z 0.0 .
+
+ex:414C404A-2BC4-4FF8-8684-5142EDED54F4 a pl:Ceiling ;
+    rdfs:label "ceiling" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasShape ex:02548A41-7737-4CDE-B850-514FA2D7B0E5 ;
+    pl:isPartOf ex:E29170CA-359C-4F92-A773-3F5A42724312 .
+
+ex:442CF638-CD7B-4F08-8BA0-F71967C09581 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:B9F846F3-31B7-4A7D-8B9E-D1DABBBC2692,
+        ex:C583FF4A-0B4D-4166-8C51-9A73FCA7D735 ;
+    pl_geo:index 0 ;
+    pl_geo:x 4.350000042825881 ;
+    pl_geo:y -3.749999630252737 ;
+    pl_geo:z 0.0 .
+
+ex:44A2C154-5907-498C-91F0-139B241FD226 a pl:Manufacturer ;
+    rdfs:label "Generic" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isManufacturerOf ex:4F1926F9-4DBD-4EB3-8F6F-B0D429A0B3D1,
+        ex:7681F49D-71E5-4FB5-90B1-3EE69441F36C .
+
+ex:4647596D-1A73-4C59-B69A-7623EFD3BEA2 a pl:Surface ;
+    rdfs:label "roof" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasProperty ex:5711032E-0AC2-4CBD-83F2-65AA42E55621 ;
+    pl:hasShape ex:96C690FE-114D-458F-814E-73BC5E13F840 .
+
+ex:46604B90-8C82-41FE-AD2F-372E8F9B78BE a pl:FloorSurface ;
+    rdfs:label "floor" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasShape ex:21F74B66-D325-4805-A27D-EE7028D0CECF ;
+    pl:isPartOf ex:E29170CA-359C-4F92-A773-3F5A42724312 .
+
+ex:469CC12A-1EDC-4BDC-9B85-46F90D6B65C5 a pl:Manufacturer ;
+    rdfs:label "PassiveLogic" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isManufacturerOf ex:42E7A8A6-4746-4EAF-BAF2-7D20D1FFBFCD,
+        ex:A07C8132-5763-4300-97DA-E5AD2D8247DF .
+
+ex:48CE088D-4B65-4C32-BD9D-10C4A0B38642 a pl:BoundarySurface ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasShape ex:851DA7F3-B618-42F6-8181-A72E0653EDD4 ;
+    pl:isPartOf ex:E29170CA-359C-4F92-A773-3F5A42724312 .
+
+ex:4F1926F9-4DBD-4EB3-8F6F-B0D429A0B3D1 a pl:Model ;
+    rdfs:label "Generic" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasManufacturer ex:44A2C154-5907-498C-91F0-139B241FD226 ;
+    pl:isModelOf ex:7681F49D-71E5-4FB5-90B1-3EE69441F36C .
+
+ex:5228B3DD-231B-4B24-BE6E-0F6FF13937E3 a pl:BoundarySurface ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasShape ex:662B943B-8437-4CF1-AD88-43D707483366 ;
+    pl:isChildSurfaceOf ex:6820290C-EA5B-4B62-9950-40A9D6557261 .
+
+ex:53963CCA-0678-47CA-84E4-1E326C35ECAE a pl:Manufacturer ;
+    rdfs:label "Generic" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isManufacturerOf ex:669EC39D-865B-4EF0-9640-21E5769DE776,
+        ex:F23EC989-30F0-498B-93B6-83CFF2FAF115 .
+
+ex:53AD4181-BA71-4246-BB40-46AA28CAE807 a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:56E038AC-ACDE-4D0A-802F-6535103E00B7 ;
+    pl:isPartOf ex:4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174 .
+
+ex:5646E347-4770-42CB-9D0F-810B2C1EB06E a pl:Property ;
+    rdfs:label "α" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:α ;
+    pl:isPropertyOf ex:9B5D50A5-29C3-46D6-AAC8-F24E900B30E0,
+        ex:E375AF25-BB89-41A1-A499-8999FE264876 .
+
+ex:56E038AC-ACDE-4D0A-802F-6535103E00B7 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:53AD4181-BA71-4246-BB40-46AA28CAE807,
+        ex:7511D1F1-291E-402F-97E3-A621A201FD89 ;
+    pl_geo:index 3 ;
+    pl_geo:x 6.399999604368359 ;
+    pl_geo:y 4.1 ;
+    pl_geo:z 0.0 .
+
+ex:5700FF6B-ECC8-4748-966F-466406CF0674 a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:40A4C684-5C15-4871-9F3C-70B3E77B3A97 ;
+    pl:isPartOf ex:CE0B3D61-8FA7-479B-AC02-DF49801F57D6 .
+
+ex:58F9C0C9-7ECA-44AE-8A5C-4B06360EFAA4 a pl:PinnedAdjacency ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasChildSurface ex:246C77FB-CD52-4770-8593-EAB6890CFD80 ;
+    pl:hasParentSurface ex:E5811E35-BDF3-450A-AFBD-3F213F67FEB1 .
+
+ex:5B79285C-1256-4C32-BD28-F73C334EB121 a pl:Model ;
+    rdfs:label "Generic" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasManufacturer ex:029359B3-5F56-4802-B747-A2CB5ACDD121 ;
+    pl:isModelOf ex:A6D87909-E782-4DB9-8F9B-E63B0728EFF0 .
+
+ex:5C851677-54AC-4349-B1A2-A7CC3F37FA99 a pl:Surface ;
+    rdfs:label "roof" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasProperty ex:93CFF8AC-339F-4CB9-9D40-3D66292F84F6 ;
+    pl:hasShape ex:4753468E-AE37-428D-B250-04983329D069 .
+
+ex:5F236212-6A12-4C64-9686-4700605CA09B a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:2C9FA81C-4215-468A-BC08-55D1DBE0F960,
+        ex:851DA7F3-B618-42F6-8181-A72E0653EDD4 ;
+    pl_geo:index 1 ;
+    pl_geo:x 4.3500000000000005 ;
+    pl_geo:y -3.75 ;
+    pl_geo:z 0.0 .
+
+ex:662B943B-8437-4CF1-AD88-43D707483366 a pl:Shape ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:726177F4-88C4-4456-8F11-29E7CD577A71 ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:5228B3DD-231B-4B24-BE6E-0F6FF13937E3 .
+
+ex:665CD29C-1346-46B5-B3C7-F869E3309076 a pl:Manufacturer ;
+    rdfs:label "Generic" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isManufacturerOf ex:7D13C665-EC61-44B3-984F-9ABBCD78D2DD,
+        ex:D13015F4-6E53-4530-8A3A-0C8AC9EAB86C .
+
+ex:67497026-843A-4139-BA0E-C4057EE5370F a pl:Shape ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:F23F2B2E-492C-40E3-B62C-019C72FE96C5 ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:AE49846F-DCB4-411E-AF3D-4AFA4806A867 .
+
+ex:6DEE25CC-7688-4E0B-8F65-5FB48F3128FD a pl:FloorSurface ;
+    rdfs:label "floor" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasShape ex:6F1E4F01-4671-4C17-BAA0-43A47CC497F7 ;
+    pl:isPartOf ex:CE0B3D61-8FA7-479B-AC02-DF49801F57D6 .
+
+ex:6F4A090A-B6AE-489A-A77E-0ED64C68F75D a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:B902DEE1-9B3E-43E9-8962-20DD0DD66DF2 ;
+    pl:isPartOf ex:DB3A04F0-5109-4514-9192-434AA2D34ADE .
+
+ex:70F98978-D188-4B80-A158-4B2F2498B91D a pl:Surface ;
+    rdfs:label "roof" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasProperty ex:6FE11329-AA79-493E-AC8B-F6D559EB4781 ;
+    pl:hasShape ex:E3F27A81-2507-437F-BEC5-7DF0D46E25CA .
+
+ex:76FE82E5-13F5-4F4A-B7CD-7C5CC98937E3 a pl:System ;
+    rdfs:label "User System" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasPart ex:080C977B-3ED3-4E90-9CDE-6DDDD8918351 ;
+    pl:isPartOf ex:77A5CEDA-AE18-4E90-8132-C5E3C135A0D2 .
+
+ex:777858D8-24EB-4595-B6BD-E9E64558F9F6 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:851DA7F3-B618-42F6-8181-A72E0653EDD4,
+        ex:C2A47813-616D-4927-B7D9-AA059F24B9FB ;
+    pl_geo:index 0 ;
+    pl_geo:x -5.55 ;
+    pl_geo:y -3.75 ;
+    pl_geo:z 0.0 .
+
+ex:8163C634-13B9-4AA4-AD38-ADD490C670F6 a pl:Manufacturer ;
+    rdfs:label "PassiveLogic" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isManufacturerOf ex:9B5D50A5-29C3-46D6-AAC8-F24E900B30E0,
+        ex:E375AF25-BB89-41A1-A499-8999FE264876 .
+
+ex:82128E62-8A3F-442E-8423-AA4F859F7744 a pl:FloorSurface ;
+    rdfs:label "floor" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasShape ex:B1CA8B12-30C4-4386-9245-61F08A4B8E47 ;
+    pl:isPartOf ex:89F8F498-933D-442E-8C1C-12A24FFA3298 .
+
+ex:82414F7B-40B4-4609-B539-82E70C302CC4 a pl:Property ;
+    rdfs:label "η" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:η ;
+    pl:isPropertyOf ex:42E7A8A6-4746-4EAF-BAF2-7D20D1FFBFCD,
+        ex:A07C8132-5763-4300-97DA-E5AD2D8247DF .
+
+ex:8888CBC0-C9BD-4B62-B4AD-28D4B5B2C11D a pl:BoundarySurface ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasShape ex:C583FF4A-0B4D-4166-8C51-9A73FCA7D735 ;
+    pl:isPartOf ex:DB3A04F0-5109-4514-9192-434AA2D34ADE .
+
+ex:88D01B49-B730-450B-8F78-D2EB5E40FB11 a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:C6A20E34-5B8B-4BAC-9F28-71B38EAEB885 ;
+    pl:isPartOf ex:4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174 .
+
+ex:88FB0782-7E8B-43BE-B213-7E2742793018 a pl:Surface ;
+    rdfs:label "roof" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasProperty ex:6ED46D37-CA79-4A01-96AD-79780432EA6A ;
+    pl:hasShape ex:392B00CD-9D9C-4557-9392-637C4270F046 .
+
+ex:8B63805B-5864-4A6C-9B6F-F0EC5824A0EC a pl:Ceiling ;
+    rdfs:label "ceiling" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasShape ex:EEA2B25E-9279-45F3-A991-CCBBAB15073D ;
+    pl:isPartOf ex:89F8F498-933D-442E-8C1C-12A24FFA3298 .
+
+ex:8E9E5081-1FAB-4B42-A532-D6D0019722F3 a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:230805BA-8A10-4F62-96E9-A5D5108401B9 ;
+    pl:isPartOf ex:89F8F498-933D-442E-8C1C-12A24FFA3298 .
+
+ex:8EEDB25B-15CC-4E14-86EA-B66DAB962038 a pl:Property ;
+    rdfs:label "resistance" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:resistance ;
+    pl:isPropertyOf ex:9B5D50A5-29C3-46D6-AAC8-F24E900B30E0,
+        ex:E375AF25-BB89-41A1-A499-8999FE264876 .
+
+ex:91906073-FA68-4A33-8629-A3A1DE80E09D a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:C5C8DEC9-0159-46A7-995F-480EC18A0126 ;
+    pl:isPartOf ex:E29170CA-359C-4F92-A773-3F5A42724312 .
+
+ex:93F2768C-8907-401A-9199-52580830675A a pl:Manufacturer ;
+    rdfs:label "Generic" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isManufacturerOf ex:0EF5BFAF-1376-4CA7-BC72-46DCDB5A314D,
+        ex:FA90807A-730F-462E-A634-78F58BC37198 .
+
+ex:94703403-E4C2-4B70-B866-1EC01534BC30 a pl:BoundarySurface ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasShape ex:04CA30CC-CB67-4474-96FE-F504228065ED ;
+    pl:isChildSurfaceOf ex:C85B17C5-8605-48FC-AFAB-8567FA73BC25 .
+
+ex:95E6D323-FA10-42B2-B4A4-AFD423607E3B a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:6952928B-433B-4476-90B1-CB0D537D6617,
+        ex:EFF65694-CD69-4DDA-9813-0E1598363BAF ;
+    pl_geo:index 1 ;
+    pl_geo:x 6.4 ;
+    pl_geo:y -6.25 ;
+    pl_geo:z 0.0 .
+
+ex:963AE654-9F33-4847-87AD-44A180A9D186 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:249376DD-9F8B-449F-AC50-E6411415B7DF,
+        ex:6952928B-433B-4476-90B1-CB0D537D6617 ;
+    pl_geo:index 0 ;
+    pl_geo:x -7.0 ;
+    pl_geo:y -6.25 ;
+    pl_geo:z 0.0 .
+
+ex:98D465D8-9513-4A30-93C4-B3104FAB6DAC a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:19E1CB19-4225-4772-91DE-42C993645C10 ;
+    pl:isPartOf ex:4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174 .
+
+ex:9B44733E-F9F8-4C93-A9B5-2E6188E021C4 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:C583FF4A-0B4D-4166-8C51-9A73FCA7D735,
+        ex:F37BCE5F-C583-4F49-82FC-270002529D3A ;
+    pl_geo:index 2 ;
+    pl_geo:x 12.35 ;
+    pl_geo:y 3.4 ;
+    pl_geo:z 0.0 .
+
+ex:9C26BAA3-7B91-4CEC-BF2D-6E60F1256DCE a pl:Ceiling ;
+    rdfs:label "ceiling" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasShape ex:11CCABE5-E1DB-473A-B1F0-37A6166F7819 ;
+    pl:isPartOf ex:141186D8-3E98-40B8-993F-0FE48B46686D .
+
+ex:9DA1CB25-912A-4BE7-BE0A-19B60695248A a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasVertex ex:E223B924-E91C-4E3A-8525-DC98A9D12139 ;
+    pl:isPartOf ex:141186D8-3E98-40B8-993F-0FE48B46686D .
+
+ex:A7E8A6DE-21DA-42CD-9265-177190A3E9FF a pl:Layer ;
+    rdfs:label "Gypsum" ;
+    pl:classAsProp "Gypsum" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasMedia ex:AF4522A3-1CBD-4B8F-A04C-0A1F3E18D84B ;
+    pl:isPartOf ex:B0AE436F-C1C2-49DC-91A7-6C76A5B5FA04 ;
+    pl_geo:index 2 .
+
+ex:ACFCBCC6-21E3-4FD5-AA29-D36AAB0D2A89 a pl:Surface ;
+    rdfs:label "roof" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasProperty ex:DCDD906D-4B85-4FD5-BD67-980AE962BC97 ;
+    pl:hasShape ex:3EF2DD97-4598-46C6-B307-40238DCC4609 .
+
+ex:AE49846F-DCB4-411E-AF3D-4AFA4806A867 a pl:BoundarySurface ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasShape ex:67497026-843A-4139-BA0E-C4057EE5370F ;
+    pl:isChildSurfaceOf ex:2CF3AAD7-C8A9-494A-B866-B526815C0E7B .
+
+ex:AF36E71A-6541-4A49-AD8A-8B31BAA3E158 a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:EDE510CE-4223-4199-8371-931A9F12AF22 ;
+    pl:isPartOf ex:89F8F498-933D-442E-8C1C-12A24FFA3298 .
+
+ex:AF4522A3-1CBD-4B8F-A04C-0A1F3E18D84B a pl:Media ;
+    rdfs:label "Gypsum" ;
+    pl:classAsProp "Gypsum" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasProperty ex:2C187884-C45B-4503-9E7F-2730611698CF ;
+    pl:isMediaOf ex:A7E8A6DE-21DA-42CD-9265-177190A3E9FF .
+
+ex:AF755EE6-8C1D-4501-86C7-7FBD2C960353 a pl:BoundarySurface ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasShape ex:7511D1F1-291E-402F-97E3-A621A201FD89 ;
+    pl:isPartOf ex:4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174 .
+
+ex:B902DEE1-9B3E-43E9-8962-20DD0DD66DF2 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:6F4A090A-B6AE-489A-A77E-0ED64C68F75D,
+        ex:C583FF4A-0B4D-4166-8C51-9A73FCA7D735 ;
+    pl_geo:index 1 ;
+    pl_geo:x 12.35 ;
+    pl_geo:y -3.749999630252737 ;
+    pl_geo:z 0.0 .
+
+ex:B9F846F3-31B7-4A7D-8B9E-D1DABBBC2692 a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:442CF638-CD7B-4F08-8BA0-F71967C09581 ;
+    pl:isPartOf ex:DB3A04F0-5109-4514-9192-434AA2D34ADE .
+
+ex:B9FE7AD9-1445-4310-9719-81F84443A20E a pl:Property ;
+    rdfs:label "δ" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:δ ;
+    pl:isPropertyOf ex:9B5D50A5-29C3-46D6-AAC8-F24E900B30E0,
+        ex:E375AF25-BB89-41A1-A499-8999FE264876 .
+
+ex:C2A47813-616D-4927-B7D9-AA059F24B9FB a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:777858D8-24EB-4595-B6BD-E9E64558F9F6 ;
+    pl:isPartOf ex:E29170CA-359C-4F92-A773-3F5A42724312 .
+
+ex:C5C8DEC9-0159-46A7-995F-480EC18A0126 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:851DA7F3-B618-42F6-8181-A72E0653EDD4,
+        ex:91906073-FA68-4A33-8629-A3A1DE80E09D ;
+    pl_geo:index 2 ;
+    pl_geo:x 4.3500000000000005 ;
+    pl_geo:y 4.45 ;
+    pl_geo:z 0.0 .
+
+ex:C6A20E34-5B8B-4BAC-9F28-71B38EAEB885 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:7511D1F1-291E-402F-97E3-A621A201FD89,
+        ex:88D01B49-B730-450B-8F78-D2EB5E40FB11 ;
+    pl_geo:index 0 ;
+    pl_geo:x 6.399999604368359 ;
+    pl_geo:y -4.3 ;
+    pl_geo:z 0.0 .
+
+ex:C6DA0323-CD7B-4913-942F-15131B2012F1 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:6E268AD8-7564-44A4-A327-04B1726EF857,
+        ex:C8877281-616B-4F84-B274-4C6D8F5233B9 ;
+    pl_geo:index 2 ;
+    pl_geo:x 4.3500000000000005 ;
+    pl_geo:y 7.5 ;
+    pl_geo:z 0.0 .
+
+ex:C7F08475-6CAA-4652-9201-C0B7402EDB56 a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:182E9610-75BE-494B-A264-DB8B67D06DFA ;
+    pl:isPartOf ex:4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174 .
+
+ex:C8877281-616B-4F84-B274-4C6D8F5233B9 a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:C6DA0323-CD7B-4913-942F-15131B2012F1 ;
+    pl:isPartOf ex:89F8F498-933D-442E-8C1C-12A24FFA3298 .
+
+ex:CBFB3E16-34F5-4052-8965-FB330ABAAADD a pl:FloorSurface ;
+    rdfs:label "floor" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasShape ex:28EEC147-2AC3-4AD5-A3E7-5BA9CB2A52E1 ;
+    pl:isPartOf ex:DB3A04F0-5109-4514-9192-434AA2D34ADE .
+
+ex:D1283C0B-4FF1-4E12-BAB9-6C2EAFC203DD a pl:Model ;
+    rdfs:label "Generic" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasManufacturer ex:D2D1D3D7-C924-4661-AE68-158EF774807A ;
+    pl:isModelOf ex:2535299B-826D-4D57-8E4F-88F67B57BFD5 .
+
+ex:D13015F4-6E53-4530-8A3A-0C8AC9EAB86C a pl:Model ;
+    rdfs:label "Generic" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasManufacturer ex:665CD29C-1346-46B5-B3C7-F869E3309076 ;
+    pl:isModelOf ex:7D13C665-EC61-44B3-984F-9ABBCD78D2DD .
+
+ex:D2D1D3D7-C924-4661-AE68-158EF774807A a pl:Manufacturer ;
+    rdfs:label "Generic" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isManufacturerOf ex:2535299B-826D-4D57-8E4F-88F67B57BFD5,
+        ex:D1283C0B-4FF1-4E12-BAB9-6C2EAFC203DD .
+
+ex:D4294208-DFD6-41D5-970E-DDC258DD7EF9 a pl:Layer ;
+    rdfs:label "stucco" ;
+    pl:classAsProp "stucco" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasMedia ex:257C2C93-5DEB-4F9C-B42B-D419FD16F7A2 ;
+    pl:isPartOf ex:B0AE436F-C1C2-49DC-91A7-6C76A5B5FA04 ;
+    pl_geo:index 0 .
+
+ex:D5A42CCB-3D34-47AF-BEE5-C785FB0840FA a pl:Property ;
+    rdfs:label "α" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasType pl_props:α ;
+    pl:isPropertyOf ex:42E7A8A6-4746-4EAF-BAF2-7D20D1FFBFCD,
+        ex:A07C8132-5763-4300-97DA-E5AD2D8247DF .
+
+ex:D76D0C0D-046A-4E01-9D6B-ACE83EF39449 a pl:BoundarySurface ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasShape ex:6E268AD8-7564-44A4-A327-04B1726EF857 ;
+    pl:isPartOf ex:89F8F498-933D-442E-8C1C-12A24FFA3298 .
+
+ex:D8CEC9E2-6DB3-4757-BC75-FD1A74ED39C6 a pl:Vertex ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:isVertexOf ex:6952928B-433B-4476-90B1-CB0D537D6617,
+        ex:69540638-4454-47A7-94EF-EC57C0C895AB ;
+    pl_geo:index 2 ;
+    pl_geo:x 6.4 ;
+    pl_geo:y 5.3500000000000005 ;
+    pl_geo:z 0.0 .
+
+ex:D93DC160-192E-4AD7-A094-68B3EA7065B1 a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:FDD42C09-F02C-4848-B933-893E9A734A1E ;
+    pl:isPartOf ex:E29170CA-359C-4F92-A773-3F5A42724312 .
+
+ex:D9ED3BBF-68AD-4CCD-92CB-AB8922ED85F3 a pl:Property ;
+    rdfs:label "η" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasType pl_props:η ;
+    pl:isPropertyOf ex:9B5D50A5-29C3-46D6-AAC8-F24E900B30E0,
+        ex:E375AF25-BB89-41A1-A499-8999FE264876 .
+
+ex:DF640373-D3E6-4CB4-A43C-A89FDF6EF07E a pl:BoundarySurface ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasShape ex:596885E5-CB24-4783-8450-EE5ECB58C1ED ;
+    pl:isPartOf ex:141186D8-3E98-40B8-993F-0FE48B46686D .
+
+ex:E223B924-E91C-4E3A-8525-DC98A9D12139 a pl:Vertex ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:isVertexOf ex:596885E5-CB24-4783-8450-EE5ECB58C1ED,
+        ex:9DA1CB25-912A-4BE7-BE0A-19B60695248A ;
+    pl_geo:index 0 ;
+    pl_geo:x -2.1 ;
+    pl_geo:y -2.0 ;
+    pl_geo:z 0.0 .
+
+ex:E8FB51EE-6559-4A28-9305-64F8B7C6CA3F a pl:Ceiling ;
+    rdfs:label "ceiling" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasShape ex:FF5E7731-7FAB-43A9-B70C-139B96E203B1 ;
+    pl:isPartOf ex:4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174 .
+
+ex:EA2D6BF4-B26F-4083-8B69-5E27B7F3EF09 a pl:System ;
+    rdfs:label "User System" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasPart ex:27FB2526-C4FC-4F4B-9104-4F2FDEEFCC78 ;
+    pl:isPartOf ex:99C89735-150C-4F58-8E86-CED26DD09A43 .
+
+ex:EBC607F8-4834-4FFA-921C-3C5525618292 a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:F2419A30-3022-409E-AB38-5B75212BBCF2 ;
+    pl:isPartOf ex:DB3A04F0-5109-4514-9192-434AA2D34ADE .
+
+ex:EDE510CE-4223-4199-8371-931A9F12AF22 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:6E268AD8-7564-44A4-A327-04B1726EF857,
+        ex:AF36E71A-6541-4A49-AD8A-8B31BAA3E158 ;
+    pl_geo:index 0 ;
+    pl_geo:x 0.35000000000000003 ;
+    pl_geo:y 4.45 ;
+    pl_geo:z 0.0 .
+
+ex:EFF65694-CD69-4DDA-9813-0E1598363BAF a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:95E6D323-FA10-42B2-B4A4-AFD423607E3B ;
+    pl:isPartOf ex:CE0B3D61-8FA7-479B-AC02-DF49801F57D6 .
+
+ex:F23EC989-30F0-498B-93B6-83CFF2FAF115 a pl:Model ;
+    rdfs:label "Generic" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasManufacturer ex:53963CCA-0678-47CA-84E4-1E326C35ECAE ;
+    pl:isModelOf ex:669EC39D-865B-4EF0-9640-21E5769DE776 .
+
+ex:F2419A30-3022-409E-AB38-5B75212BBCF2 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:C583FF4A-0B4D-4166-8C51-9A73FCA7D735,
+        ex:EBC607F8-4834-4FFA-921C-3C5525618292 ;
+    pl_geo:index 3 ;
+    pl_geo:x 4.350000042825881 ;
+    pl_geo:y 3.4 ;
+    pl_geo:z 0.0 .
+
+ex:F31A6273-099D-44AE-ADEB-2ED775DA5027 a pl:Layer ;
+    rdfs:label "Concrete" ;
+    pl:classAsProp "Concrete" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasMedia ex:FCBAB17F-9D48-4CAE-A81B-FE0991AF8557 ;
+    pl:isPartOf ex:B0AE436F-C1C2-49DC-91A7-6C76A5B5FA04 ;
+    pl_geo:index 1 .
+
+ex:F37BCE5F-C583-4F49-82FC-270002529D3A a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:9B44733E-F9F8-4C93-A9B5-2E6188E021C4 ;
+    pl:isPartOf ex:DB3A04F0-5109-4514-9192-434AA2D34ADE .
+
+ex:FA90807A-730F-462E-A634-78F58BC37198 a pl:Model ;
+    rdfs:label "Generic" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasManufacturer ex:93F2768C-8907-401A-9199-52580830675A ;
+    pl:isModelOf ex:0EF5BFAF-1376-4CA7-BC72-46DCDB5A314D .
+
+ex:FC3054E0-0D91-41FE-85F2-061BA6682E77 a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:3AE1B8CB-659C-4DD9-882B-6F557FDE8CF2,
+        ex:6E268AD8-7564-44A4-A327-04B1726EF857 ;
+    pl_geo:index 3 ;
+    pl_geo:x 0.35000000000000003 ;
+    pl_geo:y 7.5 ;
+    pl_geo:z 0.0 .
+
+ex:FCBAB17F-9D48-4CAE-A81B-FE0991AF8557 a pl:Media ;
+    rdfs:label "Concrete" ;
+    pl:classAsProp "Concrete" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasProperty ex:6E77608E-BF24-4807-B51E-5B088D7DE7B8 ;
+    pl:isMediaOf ex:F31A6273-099D-44AE-ADEB-2ED775DA5027 .
+
+ex:FDD42C09-F02C-4848-B933-893E9A734A1E a pl:Vertex ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:isVertexOf ex:851DA7F3-B618-42F6-8181-A72E0653EDD4,
+        ex:D93DC160-192E-4AD7-A094-68B3EA7065B1 ;
+    pl_geo:index 3 ;
+    pl_geo:x -5.55 ;
+    pl_geo:y 4.45 ;
+    pl_geo:z 0.0 .
+
+ex:14334E80-A824-4B6C-8772-A2DEECFB2B28 a pl:BoundarySurface ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasShape ex:6952928B-433B-4476-90B1-CB0D537D6617 ;
+    pl:isParentSurfaceOf ex:6820290C-EA5B-4B62-9950-40A9D6557261 ;
+    pl:isPartOf ex:CE0B3D61-8FA7-479B-AC02-DF49801F57D6 .
+
+ex:2CF3AAD7-C8A9-494A-B866-B526815C0E7B a pl:PinnedAdjacency ;
+    pl:hasAssociatedObject ex:A07C8132-5763-4300-97DA-E5AD2D8247DF ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasChildSurface ex:AE49846F-DCB4-411E-AF3D-4AFA4806A867 ;
+    pl:hasParentSurface ex:69540638-4454-47A7-94EF-EC57C0C895AB .
+
+ex:6820290C-EA5B-4B62-9950-40A9D6557261 a pl:IndependentAdjacency ;
+    pl:hasAssociatedObject ex:8EEFF048-7582-4CDE-BBA5-FE9228DB395E ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasChildSurface ex:5228B3DD-231B-4B24-BE6E-0F6FF13937E3 ;
+    pl:hasParentSurface ex:14334E80-A824-4B6C-8772-A2DEECFB2B28 .
+
+ex:69540638-4454-47A7-94EF-EC57C0C895AB a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:D8CEC9E2-6DB3-4757-BC75-FD1A74ED39C6 ;
+    pl:isParentSurfaceOf ex:2CF3AAD7-C8A9-494A-B866-B526815C0E7B ;
+    pl:isPartOf ex:CE0B3D61-8FA7-479B-AC02-DF49801F57D6 .
+
+ex:8C90B732-C5F6-42DC-9ECB-6CEB8D635784 a pl:Wall ;
+    rdfs:label "DefaultWall" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasVertex ex:1D8708B5-BF55-43C5-83F5-69BD2FC733B7 ;
+    pl:isParentSurfaceOf ex:C85B17C5-8605-48FC-AFAB-8567FA73BC25 ;
+    pl:isPartOf ex:141186D8-3E98-40B8-993F-0FE48B46686D .
+
+ex:C85B17C5-8605-48FC-AFAB-8567FA73BC25 a pl:PinnedAdjacency ;
+    pl:hasAssociatedObject ex:9B5D50A5-29C3-46D6-AAC8-F24E900B30E0 ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasChildSurface ex:94703403-E4C2-4B70-B866-1EC01534BC30 ;
+    pl:hasParentSurface ex:8C90B732-C5F6-42DC-9ECB-6CEB8D635784 .
+
+ex:080C977B-3ED3-4E90-9CDE-6DDDD8918351 a pl:EquipmentContainer ;
+    rdfs:label "Sense Nano" ;
+    pl:hasAlias ex:A07C8132-5763-4300-97DA-E5AD2D8247DF ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasPart ex:0EF5BFAF-1376-4CA7-BC72-46DCDB5A314D,
+        ex:A07C8132-5763-4300-97DA-E5AD2D8247DF ;
+    pl:isPartOf ex:76FE82E5-13F5-4F4A-B7CD-7C5CC98937E3 .
+
+ex:0A48A354-3D7D-4A96-8BB1-2A45DFDE12D0 a pl:Site ;
+    rdfs:label "Audit :: Single Zone :: Init" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasPart ex:9EE2B76C-7E12-42E7-840D-EAC08A4E62B3,
+        ex:D014826A-14C1-4C8B-9421-C5EC0CD44966,
+        ex:D776C5B7-6973-4E54-A193-5761E00C65D6 ;
+    pl:of ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 .
+
+ex:0EF5BFAF-1376-4CA7-BC72-46DCDB5A314D a pl:EquipmentComponent ;
+    rdfs:label "Bluetooth" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasManufacturer ex:93F2768C-8907-401A-9199-52580830675A ;
+    pl:hasModel ex:FA90807A-730F-462E-A634-78F58BC37198 ;
+    pl:hasPart ex:B8C4C758-2CA0-494C-9F80-7DF6C1C33DEF ;
+    pl:isPartOf ex:080C977B-3ED3-4E90-9CDE-6DDDD8918351 .
+
+ex:27FB2526-C4FC-4F4B-9104-4F2FDEEFCC78 a pl:EquipmentContainer ;
+    rdfs:label "Sense Nano" ;
+    pl:hasAlias ex:9B5D50A5-29C3-46D6-AAC8-F24E900B30E0 ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasPart ex:669EC39D-865B-4EF0-9640-21E5769DE776,
+        ex:9B5D50A5-29C3-46D6-AAC8-F24E900B30E0 ;
+    pl:isPartOf ex:EA2D6BF4-B26F-4083-8B69-5E27B7F3EF09 .
+
+ex:669EC39D-865B-4EF0-9640-21E5769DE776 a pl:EquipmentComponent ;
+    rdfs:label "Bluetooth" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasManufacturer ex:53963CCA-0678-47CA-84E4-1E326C35ECAE ;
+    pl:hasModel ex:F23EC989-30F0-498B-93B6-83CFF2FAF115 ;
+    pl:hasPart ex:C629D594-340C-421A-80A8-1744DD98423A ;
+    pl:isPartOf ex:27FB2526-C4FC-4F4B-9104-4F2FDEEFCC78 .
+
+ex:7681F49D-71E5-4FB5-90B1-3EE69441F36C a pl:EquipmentComponent ;
+    rdfs:label "1-wire" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasManufacturer ex:44A2C154-5907-498C-91F0-139B241FD226 ;
+    pl:hasModel ex:4F1926F9-4DBD-4EB3-8F6F-B0D429A0B3D1 ;
+    pl:hasPart ex:4A0797B4-0AEC-405D-BBB7-099331DEA8C4,
+        ex:7E5BBDE8-BC55-47F8-A956-BF2BC45D2F86 .
+
+ex:9183BFB1-9327-463E-9A03-9208BBAB93B2 a pl:Site ;
+    rdfs:label "Untitled Project " ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasPart ex:223499D9-AD9F-4DF4-B95D-54E51435112B,
+        ex:C9A7BCFC-109D-4319-892A-A7008189CE43,
+        ex:EE665015-4297-445E-A781-EB2F571547CF ;
+    pl:of ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 .
+
+ex:A6D87909-E782-4DB9-8F9B-E63B0728EFF0 a pl:EquipmentComponent ;
+    rdfs:label "1-wire" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasManufacturer ex:029359B3-5F56-4802-B747-A2CB5ACDD121 ;
+    pl:hasModel ex:5B79285C-1256-4C32-BD28-F73C334EB121 ;
+    pl:hasPart ex:0A7C18B5-9C3B-4F2B-87E0-DEEA6829709E,
+        ex:E640A31A-4A9D-4F05-B58A-9A240B1A0CB3 .
+
+ex:B0AE436F-C1C2-49DC-91A7-6C76A5B5FA04 a pl:LayerSet ;
+    rdfs:label "ExtWall Concrete" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasPart ex:A7E8A6DE-21DA-42CD-9265-177190A3E9FF,
+        ex:D4294208-DFD6-41D5-970E-DDC258DD7EF9,
+        ex:F31A6273-099D-44AE-ADEB-2ED775DA5027 ;
+    pl:isPartOf ex:E5811E35-BDF3-450A-AFBD-3F213F67FEB1 .
+
+ex:02548A41-7737-4CDE-B850-514FA2D7B0E5 a pl:Shape ;
+    rdfs:label "ceiling" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:0EB847B0-CFA8-4C21-8EBD-B58FB17BA67C,
+        ex:1321316A-3C14-44C9-946A-1F0ADCAAB059,
+        ex:2F22DCE7-05E2-41CE-AC36-A89BAAD72564,
+        ex:89E738B5-E6E1-49F9-B2C6-C222937C3BC7 ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:414C404A-2BC4-4FF8-8684-5142EDED54F4 .
+
+ex:11CCABE5-E1DB-473A-B1F0-37A6166F7819 a pl:Shape ;
+    rdfs:label "ceiling" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasVertex ex:6BA121FD-0C2A-4854-B2DC-CEE7189A6742,
+        ex:7C9CD293-DEFD-4F7A-A2C6-B387F782916B,
+        ex:8FBED276-06AB-4CE2-B67F-BFA57A93601B,
+        ex:B4153A50-CF49-4F1A-912C-DF89BE2BFC5E ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:9C26BAA3-7B91-4CEC-BF2D-6E60F1256DCE .
+
+ex:1812D2DD-AAF6-49F8-8EA0-4099E649F32A a pl:Shape ;
+    rdfs:label "ceiling" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:B34C085D-0D99-4122-8B7D-26F2907E9204,
+        ex:B700AFE0-22D3-4AAC-BFB7-9C8308918E45,
+        ex:D08AC74F-E9F8-4B2A-9A1E-9585CD374612,
+        ex:E82E8408-AA0A-4022-9154-F66CB3534B2D ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:35CDD699-F103-4B61-B3A6-55FD8D387D1E .
+
+ex:21F74B66-D325-4805-A27D-EE7028D0CECF a pl:Shape ;
+    rdfs:label "floor" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:2AC0421B-1AA9-41AB-89CD-F5E981FF1A2E,
+        ex:36021EF0-CA1D-4879-9EDD-E167DB69D300,
+        ex:86A8160C-9C1F-42D4-AE73-009393B8F217,
+        ex:FABF979E-1412-41F4-94EC-D782BF2B015F ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:46604B90-8C82-41FE-AD2F-372E8F9B78BE .
+
+ex:2535299B-826D-4D57-8E4F-88F67B57BFD5 a pl:EquipmentComponent ;
+    rdfs:label "1-wire+" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasManufacturer ex:D2D1D3D7-C924-4661-AE68-158EF774807A ;
+    pl:hasModel ex:D1283C0B-4FF1-4E12-BAB9-6C2EAFC203DD ;
+    pl:hasPart ex:2C14BEB0-18F1-4707-8F58-C132FBA46084,
+        ex:7FBF3F41-5CF8-4867-B33A-93324A9A00B8,
+        ex:83311A82-73E9-4376-8848-71563AC78033 .
+
+ex:28EEC147-2AC3-4AD5-A3E7-5BA9CB2A52E1 a pl:Shape ;
+    rdfs:label "floor" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:20F2B17C-E38A-437C-A724-F789D0CF00A3,
+        ex:6E30D98B-22ED-4327-B7E6-052605497562,
+        ex:8D2C70E1-B106-4C3C-8149-B9B07D97FF92,
+        ex:EFD8A33D-2BFF-45F8-AC35-C22F0CFDF419 ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:CBFB3E16-34F5-4052-8965-FB330ABAAADD .
+
+ex:337CA3E0-E9C8-4355-91B3-64F222E0C8F8 a pl:Shape ;
+    rdfs:label "roof" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:1CB32003-9334-4625-9ED7-AF88E2EBE44A,
+        ex:5C680F18-BEF1-4EA8-B8D1-279C6548052D,
+        ex:5D1487D3-C75D-41E0-8DCB-9DB1CA1789CD,
+        ex:9ADF4443-2E79-4324-B56B-8F71DE41FB03 ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:0229828D-F15E-4BC7-BA7C-AA69AA9DCFBB .
+
+ex:392B00CD-9D9C-4557-9392-637C4270F046 a pl:Shape ;
+    rdfs:label "roof" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasVertex ex:50F51E7F-0A92-4F09-B00C-E52731DA05CC,
+        ex:7C287F01-BA62-4FFF-A994-173F71EBE504,
+        ex:9E9BBBAB-5E02-4579-B27B-2095010A1B3D,
+        ex:EC100A96-84D9-472C-877D-42DB85306BC8 ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:88FB0782-7E8B-43BE-B213-7E2742793018 .
+
+ex:3EF2DD97-4598-46C6-B307-40238DCC4609 a pl:Shape ;
+    rdfs:label "roof" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:2F030828-8A88-46E1-B4E7-16761CD43F27,
+        ex:8B5B1573-4DAF-460B-BD32-65FDAEBB82C1,
+        ex:A3FF8CDA-5E61-4DE6-BFEA-5929D53A9DAE,
+        ex:B05096B9-D8EC-45DF-A128-41FB897C7874 ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:ACFCBCC6-21E3-4FD5-AA29-D36AAB0D2A89 .
+
+ex:4753468E-AE37-428D-B250-04983329D069 a pl:Shape ;
+    rdfs:label "roof" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:3007CBB3-0944-49DE-A956-5EDAADA81E55,
+        ex:722BBE79-E287-4080-9EB2-C78F4C457E42,
+        ex:A4F1DA07-5C63-4B46-AF5B-7634C8F27EA5,
+        ex:DD403D05-649C-4FB4-9979-B913E5522488 ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:5C851677-54AC-4349-B1A2-A7CC3F37FA99 .
+
+ex:4B51FB56-7ED9-4550-8A6A-6B3831DEB158 a pl:Shape ;
+    rdfs:label "floor" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasVertex ex:05C61EE3-B8F3-4297-B088-9EAAF93ED0DA,
+        ex:46DEB8B5-F696-4AD8-BF02-068369AF74F7,
+        ex:8CD9F236-7800-4763-BA0D-0B1047A9756C,
+        ex:9AADCB91-2799-4985-AF52-7BE5A224DE8F ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:23C107D2-5A62-46BD-AEF9-2F88B20C8FC2 .
+
+ex:596885E5-CB24-4783-8450-EE5ECB58C1ED a pl:Shape ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasVertex ex:049DB2BD-6331-4906-BABF-66E438872474,
+        ex:1879C7AB-647A-4235-9556-7710B7E63F0F,
+        ex:1D8708B5-BF55-43C5-83F5-69BD2FC733B7,
+        ex:E223B924-E91C-4E3A-8525-DC98A9D12139 ;
+    pl:height 2.75 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:DF640373-D3E6-4CB4-A43C-A89FDF6EF07E .
+
+ex:6952928B-433B-4476-90B1-CB0D537D6617 a pl:Shape ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:40A4C684-5C15-4871-9F3C-70B3E77B3A97,
+        ex:95E6D323-FA10-42B2-B4A4-AFD423607E3B,
+        ex:963AE654-9F33-4847-87AD-44A180A9D186,
+        ex:D8CEC9E2-6DB3-4757-BC75-FD1A74ED39C6 ;
+    pl:height 2.75 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:14334E80-A824-4B6C-8772-A2DEECFB2B28 .
+
+ex:6E268AD8-7564-44A4-A327-04B1726EF857 a pl:Shape ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:230805BA-8A10-4F62-96E9-A5D5108401B9,
+        ex:C6DA0323-CD7B-4913-942F-15131B2012F1,
+        ex:EDE510CE-4223-4199-8371-931A9F12AF22,
+        ex:FC3054E0-0D91-41FE-85F2-061BA6682E77 ;
+    pl:height 2.75 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:D76D0C0D-046A-4E01-9D6B-ACE83EF39449 .
+
+ex:6F1E4F01-4671-4C17-BAA0-43A47CC497F7 a pl:Shape ;
+    rdfs:label "floor" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:6E151811-EC84-4F6C-8FAC-35C91648E666,
+        ex:8AC44827-881D-450D-99D7-8182DBECFFFD,
+        ex:9A2EDBA9-855A-46B8-BB41-8E30A20E378A,
+        ex:C2FD644F-A25F-4C24-8CC3-F19C341236D4 ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:6DEE25CC-7688-4E0B-8F65-5FB48F3128FD .
+
+ex:7511D1F1-291E-402F-97E3-A621A201FD89 a pl:Shape ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:182E9610-75BE-494B-A264-DB8B67D06DFA,
+        ex:19E1CB19-4225-4772-91DE-42C993645C10,
+        ex:56E038AC-ACDE-4D0A-802F-6535103E00B7,
+        ex:C6A20E34-5B8B-4BAC-9F28-71B38EAEB885 ;
+    pl:height 2.75 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:AF755EE6-8C1D-4501-86C7-7FBD2C960353 .
+
+ex:77A5CEDA-AE18-4E90-8132-C5E3C135A0D2 a pl:Site ;
+    rdfs:label "Random Building" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasLocation ex:898AF0F6-295B-42EE-B0D0-2844333B0498 ;
+    pl:hasPart ex:08819C19-825B-4661-B0D1-9E56B5BBB87F,
+        ex:1D1DA389-8C96-4B65-BA12-F982AB052426,
+        ex:76FE82E5-13F5-4F4A-B7CD-7C5CC98937E3 ;
+    pl:of ex:4230A66B-596A-49BE-90A9-825661D2D1EA .
+
+ex:7D13C665-EC61-44B3-984F-9ABBCD78D2DD a pl:EquipmentComponent ;
+    rdfs:label "1-wire+" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasManufacturer ex:665CD29C-1346-46B5-B3C7-F869E3309076 ;
+    pl:hasModel ex:D13015F4-6E53-4530-8A3A-0C8AC9EAB86C ;
+    pl:hasPart ex:6B86F52B-87CD-4FB7-AD46-09648CADAAF6,
+        ex:78E40774-7100-44ED-80D4-6ED22BB95AFB,
+        ex:E271D6BF-1225-49C4-B19C-4DCC77E25CB5 .
+
+ex:851DA7F3-B618-42F6-8181-A72E0653EDD4 a pl:Shape ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:5F236212-6A12-4C64-9686-4700605CA09B,
+        ex:777858D8-24EB-4595-B6BD-E9E64558F9F6,
+        ex:C5C8DEC9-0159-46A7-995F-480EC18A0126,
+        ex:FDD42C09-F02C-4848-B933-893E9A734A1E ;
+    pl:height 2.75 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:48CE088D-4B65-4C32-BD9D-10C4A0B38642 .
+
+ex:96C690FE-114D-458F-814E-73BC5E13F840 a pl:Shape ;
+    rdfs:label "roof" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:4C4BEF7B-2057-43DD-889C-703398CDB980,
+        ex:CFFC3C53-2E39-4C78-BFE6-8DBE0B61805B,
+        ex:EB7D9BC0-4A40-43CB-A903-F03D7158C361,
+        ex:EFECD4D5-BEA1-4F5A-898D-E2B40227776C ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:4647596D-1A73-4C59-B69A-7623EFD3BEA2 .
+
+ex:99C89735-150C-4F58-8E86-CED26DD09A43 a pl:Site ;
+    rdfs:label "Audit :: Single Zone :: Zone Only" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasLocation ex:B112656B-AEF9-4726-AF89-1E74C417C883 ;
+    pl:hasPart ex:B47878F1-A30A-4DD0-B8C7-F35EFC12F22C,
+        ex:CBFBC5FE-8F9A-4FDA-8788-61E81F9F2BAA,
+        ex:EA2D6BF4-B26F-4083-8B69-5E27B7F3EF09 ;
+    pl:of ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD .
+
+ex:9A61B08A-8509-4E9B-B839-0F2766E1E6E0 a pl:Shape ;
+    rdfs:label "floor" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:1FDB93A8-AFFA-4C6B-A012-E8F11744CF59,
+        ex:84EE840A-9142-42AF-8216-2A7696653DCF,
+        ex:A182A5E6-E550-4492-A090-C69047F6032C,
+        ex:CA56194A-3567-4B42-8B2E-48A138B22CB4 ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:1B946FE5-5804-4D96-A052-466ACDB7E0F5 .
+
+ex:AE9B5890-5A55-488F-86C5-299AA93F8C74 a pl:Site ;
+    rdfs:label "My First Project" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasLocation ex:6D486AB3-E8C4-404D-BB91-A8CC01F8EB33 ;
+    pl:hasPart ex:1AC4911E-590C-46DD-9C13-A3D90164FDA8,
+        ex:7E419C18-55E3-452C-BA15-B959C499F561,
+        ex:88E340DF-888F-4FF5-B0EE-45D8F5222DD7 ;
+    pl:of ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 .
+
+ex:B1CA8B12-30C4-4386-9245-61F08A4B8E47 a pl:Shape ;
+    rdfs:label "floor" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:28A4D4B3-C9F5-4682-809D-80770273FD27,
+        ex:B8600AB8-D41C-4D5D-85BB-7E97EE7E6D6D,
+        ex:C2D33F87-44B9-43D5-BFFA-125C9002C24C,
+        ex:FB5B764E-CD4C-40B4-BD22-D72A9BD7E402 ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:82128E62-8A3F-442E-8423-AA4F859F7744 .
+
+ex:C583FF4A-0B4D-4166-8C51-9A73FCA7D735 a pl:Shape ;
+    rdfs:label "boundary" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:442CF638-CD7B-4F08-8BA0-F71967C09581,
+        ex:9B44733E-F9F8-4C93-A9B5-2E6188E021C4,
+        ex:B902DEE1-9B3E-43E9-8962-20DD0DD66DF2,
+        ex:F2419A30-3022-409E-AB38-5B75212BBCF2 ;
+    pl:height 2.75 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:8888CBC0-C9BD-4B62-B4AD-28D4B5B2C11D .
+
+ex:E3F27A81-2507-437F-BEC5-7DF0D46E25CA a pl:Shape ;
+    rdfs:label "roof" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:56B42C96-5BCE-4619-B38F-5372353215ED,
+        ex:5C6F48D1-CF60-42B2-BC09-625035D74753,
+        ex:CD5CADC6-D1D1-4B45-A20E-4D1D861C201D,
+        ex:D6AD14C7-943D-4EAB-8137-66E9BB2EB52A ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:70F98978-D188-4B80-A158-4B2F2498B91D .
+
+ex:E50BB468-D542-46F6-840D-8E6F7D48ECC3 a pl:Shape ;
+    rdfs:label "ceiling" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:69585E78-2FBE-403F-BDE8-E71996103B32,
+        ex:75659BEC-D672-4887-BACB-D5E3CE069C74,
+        ex:C27C68EE-A6F6-436D-B54C-C6328FC6CC0E,
+        ex:C88D2AA0-AB9F-4BAC-B61D-B43B9D952D59 ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:18C46276-F6E4-419E-B9C8-2BA7EE39AD1C .
+
+ex:EEA2B25E-9279-45F3-A991-CCBBAB15073D a pl:Shape ;
+    rdfs:label "ceiling" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasVertex ex:129F6C58-1B51-4BB5-9A2F-263F2C6542A2,
+        ex:244AEB4A-6FAA-4487-A058-719B2BF574D6,
+        ex:6A7B4584-5BB4-4582-A901-6F7467009B99,
+        ex:AFFADB70-2946-4E4E-9C9C-E8E6297E7844 ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:8B63805B-5864-4A6C-9B6F-F0EC5824A0EC .
+
+ex:FF5E7731-7FAB-43A9-B70C-139B96E203B1 a pl:Shape ;
+    rdfs:label "ceiling" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasVertex ex:28A63E5E-9FED-4A92-AAC5-08EAC21E8E47,
+        ex:AD0C052A-06AC-4F40-A308-DACB22293A13,
+        ex:CB10425F-681F-42E5-881F-214602ACE2E7,
+        ex:EBAED3D4-AC26-4FAA-BCCB-509B6BDC6AAE ;
+    pl:height 0 ;
+    pl:isClosed true ;
+    pl:isShapeOf ex:E8FB51EE-6559-4A28-9305-64F8B7C6CA3F .
+
+ex:1619D8A6-6F89-4F93-BDAA-19EDB6F29F43 a pl:Floor ;
+    rdfs:label "Floor 0" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasProperty ex:3B5AAECC-16C8-4D90-A5A6-A7AEC320B7E5,
+        ex:495CE0EC-8C03-497B-A18B-8EF281435573,
+        ex:8BFC188A-BB9C-4E67-B9C1-60DF20570335,
+        ex:D85C5B5C-4112-4B27-87EF-72D15F2544DA,
+        ex:F30504B8-808E-4964-8D6D-AFFB6C32FCF9 ;
+    pl:isPartOf ex:9EE2B76C-7E12-42E7-840D-EAC08A4E62B3 .
+
+ex:212BB4AC-F41C-4AD5-B738-BE3C6886F4CD a pl:Floor ;
+    rdfs:label "Roof" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasProperty ex:0AD188F0-6BC3-42D5-A44A-802C7CBBAB14,
+        ex:22E816CE-4AEC-43ED-B970-7A5198262CA6,
+        ex:2F118C1B-CA20-4F24-A2EE-CB615BE70D99,
+        ex:B1E8273F-43B5-4CE9-A22F-A55634949AF1,
+        ex:E648BD70-4BC9-4F0F-ABF9-7DCA1CC24E99 ;
+    pl:isPartOf ex:9EE2B76C-7E12-42E7-840D-EAC08A4E62B3 .
+
+ex:42E7A8A6-4746-4EAF-BAF2-7D20D1FFBFCD a pl:Model ;
+    rdfs:label "Sense Nano" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasManufacturer ex:469CC12A-1EDC-4BDC-9B85-46F90D6B65C5 ;
+    pl:hasProperty ex:1B923565-4160-4277-99D5-88B52C8BD242,
+        ex:319D3EBD-DA17-4D62-B05E-1689A9F4BFBF,
+        ex:82414F7B-40B4-4609-B539-82E70C302CC4,
+        ex:D5A42CCB-3D34-47AF-BEE5-C785FB0840FA ;
+    pl:isModelOf ex:A07C8132-5763-4300-97DA-E5AD2D8247DF .
+
+ex:8D893A21-DFD0-4469-8498-F38360C44D56 a pl:Floor ;
+    rdfs:label "Roof" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasProperty ex:575E28AA-AF3D-4B15-8879-7132421E8005,
+        ex:80AAE4F1-6B9D-4636-BC17-893BD79A5A56,
+        ex:ADA3C4A2-7985-4111-A348-9E2F5CE08474,
+        ex:E4BF4E86-B80E-4914-8403-C1306D1C02D2,
+        ex:FC5BA1C1-E33C-49F1-AED9-2A106052FF61 ;
+    pl:isPartOf ex:EE665015-4297-445E-A781-EB2F571547CF .
+
+ex:9EE2B76C-7E12-42E7-840D-EAC08A4E62B3 a pl:Building ;
+    rdfs:label "Building" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasPart ex:1619D8A6-6F89-4F93-BDAA-19EDB6F29F43,
+        ex:212BB4AC-F41C-4AD5-B738-BE3C6886F4CD,
+        ex:4ED91862-62CF-4AC1-AC23-A333F3F73D05,
+        ex:DEF27301-FACC-4312-8775-224838850148 ;
+    pl:hasProperty ex:DFB63638-C0DC-4110-9044-E1AA530AF0E1 ;
+    pl:isPartOf ex:0A48A354-3D7D-4A96-8BB1-2A45DFDE12D0 .
+
+ex:C7611EB7-AAAE-4E0E-8F64-09310DFA9056 a pl:Floor ;
+    rdfs:label "Floor 0" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasProperty ex:1FB25C3A-07E6-4D44-9A55-C0685592F8DF,
+        ex:34017114-8D71-4DC5-A21F-24C79FCA1E91,
+        ex:5F1F441B-04D7-4143-AB00-EF2D1996182C,
+        ex:6C8698B5-80CA-4791-B5E4-304D6EF4E820,
+        ex:8B6AAE30-EA5E-40B7-9073-42383AFCE45F ;
+    pl:isPartOf ex:EE665015-4297-445E-A781-EB2F571547CF .
+
+ex:E375AF25-BB89-41A1-A499-8999FE264876 a pl:Model ;
+    rdfs:label "Sense Nano" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasManufacturer ex:8163C634-13B9-4AA4-AD38-ADD490C670F6 ;
+    pl:hasProperty ex:5646E347-4770-42CB-9D0F-810B2C1EB06E,
+        ex:8EEDB25B-15CC-4E14-86EA-B66DAB962038,
+        ex:B9FE7AD9-1445-4310-9719-81F84443A20E,
+        ex:D9ED3BBF-68AD-4CCD-92CB-AB8922ED85F3 ;
+    pl:isModelOf ex:9B5D50A5-29C3-46D6-AAC8-F24E900B30E0 .
+
+ex:E5811E35-BDF3-450A-AFBD-3F213F67FEB1 a pl:Wall ;
+    rdfs:label "WALL" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasPart ex:B0AE436F-C1C2-49DC-91A7-6C76A5B5FA04 ;
+    pl:hasProperty ex:7B8F37EB-8D38-41A7-951D-76F52388092F,
+        ex:9F9F4C91-CB90-4639-8373-D8E3AA72E3BA ;
+    pl:hasVertex ex:1879C7AB-647A-4235-9556-7710B7E63F0F ;
+    pl:isParentSurfaceOf ex:58F9C0C9-7ECA-44AE-8A5C-4B06360EFAA4 ;
+    pl:isPartOf ex:141186D8-3E98-40B8-993F-0FE48B46686D .
+
+ex:EE665015-4297-445E-A781-EB2F571547CF a pl:Building ;
+    rdfs:label "Building" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasPart ex:4F5BDD82-7C18-4EC7-8F57-838CC37F1AF8,
+        ex:83C8CF61-E6C8-493A-B460-178E28B64A84,
+        ex:8D893A21-DFD0-4469-8498-F38360C44D56,
+        ex:C7611EB7-AAAE-4E0E-8F64-09310DFA9056 ;
+    pl:hasProperty ex:DBC15E30-BAD3-4DDA-9BA3-5DA32B318736 ;
+    pl:isPartOf ex:9183BFB1-9327-463E-9A03-9208BBAB93B2 .
+
+ex:329A47AE-F823-41F7-82AC-B9CD561C4B7D a pl:Floor ;
+    rdfs:label "Outdoor" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasPart ex:97B543CD-7A9C-41E2-83B7-F308AD67730B ;
+    pl:hasProperty ex:0019EAE5-EADF-40A2-A4BC-333D758A3EFA,
+        ex:0E5227C9-5A40-4135-A0A6-3EA314F104F0,
+        ex:7C49759C-19DD-44DC-95D6-C459D3053144,
+        ex:BB86EF23-CDC0-4E2C-BE4F-8A78705FC17A,
+        ex:D4F24C50-6515-477E-B7A6-5249F9F24155 ;
+    pl:isPartOf ex:CBFBC5FE-8F9A-4FDA-8788-61E81F9F2BAA .
+
+ex:4ED91862-62CF-4AC1-AC23-A333F3F73D05 a pl:Floor ;
+    rdfs:label "Mechanical" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasPart ex:EF5E8366-C086-4A97-99FC-28133A6467F5 ;
+    pl:hasProperty ex:143C2CA7-DC23-431F-9D21-3757CAE6DD07,
+        ex:6ADBB1B5-D45C-4FFF-AB33-5822FF49F2E5,
+        ex:9BD4A2B3-5457-4C48-B3EE-E8EA880C647C,
+        ex:AF539EA0-0F15-467C-8740-721EA771FA98,
+        ex:BD26110B-58D6-4478-9730-E0F32A0F4BDD ;
+    pl:isPartOf ex:9EE2B76C-7E12-42E7-840D-EAC08A4E62B3 .
+
+ex:4F5BDD82-7C18-4EC7-8F57-838CC37F1AF8 a pl:Floor ;
+    rdfs:label "Outdoor" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasPart ex:DB679A86-7324-4F14-AF04-F85C66BF60B9 ;
+    pl:hasProperty ex:0989F218-6912-4A00-9990-789314D9A3B8,
+        ex:15462E7A-6D71-4749-8CC5-B448ADA747A1,
+        ex:17F06BC0-083A-4C5D-8E7F-504D641E8415,
+        ex:78C072A0-EBAE-4E22-8155-0A59CB41B8AE,
+        ex:9B3C491E-0471-49C5-97DD-9070BEC05FAE ;
+    pl:isPartOf ex:EE665015-4297-445E-A781-EB2F571547CF .
+
+ex:54834A9C-40A1-4A03-9B00-D53F1C19A61D a pl:Floor ;
+    rdfs:label "Mechanical" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasPart ex:148CCBE4-B092-4810-89A2-6572F2646CE4 ;
+    pl:hasProperty ex:2193E886-361D-46FB-8785-6DA621D9C514,
+        ex:33D67D8F-2C97-4E8C-B12C-A8592E278DA2,
+        ex:752519FD-C32C-4279-8C59-3329B3ECC31F,
+        ex:ABF27CE1-0647-45E5-AF58-A6AC3818E82F,
+        ex:DE78CDC6-CEBC-40C3-8D60-2EE44C397F56 ;
+    pl:isPartOf ex:7E419C18-55E3-452C-BA15-B959C499F561 .
+
+ex:6351291B-D137-4C79-82E0-EA614D362039 a pl:Floor ;
+    rdfs:label "Outdoor" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasPart ex:DDABD33A-A80C-4021-B85A-8877775ADBE8 ;
+    pl:hasProperty ex:294FC543-515A-432C-9361-28C4DDCF83AF,
+        ex:448344E8-86A3-48B8-A831-174D092ABABD,
+        ex:5EE8D8CB-0D5D-476B-832B-77E47236F623,
+        ex:72D8F72A-751F-458A-89FF-171E8B6524E1,
+        ex:AEF27E4A-531C-4D01-8A79-C4FA6E45F22E ;
+    pl:isPartOf ex:7E419C18-55E3-452C-BA15-B959C499F561 .
+
+ex:7331F64C-D87F-406C-940E-08B6523819F9 a pl:Floor ;
+    rdfs:label "Mechanical" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasPart ex:129B7D6A-D3FC-49A4-8547-3EE6CD1AEFC0 ;
+    pl:hasProperty ex:537CAAA0-5598-4500-BED8-F70742D5130D,
+        ex:6715BE53-C10D-416E-8154-D3C21D5C5661,
+        ex:6B7BC1BC-BC27-4E02-A8E2-73DDFE41720E,
+        ex:9844DBE1-B1F2-4FC6-88A8-91B5116880C2,
+        ex:DB08B40D-C6DA-480B-91AA-97F209511F59 ;
+    pl:isPartOf ex:08819C19-825B-4661-B0D1-9E56B5BBB87F .
+
+ex:83C8CF61-E6C8-493A-B460-178E28B64A84 a pl:Floor ;
+    rdfs:label "Mechanical" ;
+    pl:hasAuthGroup ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 ;
+    pl:hasPart ex:139CD5DA-B9D4-4C2E-969C-A4A28FFB6285 ;
+    pl:hasProperty ex:B034DF6C-0C66-4718-84DB-701DD0489E3E,
+        ex:C1196280-E716-4D2D-B15B-D787E8658069,
+        ex:DB3F5324-F8B5-462C-959D-9105AA56D36F,
+        ex:EA3B0F23-B81D-4541-9EA1-EB1A2141B8CB,
+        ex:FAF3C614-F351-4A20-90C9-BE412ED8E6D8 ;
+    pl:isPartOf ex:EE665015-4297-445E-A781-EB2F571547CF .
+
+ex:A0C672EB-3968-4E51-A578-D10DAA2EC68D a pl:Floor ;
+    rdfs:label "Outdoor" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasPart ex:DE731273-D69D-4520-8F16-A5F1C827626B ;
+    pl:hasProperty ex:4CE1BD77-AF27-40C1-9A15-F323972D1D87,
+        ex:8DACC576-6B07-43AB-843C-819BE12D1385,
+        ex:D7CBCD33-8BC9-40F6-931B-7B6946222447,
+        ex:D94299AA-167A-45CD-88ED-192415EFB6E0,
+        ex:F4C01A8D-3BA7-429C-847A-F2AF3BB13B8F ;
+    pl:isPartOf ex:08819C19-825B-4661-B0D1-9E56B5BBB87F .
+
+ex:DA25F2D0-6FA8-46EC-B80F-9FB1B53E077F a pl:Floor ;
+    rdfs:label "Mechanical" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasPart ex:A5B78CDD-032E-40F8-A606-7505DBC5FC01 ;
+    pl:hasProperty ex:078A7117-DD6A-4963-A2B9-61B02C0E72D9,
+        ex:0D45C5F3-6668-4123-8C1C-60B2DDACD6D0,
+        ex:15A32A45-4F34-4927-AD01-5B314DEB0D01,
+        ex:541D75A5-E8DC-4C99-977C-D40FDE6CE60A,
+        ex:DA053612-0F38-478F-8315-9F9AEB449093 ;
+    pl:isPartOf ex:CBFBC5FE-8F9A-4FDA-8788-61E81F9F2BAA .
+
+ex:DEF27301-FACC-4312-8775-224838850148 a pl:Floor ;
+    rdfs:label "Outdoor" ;
+    pl:hasAuthGroup ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 ;
+    pl:hasPart ex:908AB3C0-46DB-4C14-B821-61E5CEE15105 ;
+    pl:hasProperty ex:1D46F858-0FAA-49B4-9EFF-C8115A733448,
+        ex:24DE6A09-1B01-441D-8E1C-139FFD0B7BB4,
+        ex:5B0691CE-526F-414F-AD4F-834DC1FE4054,
+        ex:8416B367-DEC5-456A-851E-DD973238FEEF,
+        ex:BCC797F1-896A-4250-9250-9EBC60DC7204 ;
+    pl:isPartOf ex:9EE2B76C-7E12-42E7-840D-EAC08A4E62B3 .
+
+ex:2775F09B-8AC3-4DB0-B603-EAB435A90CB8 a pl:Floor ;
+    rdfs:label "Roof" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasProperty ex:09830D02-6CC8-46DA-88BB-F2BB0CD53156,
+        ex:5A981C09-6EDF-4E08-A097-588BE5D86903,
+        ex:76343667-744F-431F-98D5-3A9FE9E5ABCA,
+        ex:A349A72F-99AC-4250-BBD1-418F7A5FD8B5,
+        ex:AEE0FD44-455A-4389-B546-985ABAAC461D,
+        ex:AF591D85-FEDA-4FAD-9486-1ACEF8D9A951,
+        ex:BD8525B0-8E3F-4EC9-9311-9BF47412E29E,
+        ex:C584ACBF-FBD5-49BF-BEF2-178DACF77911 ;
+    pl:isPartOf ex:08819C19-825B-4661-B0D1-9E56B5BBB87F .
+
+ex:2E0CE835-0A8F-4592-9607-CEA9DB61ADC5 a pl:Floor ;
+    rdfs:label "Roof" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasProperty ex:2997783B-B26B-439C-BBCE-C5265BA1A261,
+        ex:423A2E6F-AA5C-40BD-A18F-F4387E6A2BB6,
+        ex:453BF69F-5B02-45DA-ADDC-1AA26DAE8A17,
+        ex:6B9539DA-580F-46E1-A9C8-269F0F0A1A0D,
+        ex:78C9316D-7B66-44F5-A766-0728DF8129F9,
+        ex:A3F49A1E-263B-4642-9BCA-58B0C160D105,
+        ex:B4850AE8-3F82-4BFE-8A5C-162AEF7D9FC5,
+        ex:FB382202-1DB6-495C-AD4B-285411E43BD3 ;
+    pl:isPartOf ex:CBFBC5FE-8F9A-4FDA-8788-61E81F9F2BAA .
+
+ex:8EEFF048-7582-4CDE-BBA5-FE9228DB395E a pl:Asset ;
+    rdfs:label "Electric Heater" ;
+    pl:classAsProp "ElectricHeater" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasProperty ex:2AA24D6B-FDD9-403C-80C2-57E82295D2E8,
+        ex:3E385CC9-141D-42C4-8AD3-DDCF67E9200A,
+        ex:6A64249B-0851-4667-948D-2E394C949D95,
+        ex:799E74BA-BD8F-4260-8D67-14E2292E5911,
+        ex:A6407A0A-D197-4B97-8690-EC64F0863313,
+        ex:BD149220-5855-47EC-B89D-A3603B6607BC,
+        ex:F768C41B-4BAB-43B6-9D6D-BEEC67A402B2,
+        ex:FF7EE338-5C9F-411F-B96C-838578D733F7 ;
+    pl:isAssociatedObjectOf ex:6820290C-EA5B-4B62-9950-40A9D6557261 .
+
+ex:D7C0F57A-E02D-4FBC-BC55-0CADC0DA69D5 a pl:Floor ;
+    rdfs:label "Roof" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasProperty ex:2C8A1EC1-62CF-48F3-9B32-594ACDC1CF06,
+        ex:32189719-3AD1-4750-9D71-40C9177D8C9D,
+        ex:4CCE9861-3113-4C59-8790-CA6DE58736D5,
+        ex:5F1F0A03-05D8-4F66-9E64-6A2479BE6D2B,
+        ex:89A6785F-EA66-4BBF-9252-55DF364237F6,
+        ex:C0BE65CE-3747-46D7-9D1A-5E447C9B3D29,
+        ex:C1E2A284-01E4-49D6-BCFE-E4B4FC770F6B,
+        ex:F87ED7B6-9912-4AF1-A482-D905168876A5 ;
+    pl:isPartOf ex:7E419C18-55E3-452C-BA15-B959C499F561 .
+
+ex:246C77FB-CD52-4770-8593-EAB6890CFD80 a pl:Surface ;
+    rdfs:label "FixedWindow" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasProperty ex:00D81316-7BB8-4E4E-BB2A-3EC19B106CB1,
+        ex:2C9A49EA-6E4D-47F2-887A-E7E5D7E8DC58,
+        ex:53F28E54-4744-4155-B96F-39B0D95304D3,
+        ex:953678E6-5A6D-4A47-934D-DF65D19C5733,
+        ex:9AB30D40-F29E-45E4-9F7B-06B790B53228,
+        ex:C066070F-72CF-40B5-82D3-827B4A9C4E44,
+        ex:C2587D76-923C-4F96-B37C-6458735E2C3C,
+        ex:E9D99204-E44F-41F0-85C6-92BE67E74568 ;
+    pl:isChildSurfaceOf ex:58F9C0C9-7ECA-44AE-8A5C-4B06360EFAA4 ;
+    pl:isPartOf ex:141186D8-3E98-40B8-993F-0FE48B46686D .
+
+ex:9B5D50A5-29C3-46D6-AAC8-F24E900B30E0 a pl:EquipmentComponent ;
+    rdfs:label "Sense Nano" ;
+    pl:aliasOf ex:27FB2526-C4FC-4F4B-9104-4F2FDEEFCC78 ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasManufacturer ex:8163C634-13B9-4AA4-AD38-ADD490C670F6 ;
+    pl:hasModel ex:E375AF25-BB89-41A1-A499-8999FE264876 ;
+    pl:hasPart ex:612FCEF9-8868-490B-A750-D04BFA85671D ;
+    pl:hasProperty ex:5646E347-4770-42CB-9D0F-810B2C1EB06E,
+        ex:8EEDB25B-15CC-4E14-86EA-B66DAB962038,
+        ex:B9FE7AD9-1445-4310-9719-81F84443A20E,
+        ex:D9ED3BBF-68AD-4CCD-92CB-AB8922ED85F3 ;
+    pl:isActorType ex:Producer ;
+    pl:isAssociatedObjectOf ex:C85B17C5-8605-48FC-AFAB-8567FA73BC25 ;
+    pl:isPartOf ex:27FB2526-C4FC-4F4B-9104-4F2FDEEFCC78 .
+
+ex:A07C8132-5763-4300-97DA-E5AD2D8247DF a pl:EquipmentComponent ;
+    rdfs:label "Sense Nano" ;
+    pl:aliasOf ex:080C977B-3ED3-4E90-9CDE-6DDDD8918351 ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasManufacturer ex:469CC12A-1EDC-4BDC-9B85-46F90D6B65C5 ;
+    pl:hasModel ex:42E7A8A6-4746-4EAF-BAF2-7D20D1FFBFCD ;
+    pl:hasPart ex:1CCC0643-E5A0-4BAD-9578-492C99E3C7E6 ;
+    pl:hasProperty ex:1B923565-4160-4277-99D5-88B52C8BD242,
+        ex:319D3EBD-DA17-4D62-B05E-1689A9F4BFBF,
+        ex:82414F7B-40B4-4609-B539-82E70C302CC4,
+        ex:D5A42CCB-3D34-47AF-BEE5-C785FB0840FA ;
+    pl:isActorType ex:Producer ;
+    pl:isAssociatedObjectOf ex:2CF3AAD7-C8A9-494A-B866-B526815C0E7B ;
+    pl:isPartOf ex:080C977B-3ED3-4E90-9CDE-6DDDD8918351 .
+
+ex:A32EDFE2-F7D7-4EFB-AB9C-FF14079D128D a pl:Floor ;
+    rdfs:label "Floor 0" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasPart ex:141186D8-3E98-40B8-993F-0FE48B46686D ;
+    pl:hasProperty ex:36EB8E46-BC25-41FA-B1CD-00469FBD90E5,
+        ex:4A53BC42-9815-4028-ADE5-511C6ABF4C92,
+        ex:6237A407-D93D-49B5-A86A-5323E053ADBE,
+        ex:BCA0464A-401C-4DF3-9304-C690FAAF5B28,
+        ex:C466DEC4-3DF6-49DA-8BA7-2EA0F1F69266,
+        ex:C488285A-930D-4E66-8BB6-D6F56E947D43,
+        ex:CE76F21C-A985-418B-AB0C-341B54A49AFD,
+        ex:FF36F268-718D-481B-9B91-7562DB77435F ;
+    pl:isPartOf ex:CBFBC5FE-8F9A-4FDA-8788-61E81F9F2BAA .
+
+ex:D1528B10-26A2-470A-80D0-E697ADA5677B a pl:Floor ;
+    rdfs:label "Floor 0" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasPart ex:4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174,
+        ex:CE0B3D61-8FA7-479B-AC02-DF49801F57D6 ;
+    pl:hasProperty ex:9501421D-C437-414E-A4CF-A83A3CA120BB,
+        ex:95BE2DE5-BCB4-451D-9ADB-9DEA9238D49F,
+        ex:A10856E5-CE37-4817-B5BB-B49F2609259D,
+        ex:A82F7188-E0E5-4FB8-92C9-F55722E6D5FA,
+        ex:D2E06E54-91E8-4EC1-B5B2-783B9FA97408,
+        ex:D4782F5C-D605-4AAD-983F-FF0925B70CD2,
+        ex:E1235170-4FEE-4D8D-99EB-04CFB4687EFB,
+        ex:EAFFD7DC-9103-44DE-8319-D4BE5C038D19 ;
+    pl:isPartOf ex:08819C19-825B-4661-B0D1-9E56B5BBB87F .
+
+ex:4ACBA09A-0B0B-4BAF-BD13-AAE040A8E174 a pl:SpaceZone ;
+    rdfs:label "Zone 2" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasPart ex:1B946FE5-5804-4D96-A052-466ACDB7E0F5,
+        ex:53AD4181-BA71-4246-BB40-46AA28CAE807,
+        ex:88D01B49-B730-450B-8F78-D2EB5E40FB11,
+        ex:98D465D8-9513-4A30-93C4-B3104FAB6DAC,
+        ex:AF755EE6-8C1D-4501-86C7-7FBD2C960353,
+        ex:C7F08475-6CAA-4652-9201-C0B7402EDB56,
+        ex:E8FB51EE-6559-4A28-9305-64F8B7C6CA3F ;
+    pl:hasProperty ex:11082569-AD68-4374-AFC7-F4710D95FBDF,
+        ex:1A463AB0-4D4C-4D4F-A927-4B581D522691,
+        ex:6DD2F160-6379-4C39-8273-C271A0493C69,
+        ex:B527CC8D-B4FF-429A-B4B4-C41A3A7CE0E4 ;
+    pl:isPartOf ex:D1528B10-26A2-470A-80D0-E697ADA5677B .
+
+ex:7B1A4A83-DE48-4214-99E7-FA9814D5B80D a pl:AuthGroup ;
+    pl:has ex:8E9692A5-27C8-4074-B59A-F38BBA79E01D ;
+    pl:isDeployed false .
+
+ex:89F8F498-933D-442E-8C1C-12A24FFA3298 a pl:SpaceZone ;
+    rdfs:label "Zone 3" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasPart ex:3AE1B8CB-659C-4DD9-882B-6F557FDE8CF2,
+        ex:82128E62-8A3F-442E-8423-AA4F859F7744,
+        ex:8B63805B-5864-4A6C-9B6F-F0EC5824A0EC,
+        ex:8E9E5081-1FAB-4B42-A532-D6D0019722F3,
+        ex:AF36E71A-6541-4A49-AD8A-8B31BAA3E158,
+        ex:C8877281-616B-4F84-B274-4C6D8F5233B9,
+        ex:D76D0C0D-046A-4E01-9D6B-ACE83EF39449 ;
+    pl:hasProperty ex:68E5EF2B-4853-45B3-B7D7-862D25246AC7,
+        ex:C516178F-A4C4-45DB-889D-407476D5FFF2,
+        ex:EFE50560-1A6E-449E-8D39-BCAD7EEAEB47,
+        ex:F115E023-0CAA-44F2-8C27-B28C409BC770 ;
+    pl:isPartOf ex:EE927495-69A5-4A56-BA5A-1AACF13251FB .
+
+ex:CE0B3D61-8FA7-479B-AC02-DF49801F57D6 a pl:SpaceZone ;
+    rdfs:label "Zone 1" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasPart ex:14334E80-A824-4B6C-8772-A2DEECFB2B28,
+        ex:18C46276-F6E4-419E-B9C8-2BA7EE39AD1C,
+        ex:249376DD-9F8B-449F-AC50-E6411415B7DF,
+        ex:5700FF6B-ECC8-4748-966F-466406CF0674,
+        ex:69540638-4454-47A7-94EF-EC57C0C895AB,
+        ex:6DEE25CC-7688-4E0B-8F65-5FB48F3128FD,
+        ex:EFF65694-CD69-4DDA-9813-0E1598363BAF ;
+    pl:hasProperty ex:15D844DA-97B2-4AA1-84C7-887CE2CF693B,
+        ex:B89C4D88-DE68-45BF-BAAF-35CF1AD2B353,
+        ex:D4D8329C-B2DE-4140-A959-5D2665C65201,
+        ex:DF09B389-72B7-4362-94F1-884D8AAF1DA1 ;
+    pl:isPartOf ex:D1528B10-26A2-470A-80D0-E697ADA5677B .
+
+ex:DB3A04F0-5109-4514-9192-434AA2D34ADE a pl:SpaceZone ;
+    rdfs:label "Zone 2" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasPart ex:35CDD699-F103-4B61-B3A6-55FD8D387D1E,
+        ex:6F4A090A-B6AE-489A-A77E-0ED64C68F75D,
+        ex:8888CBC0-C9BD-4B62-B4AD-28D4B5B2C11D,
+        ex:B9F846F3-31B7-4A7D-8B9E-D1DABBBC2692,
+        ex:CBFB3E16-34F5-4052-8965-FB330ABAAADD,
+        ex:EBC607F8-4834-4FFA-921C-3C5525618292,
+        ex:F37BCE5F-C583-4F49-82FC-270002529D3A ;
+    pl:hasProperty ex:1FBD8E2B-A769-4068-9494-0AE0089C7B55,
+        ex:9EA86506-6894-4965-81C1-02AD2E664D48,
+        ex:A6792880-6F42-4616-A0E1-CD7EB5C7B0B9,
+        ex:FE00E1D7-1498-4B02-9411-960FE901BB63 ;
+    pl:isPartOf ex:EE927495-69A5-4A56-BA5A-1AACF13251FB .
+
+ex:E29170CA-359C-4F92-A773-3F5A42724312 a pl:SpaceZone ;
+    rdfs:label "Zone 1" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasPart ex:2C9FA81C-4215-468A-BC08-55D1DBE0F960,
+        ex:414C404A-2BC4-4FF8-8684-5142EDED54F4,
+        ex:46604B90-8C82-41FE-AD2F-372E8F9B78BE,
+        ex:48CE088D-4B65-4C32-BD9D-10C4A0B38642,
+        ex:91906073-FA68-4A33-8629-A3A1DE80E09D,
+        ex:C2A47813-616D-4927-B7D9-AA059F24B9FB,
+        ex:D93DC160-192E-4AD7-A094-68B3EA7065B1 ;
+    pl:hasProperty ex:CB55457B-D405-4195-B00F-64C8457E6024,
+        ex:DA432793-2706-443A-8BFC-36E6F42909CE,
+        ex:DBCC559C-F049-46E8-A261-4F9864CC9BEF,
+        ex:E1D5393D-97D0-4BA7-A1A2-AE157F43D10C ;
+    pl:isPartOf ex:EE927495-69A5-4A56-BA5A-1AACF13251FB .
+
+ex:EE927495-69A5-4A56-BA5A-1AACF13251FB a pl:Floor ;
+    rdfs:label "Floor 0" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasPart ex:89F8F498-933D-442E-8C1C-12A24FFA3298,
+        ex:DB3A04F0-5109-4514-9192-434AA2D34ADE,
+        ex:E29170CA-359C-4F92-A773-3F5A42724312 ;
+    pl:hasProperty ex:02102516-1101-4C9A-93A9-74AEC7EB7482,
+        ex:3DC9E631-B2B4-4C21-8DA0-0192B6751C94,
+        ex:6E7AC686-6DD3-40C6-8C85-BCA568B4451D,
+        ex:790C380C-8840-4B92-8FD6-7BC65AD97D7B,
+        ex:8AD7F2A6-9FD2-45D4-8523-87F03A2F751A,
+        ex:A039055B-EEBE-454F-9202-DCDEF2E9F811,
+        ex:B333C488-5451-4B4F-961D-4B6D3AF78642,
+        ex:F545A8BB-3345-4032-89B8-B98D5439C1B7 ;
+    pl:isPartOf ex:7E419C18-55E3-452C-BA15-B959C499F561 .
+
+ex:08819C19-825B-4661-B0D1-9E56B5BBB87F a pl:Building ;
+    rdfs:label "Building" ;
+    pl:hasAuthGroup ex:4230A66B-596A-49BE-90A9-825661D2D1EA ;
+    pl:hasPart ex:2775F09B-8AC3-4DB0-B603-EAB435A90CB8,
+        ex:7331F64C-D87F-406C-940E-08B6523819F9,
+        ex:A0C672EB-3968-4E51-A578-D10DAA2EC68D,
+        ex:D1528B10-26A2-470A-80D0-E697ADA5677B ;
+    pl:hasProperty ex:21F3595F-F5C0-4B2E-9A82-4719F7F2E2FC,
+        ex:2675C886-2DEE-47AB-813F-1AE3006030C6,
+        ex:29CB5820-C64C-401C-90EC-D1416D8AD984,
+        ex:4BCF4412-C0F0-4A6B-8752-D28AECFF7766,
+        ex:517007CD-DE6C-4A01-AE36-14AB94689510,
+        ex:F1C45A2C-B905-408E-B968-89134C310188,
+        ex:F6B59C73-ECF4-4E23-A32D-88C1A61AC550,
+        ex:FBC7F049-122E-41EC-848B-48758E988836 ;
+    pl:isPartOf ex:77A5CEDA-AE18-4E90-8132-C5E3C135A0D2 .
+
+ex:141186D8-3E98-40B8-993F-0FE48B46686D a pl:SpaceZone ;
+    rdfs:label "Zone 1" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasPart ex:0D958941-1D64-419C-9911-E528D537BE2B,
+        ex:23C107D2-5A62-46BD-AEF9-2F88B20C8FC2,
+        ex:246C77FB-CD52-4770-8593-EAB6890CFD80,
+        ex:8C90B732-C5F6-42DC-9ECB-6CEB8D635784,
+        ex:9C26BAA3-7B91-4CEC-BF2D-6E60F1256DCE,
+        ex:9DA1CB25-912A-4BE7-BE0A-19B60695248A,
+        ex:DF640373-D3E6-4CB4-A43C-A89FDF6EF07E,
+        ex:E5811E35-BDF3-450A-AFBD-3F213F67FEB1 ;
+    pl:hasProperty ex:443512B2-3C78-4F50-8D06-9F7F6D267DE8,
+        ex:6AC9443D-778E-44AF-9983-D2DC683A3612,
+        ex:8CDC8B91-1EE3-4D22-877D-12AAB941CEE7,
+        ex:929A9C40-1713-4747-A562-E4217FBC5A95 ;
+    pl:isPartOf ex:A32EDFE2-F7D7-4EFB-AB9C-FF14079D128D .
+
+ex:7E419C18-55E3-452C-BA15-B959C499F561 a pl:Building ;
+    rdfs:label "Building" ;
+    pl:hasAuthGroup ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 ;
+    pl:hasPart ex:54834A9C-40A1-4A03-9B00-D53F1C19A61D,
+        ex:6351291B-D137-4C79-82E0-EA614D362039,
+        ex:D7C0F57A-E02D-4FBC-BC55-0CADC0DA69D5,
+        ex:EE927495-69A5-4A56-BA5A-1AACF13251FB ;
+    pl:hasProperty ex:03C474DD-D9E3-466B-8617-C8BD8B874C20,
+        ex:075B210B-201C-4753-92BB-ED29B37EB88B,
+        ex:0CF6BBD5-C0C8-4A50-97F2-F2E2968B9D63,
+        ex:59CE5D6B-2E43-420F-B619-B048592BAC63,
+        ex:7FCD693F-CF1B-4431-AF48-46CE2A309BD9,
+        ex:AFE2B2F0-E24B-4D36-8806-93BBFE1ACCDB,
+        ex:DFB8F86F-08E5-4C72-9F48-E3C33CF9C2D4,
+        ex:FF066A95-387D-4F24-A9D5-CB78D07A49C9 ;
+    pl:isPartOf ex:AE9B5890-5A55-488F-86C5-299AA93F8C74 .
+
+ex:CBFBC5FE-8F9A-4FDA-8788-61E81F9F2BAA a pl:Building ;
+    rdfs:label "Building" ;
+    pl:hasAuthGroup ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD ;
+    pl:hasPart ex:2E0CE835-0A8F-4592-9607-CEA9DB61ADC5,
+        ex:329A47AE-F823-41F7-82AC-B9CD561C4B7D,
+        ex:A32EDFE2-F7D7-4EFB-AB9C-FF14079D128D,
+        ex:DA25F2D0-6FA8-46EC-B80F-9FB1B53E077F ;
+    pl:hasProperty ex:00DDAB16-F4C8-457A-943D-66099AD568E2,
+        ex:1DA9C34B-86D4-4141-B93F-6CB7E80BA43B,
+        ex:3D425970-6E19-4D1D-B0C2-D6CD6B803B13,
+        ex:B1EAD277-324C-478B-A8EE-DEC3231784D1,
+        ex:B9E96615-8C9E-4421-A539-13EBA8D3FB9C,
+        ex:CEBDDDB3-ABAB-4613-8B81-B2EDC45B6E09,
+        ex:D59F25CB-66C1-460E-B349-A5BBB8BF93E9,
+        ex:F5F32BD4-E3D3-40EF-861F-2517610CE88A ;
+    pl:isPartOf ex:99C89735-150C-4F58-8E86-CED26DD09A43 .
+
+ex:446BC449-B9EA-4FD4-BEAB-EC6DB1074041 a pl:AuthGroup ;
+    pl:has ex:9183BFB1-9327-463E-9A03-9208BBAB93B2 ;
+    pl:isDeployed false .
+
+ex:D79A4718-8DC1-4D4C-8EB2-BEF88DC95520 a pl:AuthGroup ;
+    pl:has ex:0A48A354-3D7D-4A96-8BB1-2A45DFDE12D0 ;
+    pl:isDeployed false .
+
+ex:595F0412-BAF6-4492-9E60-83BBA7DF81FD a pl:AuthGroup ;
+    pl:has ex:99C89735-150C-4F58-8E86-CED26DD09A43 ;
+    pl:isDeployed false .
+
+ex:2130DC65-4E61-4734-B8D2-DBA0EA9D68C8 a pl:AuthGroup ;
+    pl:has ex:AE9B5890-5A55-488F-86C5-299AA93F8C74 ;
+    pl:isDeployed false .
+
+ex:4230A66B-596A-49BE-90A9-825661D2D1EA a pl:AuthGroup ;
+    pl:has ex:77A5CEDA-AE18-4E90-8132-C5E3C135A0D2 ;
+    pl:isDeployed false .
+
