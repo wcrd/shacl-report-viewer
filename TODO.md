@@ -30,7 +30,7 @@
 
 ## Next Time
 Past:
-- Implemented tree data generation
+- Implemented tree enrichment
+- Fixed the tree algo so that the roots get a row of data too
 Next:
-- Update functions to enrich using source data graph
-- Update grid to show extra info from enrichment
+- there is something wrong with the uris for the roots; cannot fetch labels for them. Investigate and fix.
