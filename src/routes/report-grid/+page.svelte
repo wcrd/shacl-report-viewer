@@ -9,7 +9,7 @@
 			return data.path;
 		},
 		autoGroupColumnDef: {
-			headerName: 'focusNode',
+			headerName: 'focusNode / result',
 			width: 300,
 			sortable: true,
 			// comparator: (valueA, valueB, nodeA, nodeB, isDescending) => {
