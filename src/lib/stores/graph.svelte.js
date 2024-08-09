@@ -6,13 +6,13 @@ class GraphStore {
     graph = $state()
     parser = new N3.Parser()
 
-    constructor(){
+    constructor() {
         this.graph = new N3.Store()
     }
 
     // Will make this a $derived action on text change in future, 
     // but for now (and speed) will just manually trigger on: file upload | UI Button
-    async parse(fileAsString, namedgraph="https://graph.com/unnamed#"){
+    async parse(fileAsString, namedgraph = "https://graph.com/unnamed#") {
         // TODO: namedgraph should be typed / error checked.
         const namedGraphNode = namedNode(namedgraph)
 
@@ -41,3 +41,4 @@ class GraphStore {
 }
 
 export const graphStore = new GraphStore()
+export const dataGraphStore = new GraphStore() // TODO combine these into a single store with named graphs.
